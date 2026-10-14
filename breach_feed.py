@@ -50,14 +50,26 @@ FIT_RULES = [
     ("DigiCert", r"certificate|tls|ssl|dns|domain hijack|spoof|code.?signing|pki|typosquat|look-?alike domain"),
 ]
 
-def product_fit(text):
+ALL_LINES = ["Illumio", "RSA", "DigiCert"]
+
+def lead_with(text):
+    """Which conversation to open with. Every breached org is a prospect for all
+    three lines (budget and board attention are unlocked); this only says what
+    the incident narrative points at first."""
     t = (text or "").lower()
     hits = [name for name, rx in FIT_RULES if re.search(rx, t)]
-    if not hits:
-        it = incident_type(t)
-        if it in ("network intrusion", "third-party / vendor incident"):
-            hits = ["Illumio", "RSA"]
-    return "; ".join(hits) if hits else "Illumio; RSA (unclassified incident)"
+    if hits:
+        return hits[0]
+    it = incident_type(t)
+    if it in ("network intrusion", "third-party / vendor incident", "ransomware / extortion"):
+        return "Illumio"
+    if it == "credential / identity compromise":
+        return "RSA"
+    return "any"
+
+def product_fit(text):
+    lw = lead_with(text)
+    return "; ".join(ALL_LINES) + (f" (lead with {lw})" if lw != "any" else " (vector not stated; lead with the partner's strongest line)")
 
 # ----------------------------------------------------------------------------
 # helpers
@@ -138,9 +150,10 @@ REPORTED_TO = {
     "gnews_us": "News (Google News US)", "gnews_ca": "News (Google News Canada)",
 }
 
-def rec(source, org, reported, breach_date="", affected="", country="US", state="", sector="", detail="", url="", domain="", letter_url=""):
+def rec(source, org, reported, breach_date="", affected="", country="US", state="", sector="", detail="", url="", domain="", letter_url="", evidence_url="", press_url=""):
     detail = (detail or "")[:400]
     return {
+        "evidence_url": evidence_url, "press_url": press_url,
         "source": source, "reported_to": REPORTED_TO.get(source, source), "org": org.strip(), "domain": domain,
         "reported": reported.isoformat() if isinstance(reported, dt.date) else (reported or ""),
         "breach_date": breach_date, "affected": affected, "country": country, "state": state,
@@ -278,9 +291,27 @@ def rwl(days):
         disc = parse_date(v.get("discovered") or v.get("attackdate") or "")
         if not disc or (TODAY - disc).days > days: continue
         name = v.get("victim") or v.get("post_title") or v.get("domain") or ""
+        group = v.get("group", "")
+        press = v.get("press") or []
+        if isinstance(press, dict):
+            press = [press]
+        press_url = ""
+        for p in press:
+            if isinstance(p, dict) and p.get("url"):
+                press_url = p["url"]; break
+            if isinstance(p, str) and p.startswith("http"):
+                press_url = p; break
+        extras = []
+        if v.get("data_size"): extras.append(f"data claimed: {v['data_size']}")
+        if v.get("ransom"): extras.append(f"ransom demanded: {v['ransom']}")
+        claim = v.get("claim_url") or ""
+        if claim: extras.append(f"gang post (Tor): {claim}")
+        desc = strip(v.get("description", ""))
         out.append(rec("rwl", name, disc, (v.get("attackdate") or "")[:10], "", v["country"], "",
-                       v.get("activity", ""), f"leak-site claim by {v.get('group','')}: {strip(v.get('description',''))}",
-                       v.get("url") or v.get("claim_url") or "", dom))
+                       v.get("activity", ""),
+                       f"CLAIM by ransomware gang '{group}' on its leak site, scraped by ransomware.live; not confirmed by the victim. "
+                       + (" ".join(extras) + ". " if extras else "") + desc,
+                       v.get("url") or claim or "", dom, "", v.get("screenshot") or "", press_url))
     return out
 
 # ----------------------------------------------------------------------------
@@ -645,7 +676,7 @@ def main():
                 m["source"] += "+" + r["source"]
             if r["reported"] > m["reported"]:
                 m["reported"] = r["reported"]
-            for f in ("affected", "breach_date", "domain", "sector", "state", "letter_url"):
+            for f in ("affected", "breach_date", "domain", "sector", "state", "letter_url", "evidence_url", "press_url"):
                 if not m[f] and r[f]:
                     m[f] = r[f]
             m["reported_to"] += " | " + r["reported_to"]
@@ -675,9 +706,23 @@ def main():
     for r in out:
         r["incident_type"] = incident_type(r["detail"] + " " + r["sector"])
         r["product_fit"] = product_fit(r["detail"] + " " + r["sector"] + " " + r["org"])
+        r["lead_with"] = lead_with(r["detail"] + " " + r["sector"] + " " + r["org"])
+        srcs = r["source"].split("+")
+        # confidence: filing = the org itself admitted it; claim = gang says so; corroborated = claim + a second independent source
+        if any(s.startswith("state_") for s in srcs):
+            r["confidence"] = "confirmed: organization filed with a regulator"
+        elif "rwl" in srcs and (len(srcs) > 1 or r.get("press_url")):
+            r["confidence"] = "corroborated: leak-site claim plus independent report"
+        elif "rwl" in srcs:
+            r["confidence"] = "unverified: leak-site claim only"
+        elif "hibp" in srcs:
+            r["confidence"] = "verified dump: credential data confirmed by HIBP"
+        else:
+            r["confidence"] = "reported: plaintiff-firm investigation after a consumer notice"
+        r["verify_url"] = "https://news.google.com/search?q=" + urllib.parse.quote(f'"{r["org"]}" (breach OR ransomware OR cyberattack OR "security incident")')
 
     cols = ["tier", "reported", "org", "domain", "domain_source", "country", "state", "sector", "affected", "breach_date",
-            "incident_type", "product_fit", "reported_to", "source", "detail", "url", "letter_url"]
+            "incident_type", "lead_with", "product_fit", "confidence", "reported_to", "source", "detail", "url", "letter_url", "evidence_url", "press_url", "verify_url"]
     with open(a.out, "w", newline="", encoding="utf-8-sig") as f:
         w = csv.DictWriter(f, fieldnames=cols)
         w.writeheader()

@@ -13,8 +13,11 @@ Daily feed of US/Canada organizations with a recently disclosed security inciden
 ```
 { generated_utc, window_days, tiers, sources[], manual_sources[], count,
   signals: [ { tier, reported, org, domain, domain_source, country, state, sector, affected,
-               breach_date, incident_type, product_fit, reported_to, source, detail, url, letter_url } ] }
+               breach_date, incident_type, lead_with, product_fit, confidence, reported_to, source, detail,
+               url, letter_url, evidence_url, press_url, verify_url } ] }
 ```
+
+`confidence`: `confirmed` (the org filed with a regulator), `corroborated` (leak-site claim plus an independent source), `unverified` (leak-site claim only), `verified dump` (HIBP), `reported` (plaintiff firm). For tier-2 rows `evidence_url` is ransomware.live's screenshot of the gang's post, `url` the ransomware.live record, `detail` carries the gang name, claimed data size, ransom and the Tor claim URL, and `verify_url` is a prebuilt Google News check.
 
 `tier` 1 = mandatory government filing (CA, WA, VT, OR AG), 2 = leak-site claim (ransomware.live) or HIBP-verified dump, 3 = plaintiff-firm investigation after a consumer notice. News headlines are used only to corroborate an org row and are never rows themselves.
 
