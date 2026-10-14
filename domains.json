@@ -1,7 +1,7 @@
 {
  "poppins payroll": {
-  "domain": "",
-  "via": "not found",
+  "domain": "poppinspayroll.com",
+  "via": "clearbit",
   "org": "Poppins Payroll Company",
   "ts": "2026-10-14"
  },
@@ -18,8 +18,8 @@
   "ts": "2026-10-14"
  },
  "ridgeway pharmacy": {
-  "domain": "",
-  "via": "not found",
+  "domain": "ridgeway.pharmacy",
+  "via": "clearbit",
   "org": "Ridgeway Pharmacy Ltd",
   "ts": "2026-10-14"
  },
@@ -90,8 +90,8 @@
   "ts": "2026-10-14"
  },
  "magna hospitality group": {
-  "domain": "",
-  "via": "not found",
+  "domain": "magnahospitality.com",
+  "via": "clearbit",
   "org": "Magna Hospitality Group",
   "ts": "2026-10-14"
  },
@@ -144,8 +144,8 @@
   "ts": "2026-10-14"
  },
  "sawyer savings bank": {
-  "domain": "",
-  "via": "not found",
+  "domain": "sawyersavings.bank",
+  "via": "clearbit",
   "org": "Sawyer Savings Bank",
   "ts": "2026-10-14"
  },
@@ -282,8 +282,8 @@
   "ts": "2026-10-14"
  },
  "cerner": {
-  "domain": "",
-  "via": "not found",
+  "domain": "cerner.com",
+  "via": "clearbit",
   "org": "Cerner Corporation",
   "ts": "2026-10-14"
  },
@@ -300,8 +300,8 @@
   "ts": "2026-10-14"
  },
  "heuer publishing": {
-  "domain": "",
-  "via": "not found",
+  "domain": "hitplays.com",
+  "via": "clearbit",
   "org": "Heuer Publishing",
   "ts": "2026-10-14"
  },
@@ -438,8 +438,8 @@
   "ts": "2026-10-14"
  },
  "indico data center": {
-  "domain": "",
-  "via": "not found",
+  "domain": "indicodata.ai",
+  "via": "clearbit",
   "org": "Indico Data Center",
   "ts": "2026-10-14"
  },
@@ -456,8 +456,8 @@
   "ts": "2026-10-14"
  },
  "kings united way": {
-  "domain": "",
-  "via": "not found",
+  "domain": "kingsunitedway.org",
+  "via": "clearbit",
   "org": "Kings United Way",
   "ts": "2026-10-14"
  },
@@ -486,8 +486,8 @@
   "ts": "2026-10-14"
  },
  "harbor fish market": {
-  "domain": "",
-  "via": "not found",
+  "domain": "harborfish.com",
+  "via": "clearbit",
   "org": "Harbor Fish Market",
   "ts": "2026-10-14"
  },
@@ -534,8 +534,8 @@
   "ts": "2026-10-14"
  },
  "boyd gaming": {
-  "domain": "",
-  "via": "not found",
+  "domain": "boydgaming.com",
+  "via": "clearbit",
   "org": "Boyd Gaming Corporation",
   "ts": "2026-10-14"
  },
@@ -546,8 +546,8 @@
   "ts": "2026-10-14"
  },
  "fairwinds credit union": {
-  "domain": "",
-  "via": "not found",
+  "domain": "fairwinds.org",
+  "via": "clearbit",
   "org": "Fairwinds Credit Union",
   "ts": "2026-10-14"
  },
@@ -582,20 +582,20 @@
   "ts": "2026-10-14"
  },
  "friesen group": {
-  "domain": "",
-  "via": "not found",
+  "domain": "friesen-bar.com",
+  "via": "clearbit",
   "org": "Friesen Group",
   "ts": "2026-10-14"
  },
  "ethan conrad properties": {
-  "domain": "",
-  "via": "not found",
+  "domain": "ethanconradprop.com",
+  "via": "clearbit",
   "org": "Ethan Conrad Properties",
   "ts": "2026-10-14"
  },
  "united underwriters": {
-  "domain": "",
-  "via": "not found",
+  "domain": "uuinc.com",
+  "via": "clearbit",
   "org": "United Underwriters",
   "ts": "2026-10-14"
  },
@@ -684,8 +684,8 @@
   "ts": "2026-10-14"
  },
  "powerhouse retail services": {
-  "domain": "",
-  "via": "not found",
+  "domain": "powerhouseretailservices.co",
+  "via": "clearbit",
   "org": "Powerhouse Retail Services",
   "ts": "2026-10-14"
  },
@@ -744,14 +744,14 @@
   "ts": "2026-10-14"
  },
  "kaniksu community health": {
-  "domain": "",
-  "via": "not found",
+  "domain": "kchnorthidaho.org",
+  "via": "clearbit",
   "org": "Kaniksu Community Health",
   "ts": "2026-10-14"
  },
  "paradigm healthcare services": {
-  "domain": "",
-  "via": "not found",
+  "domain": "paradigm-healthcare.com",
+  "via": "clearbit",
   "org": "Paradigm Healthcare Services",
   "ts": "2026-10-14"
  },
@@ -798,8 +798,8 @@
   "ts": "2026-10-14"
  },
  "green clinic": {
-  "domain": "",
-  "via": "not found",
+  "domain": "green-clinic.com",
+  "via": "clearbit",
   "org": "Green Clinic",
   "ts": "2026-10-14"
  },

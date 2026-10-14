@@ -210,5 +210,9 @@
  "https://oag.ca.gov/system/files/Accela_CA%20App%20%26%20Sample_0.pdf": {
   "excerpt": "We have concluded our investigation of an incident that involved unauthorized access to one of Accela's secure file transfer portals. Upon identifying the incident, we promptly took steps to contain the incident and launched an investigation with assistance from experts who have helped other organizations in similar situations. The investigation determined that an unauthorized actor accessed Accela's portal and acquired copies of certain files between December 11 and December 12, 2025.",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Buchalter%20Example%20Notice.pdf": {
+  "excerpt": "On August 28, 2026, Buchalter learned that a limited amount of Buchalter data was subject to unauthorized acquisition. In response, Buchalter immediately took steps to confirm the security of its systems and commenced an internal investigation with the assistance of third-party computer forensic specialists to evaluate the scope of the incident. Buchalter has determined that this was an isolated incident and there is no evidence that the unauthorized actor gained access to or impacted Buchalter's network or systems. Buchalter engaged data mining experts to perform a comprehensive review of the",
+  "domain": ""
  }
 }

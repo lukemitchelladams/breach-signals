@@ -453,7 +453,9 @@ def domain_matches(domain, cand_name, org):
         return True
     return bool(sc) and sc == so and len(so) >= 2   # Clearbit's canonical name is the whole org name
 
-PERSON_RX = re.compile(r"^(Dr\.? |Mr\.? |Ms\.? )?[A-Z][a-z]+ ([A-Z]\.? |[A-Z][a-z]+ )?[A-Z][a-z]+(,? (Jr|Sr|II|III|MD|DDS|CPA|Esq)\.?)?$")
+# a person only when there is a middle initial, a title, or a personal suffix;
+# plain two/three-word names (Harman Fitness, Poppins Payroll Company) are businesses
+PERSON_RX = re.compile(r"^(?:(?:Dr|Mr|Ms|Mrs)\.? [A-Z][a-z]+ [A-Z][a-z]+|[A-Z][a-z]+ [A-Z]\.? [A-Z][a-z]+|[A-Z][a-z]+ [A-Z][a-z]+,? (?:Jr|Sr|II|III|MD|DDS|DMD|CPA|Esq|PhD)\.?)$")
 
 def domain_clearbit(org):
     if re.match(r"^(city|county|town|village|state|borough) of \b", org, re.I) or re.search(r"\b(county|school district|boces|unified|public schools)\b", org, re.I):

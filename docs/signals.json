@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-14T18:04:15Z",
+ "generated_utc": "2026-10-14T19:02:14Z",
  "window_days": 30,
  "tiers": {
   "1": "mandatory government filing",
@@ -12,7 +12,7 @@
    "key": "state_ca",
    "status": "ok",
    "rows": 55,
-   "seconds": 122.5
+   "seconds": 58.6
   },
   {
    "key": "state_wa",
@@ -24,67 +24,67 @@
    "key": "state_vt",
    "status": "ok",
    "rows": 87,
-   "seconds": 3.0
+   "seconds": 2.4
   },
   {
    "key": "state_or",
    "status": "ok",
    "rows": 13,
-   "seconds": 8.6
+   "seconds": 12.2
   },
   {
    "key": "state_de",
    "status": "ok",
    "rows": 0,
-   "seconds": 3.1
+   "seconds": 2.0
   },
   {
    "key": "state_hi",
    "status": "ok",
    "rows": 0,
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "key": "hibp",
    "status": "ok",
    "rows": 9,
-   "seconds": 0.9
+   "seconds": 0.7
   },
   {
    "key": "rwl",
    "status": "ok",
    "rows": 22,
-   "seconds": 2.1
+   "seconds": 4.0
   },
   {
    "key": "rss_sb",
    "status": "ok",
    "rows": 7,
-   "seconds": 2.1
+   "seconds": 3064.8
   },
   {
    "key": "rss_lc",
    "status": "ok",
    "rows": 0,
-   "seconds": 0.4
+   "seconds": 1.1
   },
   {
    "key": "rss_dbn",
    "status": "ok",
    "rows": 10,
-   "seconds": 0.2
+   "seconds": 0.3
   },
   {
    "key": "gnews_us",
    "status": "ok",
    "rows": 100,
-   "seconds": 0.9
+   "seconds": 1.2
   },
   {
    "key": "gnews_ca",
    "status": "ok",
    "rows": 100,
-   "seconds": 0.8
+   "seconds": 1.2
   }
  ],
  "manual_sources": [
@@ -151,8 +151,8 @@
    "tier": 1,
    "reported": "2026-09-30",
    "org": "Poppins Payroll Company",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "poppinspayroll.com",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "CA",
    "sector": "Other Commercial",
@@ -208,8 +208,8 @@
    "tier": 1,
    "reported": "2026-09-21",
    "org": "Ridgeway Pharmacy Ltd",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "ridgeway.pharmacy",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "CA",
    "sector": "Health Care",
@@ -436,8 +436,8 @@
    "tier": 1,
    "reported": "2026-10-13",
    "org": "Magna Hospitality Group",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "magnahospitality.com",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "CA",
    "sector": "",
@@ -626,8 +626,8 @@
    "tier": 1,
    "reported": "2026-10-09",
    "org": "Sawyer Savings Bank",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "sawyersavings.bank",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "VT",
    "sector": "Financial Services",
@@ -1063,8 +1063,8 @@
    "tier": 1,
    "reported": "2026-10-05",
    "org": "Cerner Corporation",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "cerner.com",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "VT",
    "sector": "Health Care",
@@ -1120,8 +1120,8 @@
    "tier": 1,
    "reported": "2026-10-02",
    "org": "Heuer Publishing",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "hitplays.com",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "VT",
    "sector": "Other Commercial",
@@ -1507,13 +1507,13 @@
    "sector": "",
    "affected": "",
    "breach_date": "2026-08-28",
-   "incident_type": "not stated in filing",
+   "incident_type": "unspecified",
    "product_fit": "Illumio; RSA (unclassified incident)",
    "reported_to": "California Attorney General (Civ. Code 1798.82 filing)",
    "source": "state_ca",
-   "detail": "Breach notice filed with the California AG; consumer letter attached.",
+   "detail": "Letter: On August 28, 2026, Buchalter learned that a limited amount of Buchalter data was subject to unauthorized acquisition. In response, Buchalter immediately took steps to confirm the security of its systems and commenced an internal investigation with the assistance of third-party computer forensic specialists to evaluate the scope of the incident. Buchalter has determined that this was an is",
    "url": "https://oag.ca.gov/ecrime/databreach/reports/sb24-630484",
-   "letter_url": ""
+   "letter_url": "https://oag.ca.gov/system/files/Buchalter%20Example%20Notice.pdf"
   },
   {
    "tier": 1,
@@ -1557,8 +1557,8 @@
    "tier": 1,
    "reported": "2026-09-28",
    "org": "Indico Data Center",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "indicodata.ai",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "VT",
    "sector": "Other Commercial",
@@ -1614,8 +1614,8 @@
    "tier": 1,
    "reported": "2026-09-25",
    "org": "Kings United Way",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "kingsunitedway.org",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "CA",
    "sector": "",
@@ -1709,8 +1709,8 @@
    "tier": 1,
    "reported": "2026-09-25",
    "org": "Harbor Fish Market",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "harborfish.com",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "VT",
    "sector": "Other Commercial",
@@ -1861,8 +1861,8 @@
    "tier": 1,
    "reported": "2026-09-24",
    "org": "Boyd Gaming Corporation",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "boydgaming.com",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "VT",
    "sector": "Other Commercial",
@@ -1899,8 +1899,8 @@
    "tier": 1,
    "reported": "2026-09-23",
    "org": "Fairwinds Credit Union",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "fairwinds.org",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "CA",
    "sector": "",
@@ -2013,8 +2013,8 @@
    "tier": 1,
    "reported": "2026-09-21",
    "org": "Friesen Group",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "friesen-bar.com",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "CA",
    "sector": "",
@@ -2032,8 +2032,8 @@
    "tier": 1,
    "reported": "2026-09-21",
    "org": "Ethan Conrad Properties",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "ethanconradprop.com",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "CA",
    "sector": "",
@@ -2051,8 +2051,8 @@
    "tier": 1,
    "reported": "2026-09-21",
    "org": "United Underwriters",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "uuinc.com",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "CA",
    "sector": "",
@@ -2355,8 +2355,8 @@
    "tier": 1,
    "reported": "2026-09-16",
    "org": "Powerhouse Retail Services",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "powerhouseretailservices.co",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "VT",
    "sector": "Other Commercial",
@@ -2545,8 +2545,8 @@
    "tier": 1,
    "reported": "2026-09-15",
    "org": "Kaniksu Community Health",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "kchnorthidaho.org",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "OR",
    "sector": "",
@@ -2564,8 +2564,8 @@
    "tier": 1,
    "reported": "2026-09-14",
    "org": "Paradigm Healthcare Services",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "paradigm-healthcare.com",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "CA",
    "sector": "",
@@ -2716,8 +2716,8 @@
    "tier": 2,
    "reported": "2026-10-14",
    "org": "Green Clinic",
-   "domain": "",
-   "domain_source": "not found",
+   "domain": "green-clinic.com",
+   "domain_source": "clearbit",
    "country": "US",
    "state": "",
    "sector": "Healthcare",
