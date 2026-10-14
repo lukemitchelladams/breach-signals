@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-14T20:01:15Z",
+ "generated_utc": "2026-10-14T20:09:02Z",
  "window_days": 90,
  "tiers": {
   "1": "mandatory government filing",
@@ -12,37 +12,37 @@
    "key": "state_ca",
    "status": "ok",
    "rows": 153,
-   "seconds": 254.7
+   "seconds": 262.8
   },
   {
    "key": "state_wa",
    "status": "ok",
    "rows": 50,
-   "seconds": 1.2
+   "seconds": 0.7
   },
   {
    "key": "state_vt",
    "status": "ok",
    "rows": 231,
-   "seconds": 1.7
+   "seconds": 1.8
   },
   {
    "key": "state_or",
    "status": "ok",
    "rows": 51,
-   "seconds": 14.6
+   "seconds": 14.7
   },
   {
    "key": "state_de",
    "status": "ok",
    "rows": 0,
-   "seconds": 2.3
+   "seconds": 2.7
   },
   {
    "key": "state_hi",
    "status": "ok",
    "rows": 0,
-   "seconds": 0.5
+   "seconds": 0.6
   },
   {
    "key": "hibp",
@@ -54,13 +54,13 @@
    "key": "rwl",
    "status": "ok",
    "rows": 23,
-   "seconds": 2.3
+   "seconds": 1.1
   },
   {
    "key": "rss_sb",
    "status": "ok",
    "rows": 7,
-   "seconds": 1.1
+   "seconds": 1.0
   },
   {
    "key": "rss_lc",
@@ -1952,21 +1952,21 @@
    "reported": "2026-08-17",
    "org": "Amgen Inc.",
    "domain": "amgen.com",
-   "domain_source": "clearbit",
+   "domain_source": "notice letter",
    "country": "US",
    "state": "CA",
    "sector": "Other Commercial",
    "affected": 24,
    "breach_date": "2026-07-01",
-   "incident_type": "not stated in filing",
-   "lead_with": "any",
-   "product_fit": "Illumio; RSA; DigiCert (vector not stated; lead with the partner's strongest line)",
+   "incident_type": "third-party / vendor incident",
+   "lead_with": "Illumio",
+   "product_fit": "Illumio; RSA; DigiCert (lead with Illumio)",
    "confidence": "confirmed: organization filed with a regulator",
    "reported_to": "California Attorney General (Civ. Code 1798.82 filing) | Vermont Attorney General (9 V.S.A. 2435 filing)",
    "source": "state_ca+state_vt",
-   "detail": "Breach notice filed with the California AG; consumer letter attached. || Data compromised: Social Security Numbers, Health Records",
+   "detail": "Letter: On or about July 2, 2026, Amgen became aware of an unauthorized third party access to certain Amgen systems and data stored in cloud environments hosted by third party cloud service providers. Upon discovering the incident, Amgen promptly commenced an investigation and engaged independent cybersecurity forensic experts. On July 18, 2026, Amgen identified that the unauthorized third party h",
    "url": "https://oag.ca.gov/ecrime/databreach/reports/sb24-628370",
-   "letter_url": "",
+   "letter_url": "https://oag.ca.gov/system/files/Amgen%20Consumer%20Notification%20Letters%20%282%29.pdf",
    "evidence_url": "",
    "press_url": "",
    "news_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRUFvQkJ3czc5V0JrUlFCSEhxaHY3NnFHQjl3MWRyODNkTkR4QkVqTnc5dmhyVHc0Z1ZuaDRLSTBkbkRHMWxPRC13Y0NjQW5KblJtY2tMY2pTTnNCcDB6RjNoejRBZHFzdklfMHgzZ1pPaFpTM3RMYUx1c09wV0JXMUtVakt0ejZhSnBFQnZFSDZMcE5fZ01Gb0d2alNYNGt4SXdnX21CQm56VVNvMjdOaGZEWE9DOUE?oc=5",
@@ -2108,15 +2108,15 @@
    "sector": "Other Commercial",
    "affected": 1,
    "breach_date": "2025-08-14",
-   "incident_type": "not stated in filing",
-   "lead_with": "any",
-   "product_fit": "Illumio; RSA; DigiCert (vector not stated; lead with the partner's strongest line)",
+   "incident_type": "network intrusion",
+   "lead_with": "RSA",
+   "product_fit": "Illumio; RSA; DigiCert (lead with RSA)",
    "confidence": "confirmed: organization filed with a regulator",
    "reported_to": "California Attorney General (Civ. Code 1798.82 filing) | Vermont Attorney General (9 V.S.A. 2435 filing)",
    "source": "state_ca+state_vt",
-   "detail": "Breach notice filed with the California AG; consumer letter attached. || Data compromised: Social Security Numbers, Government ID Numbers, Financial Account Codes, Credit and Debit Account Info, Health Records",
+   "detail": "Letter: USA DeBusk LLC experienced a cybersecurity incident on or around September 5, 2025, involving unauthorized access to certain of our systems. Based on our investigation, we determined on July 6, 2026, that, in connection with this issue, an unauthorized third party obtained certain of your personal information.",
    "url": "https://oag.ca.gov/ecrime/databreach/reports/sb24-628082",
-   "letter_url": "",
+   "letter_url": "https://oag.ca.gov/system/files/USA%20DeBusk%20-%20Individual%20Notice%20Letter.pdf",
    "evidence_url": "",
    "press_url": "",
    "news_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0xeXBSSjZHaXhJWmsxTHJFVlVmN2JJYXhheWtWRnhCcWFRaDliS1VEMEtQWXlSWGdlaUJIYmI4bVpFdkIwbkNlRGpJd2R1U3dRZFZxWDNJU3FrcWlBbUVfNGxOSXk0SW1wV2Z6eFpwOHVOYnV1WVZkLUtuVQ?oc=5",
@@ -2228,15 +2228,15 @@
    "sector": "Other Commercial",
    "affected": 11,
    "breach_date": "2026-05-22/2026-06-10",
-   "incident_type": "third-party / vendor incident",
-   "lead_with": "Illumio",
-   "product_fit": "Illumio; RSA; DigiCert (lead with Illumio)",
+   "incident_type": "not stated in filing",
+   "lead_with": "any",
+   "product_fit": "Illumio; RSA; DigiCert (vector not stated; lead with the partner's strongest line)",
    "confidence": "confirmed: organization filed with a regulator",
    "reported_to": "California Attorney General (Civ. Code 1798.82 filing) | Vermont Attorney General (9 V.S.A. 2435 filing)",
    "source": "state_ca+state_vt",
-   "detail": "Letter: On June 15, 2026, we received con ﬁrmation from a third-party service provider relating to a potential compromise on our website which we were investigating. The investigation into the activity identi ﬁed unauthorized code on our site that may have captured certain information entered on the checkout/payment page, at times between May 22, 2026 and June 10, 2026. We took immediate action to",
+   "detail": "Breach notice filed with the California AG; consumer letter attached. || Data compromised: Financial Account Codes, Credit and Debit Account Info",
    "url": "https://oag.ca.gov/ecrime/databreach/reports/sb24-627640",
-   "letter_url": "https://oag.ca.gov/system/files/M%2BG%20-%20Exhibit%201%20-%20CA_0.pdf",
+   "letter_url": "",
    "evidence_url": "",
    "press_url": "",
    "news_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQ1pKQTVYOFc3V2IyRkdFamlWZEtBOXViXy1hMS1IbndtVVRoeV9HOWhDMHA0cHFMX08ydEczNERoS2YzREJVSGxYVG94Sm4tVFBubFVmUElWYW5kU1ZsaHB4ckJGMGdvY0J0VmpJandfNzlHREtud3d4VTU4eEF5OUdXNDMxaDRkcEthNndsbGpFdHNfRHJoV01yaS0wb3dwWEc1UktNSzRuSkVQRDl6QWVZdDdYenhQZkNOcGdHODBTeGFvaGdyTnVIOWVnOERoV09VTFZB?oc=5",
@@ -2296,7 +2296,7 @@
    "source": "state_ca+state_wa",
    "detail": "Letter: On or about December 18, 2025, Aesto experienced a network security incident that impacted a limited portion of Aesto's Amazon Web Services infrastructure.",
    "url": "https://oag.ca.gov/ecrime/databreach/reports/sb24-627495",
-   "letter_url": "https://oag.ca.gov/system/files/Everside%20-%20California%20Notification_Redacted.pdf",
+   "letter_url": "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42089.pdf",
    "evidence_url": "",
    "press_url": "",
    "news_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5UU3FGaFhZYmlEMDk3UndWbmFidThITDExdlZsZS1sQmtoNDEtRTlKWEhxdndVY3lvVm5xRmUyVFBOMXBmS1lJVl8yVTRTYldTZHk4aFRhRkdtWEY5NERleklPSVJnb2JMcDc4?oc=5",

@@ -660,7 +660,7 @@ def enrich_hubspot(rows, path):
             "hs_owner": h.get("owner", ""), "hs_deals": h.get("deals", "") or str(len(dl)), "hs_contacts": h.get("contacts", ""),
             "hs_industry": h.get("industry", ""), "hs_employees": h.get("employees", ""), "hs_revenue": h.get("revenue", ""),
             "hs_last_touch": h.get("modified", ""),
-            "hs_deal_names": " | ".join(f"{d['name']} [{d.get('stage','')}{', $'+str(d['amount']) if d.get('amount') else ''}]" for d in dl)[:400],
+            "hs_deal_names": " | ".join(f"{d['name']} [{d.get('stage','')}{', ' + (str(d['amount']) if str(d['amount']).startswith('$') else '$' + str(d['amount'])) if d.get('amount') not in (None, '', '$0', '0', '$1', '1') else ''}]" for d in dl)[:600],
             "hs_resellers": ", ".join(resellers), "hs_vendors": ", ".join(vendors),
         })
         if dl:
@@ -894,15 +894,38 @@ def main():
         with open(a.json, "w", encoding="utf-8") as f:
             json.dump(feed, f, ensure_ascii=False, indent=1)
     if a.private:
-        os.makedirs(a.private, exist_ok=True)
+        os.makedirs(os.path.join(a.private, "_local"), exist_ok=True)
+        os.makedirs(os.path.join(a.private, "api"), exist_ok=True)
         pfeed = {"generated_utc": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).strftime("%Y-%m-%dT%H:%M:%SZ"), "window_days": a.days,
                  "private": True, "count": len(out), "hubspot_hits": hs_hits, "account_list_hits": acct_hits, "sec_hits": sec_hits,
                  "signals": [{c: r.get(c, "") for c in private_cols} for r in out]}
-        with open(os.path.join(a.private, "signals_enriched.json"), "w", encoding="utf-8") as f:
+        # local copies (never deployed: _local is in .vercelignore)
+        with open(os.path.join(a.private, "_local", "signals_enriched.json"), "w", encoding="utf-8") as f:
             json.dump(pfeed, f, ensure_ascii=False, indent=1)
-        with open(os.path.join(a.private, "signals_enriched.csv"), "w", newline="", encoding="utf-8-sig") as f:
+        with open(os.path.join(a.private, "_local", "signals_enriched.csv"), "w", newline="", encoding="utf-8-sig") as f:
             w = csv.DictWriter(f, fieldnames=private_cols); w.writeheader()
             for r in out: w.writerow({c: r.get(c, "") for c in private_cols})
+        # the deployed copy lives INSIDE a serverless function that checks the access code;
+        # nothing under api/ is served as a static file, so the data is not fetchable by URL
+        gate_hash = os.environ.get("BS_GATE_HASH", "bd679621691ff9ce9a8d349c53accf3ffa780fdaf123b679896e9c192455f893")
+        fn = ("const crypto=require('crypto');\n"
+              f"const GATE='{gate_hash}';\n"
+              "const DATA=" + json.dumps(pfeed, ensure_ascii=False, separators=(",", ":")) + ";\n"
+              "const COLS=" + json.dumps(private_cols) + ";\n"
+              "module.exports=(req,res)=>{\n"
+              "  const code=(req.headers['x-code']||'').toString().trim();\n"
+              "  const h=crypto.createHash('sha256').update(code).digest('hex');\n"
+              "  res.setHeader('Cache-Control','no-store');\n"
+              "  if(!code||h!==GATE){res.statusCode=401;return res.end('unauthorized');}\n"
+              "  if((req.query&&req.query.format)==='csv'){\n"
+              "    const esc=v=>{v=(v==null?'':String(v));return /[\",\\n]/.test(v)?'\"'+v.replace(/\"/g,'\"\"')+'\"':v};\n"
+              "    const lines=[COLS.join(',')].concat(DATA.signals.map(r=>COLS.map(c=>esc(r[c])).join(',')));\n"
+              "    res.setHeader('Content-Type','text/csv; charset=utf-8');res.setHeader('Content-Disposition','attachment; filename=signals_enriched.csv');\n"
+              "    return res.end('\\ufeff'+lines.join('\\n'));}\n"
+              "  res.setHeader('Content-Type','application/json; charset=utf-8');res.end(JSON.stringify(DATA));\n"
+              "};\n")
+        with open(os.path.join(a.private, "api", "signals.js"), "w", encoding="utf-8") as f:
+            f.write(fn)
 
     print(f"\nwindow: last {a.days} days   unique orgs: {len(out)}   raw rows: {len(rows)}   dropped non-US/CA: {dropped}   "
           f"news headlines unmatched: {len(news)}   letters read: {letters}   domains looked up: {looked}   news looked up: {newsed}   with news: {sum(1 for r in out if r.get('news_url'))}   hubspot hits: {hs_hits}   account-list hits: {acct_hits}   SEC public cos: {sec_hits}   with domain: {sum(1 for r in out if r['domain'])}   -> {a.out}")
