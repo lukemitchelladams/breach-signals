@@ -1,0 +1,830 @@
+{
+ "poppins payroll": {
+  "domain": "",
+  "via": "not found",
+  "org": "Poppins Payroll Company",
+  "ts": "2026-10-14"
+ },
+ "city of mcminnville": {
+  "domain": "",
+  "via": "not found",
+  "org": "City of McMinnville",
+  "ts": "2026-10-14"
+ },
+ "upbound group": {
+  "domain": "upbound.com",
+  "via": "clearbit",
+  "org": "Upbound Group, Inc.",
+  "ts": "2026-10-14"
+ },
+ "ridgeway pharmacy": {
+  "domain": "",
+  "via": "not found",
+  "org": "Ridgeway Pharmacy Ltd",
+  "ts": "2026-10-14"
+ },
+ "advantest america": {
+  "domain": "advantest.com",
+  "via": "clearbit",
+  "org": "Advantest America, Inc.",
+  "ts": "2026-10-14"
+ },
+ "sheppard mullin richter hampton llp": {
+  "domain": "sheppardmullin.com",
+  "via": "clearbit",
+  "org": "Sheppard, Mullin, Richter & Hampton LLP",
+  "ts": "2026-10-14"
+ },
+ "fragomen del rey bernsen loewy llp": {
+  "domain": "fragomen.com",
+  "via": "clearbit",
+  "org": "Fragomen, Del Rey, Bernsen & Loewy, LLP",
+  "ts": "2026-10-14"
+ },
+ "lincoln property commercial": {
+  "domain": "lpc.com",
+  "via": "clearbit",
+  "org": "Lincoln Property Company Commercial LLC",
+  "ts": "2026-10-14"
+ },
+ "onemain financial group": {
+  "domain": "onemainfinancial.com",
+  "via": "clearbit",
+  "org": "OneMain Financial Group, LLC",
+  "ts": "2026-10-14"
+ },
+ "medimpact healthcare systems": {
+  "domain": "medimpact.com",
+  "via": "clearbit",
+  "org": "MedImpact Healthcare Systems, Inc.",
+  "ts": "2026-10-14"
+ },
+ "financial administrative support services": {
+  "domain": "",
+  "via": "not found",
+  "org": "Financial Administrative Support Services",
+  "ts": "2026-10-14"
+ },
+ "gallagher transport international": {
+  "domain": "gallaghertransport.com",
+  "via": "clearbit",
+  "org": "Gallagher Transport International Inc.",
+  "ts": "2026-10-14"
+ },
+ "opportune llp": {
+  "domain": "opportune.com",
+  "via": "clearbit",
+  "org": "Opportune LLP",
+  "ts": "2026-10-14"
+ },
+ "fun for less tours": {
+  "domain": "funforlesstours.com",
+  "via": "clearbit",
+  "org": "Fun For Less Tours, Inc.",
+  "ts": "2026-10-14"
+ },
+ "porter and": {
+  "domain": "porterco.co",
+  "via": "clearbit",
+  "org": "Porter and Company",
+  "ts": "2026-10-14"
+ },
+ "magna hospitality group": {
+  "domain": "",
+  "via": "not found",
+  "org": "Magna Hospitality Group",
+  "ts": "2026-10-14"
+ },
+ "tulare joint union high school district": {
+  "domain": "",
+  "via": "not found",
+  "org": "Tulare Joint Union High School District",
+  "ts": "2026-10-14"
+ },
+ "american board of preventive medicine": {
+  "domain": "theabpm.org",
+  "via": "clearbit",
+  "org": "American Board of Preventive Medicine",
+  "ts": "2026-10-14"
+ },
+ "jm bullion": {
+  "domain": "jmbullion.com",
+  "via": "clearbit",
+  "org": "JM Bullion, Inc.",
+  "ts": "2026-10-14"
+ },
+ "arkansas hospice d b a lifetouch health": {
+  "domain": "arkansashospice.org",
+  "via": "clearbit",
+  "org": "Arkansas Hospice Inc. d/b/a LifeTouch Health",
+  "ts": "2026-10-14"
+ },
+ "murray county": {
+  "domain": "",
+  "via": "not found",
+  "org": "Murray County",
+  "ts": "2026-10-14"
+ },
+ "mercadien p c cpas": {
+  "domain": "mercadien.com",
+  "via": "clearbit",
+  "org": "Mercadien, P.C. CPAs",
+  "ts": "2026-10-14"
+ },
+ "wayne finger lakes boces": {
+  "domain": "",
+  "via": "not found",
+  "org": "Wayne-Finger Lakes BOCES",
+  "ts": "2026-10-14"
+ },
+ "evan chadwick": {
+  "domain": "",
+  "via": "not found",
+  "org": "Evan Chadwick",
+  "ts": "2026-10-14"
+ },
+ "sawyer savings bank": {
+  "domain": "",
+  "via": "not found",
+  "org": "Sawyer Savings Bank",
+  "ts": "2026-10-14"
+ },
+ "zizzl": {
+  "domain": "",
+  "via": "not found",
+  "org": "zizzl, llc",
+  "ts": "2026-10-14"
+ },
+ "martin magnuson mccarthy kenney": {
+  "domain": "",
+  "via": "not found",
+  "org": "Martin, Magnuson, McCarthy & Kenney",
+  "ts": "2026-10-14"
+ },
+ "holland knight llp": {
+  "domain": "hklaw.com",
+  "via": "clearbit",
+  "org": "Holland & Knight, LLP",
+  "ts": "2026-10-14"
+ },
+ "citizens northern bank": {
+  "domain": "cnbankpa.com",
+  "via": "clearbit",
+  "org": "Citizens & Northern Bank",
+  "ts": "2026-10-14"
+ },
+ "winona county": {
+  "domain": "",
+  "via": "not found",
+  "org": "Winona County",
+  "ts": "2026-10-14"
+ },
+ "national life insurance": {
+  "domain": "nationallife.com",
+  "via": "clearbit",
+  "org": "National Life Insurance Company",
+  "ts": "2026-10-14"
+ },
+ "home hope and healing": {
+  "domain": "homehopeandhealing.com",
+  "via": "clearbit",
+  "org": "Home, Hope and Healing, Inc.",
+  "ts": "2026-10-14"
+ },
+ "ant farm ii": {
+  "domain": "antfarm.com",
+  "via": "clearbit",
+  "org": "Ant Farm II, LLC",
+  "ts": "2026-10-14"
+ },
+ "allied physicians group": {
+  "domain": "alliedphysiciansgroup.com",
+  "via": "clearbit",
+  "org": "Allied Physicians Group, PLLC",
+  "ts": "2026-10-14"
+ },
+ "squire patton boggs us llp": {
+  "domain": "squirepattonboggs.com",
+  "via": "clearbit",
+  "org": "Squire Patton Boggs (US) LLP",
+  "ts": "2026-10-14"
+ },
+ "alisal union schol district": {
+  "domain": "alisal.org",
+  "via": "clearbit",
+  "org": "Alisal Union Schol District",
+  "ts": "2026-10-14"
+ },
+ "factory five racing": {
+  "domain": "factoryfive.com",
+  "via": "clearbit",
+  "org": "Factory Five Racing, Inc.",
+  "ts": "2026-10-14"
+ },
+ "secure healthcare information management": {
+  "domain": "secureehr.com",
+  "via": "clearbit",
+  "org": "Secure Healthcare Information Management, LLC",
+  "ts": "2026-10-14"
+ },
+ "marking services": {
+  "domain": "",
+  "via": "not found",
+  "org": "Marking Services, Inc.",
+  "ts": "2026-10-14"
+ },
+ "hasbro": {
+  "domain": "hasbro.com",
+  "via": "clearbit",
+  "org": "Hasbro, Inc.",
+  "ts": "2026-10-14"
+ },
+ "harman fitness": {
+  "domain": "",
+  "via": "not found",
+  "org": "Harman Fitness",
+  "ts": "2026-10-14"
+ },
+ "irhythm technologies": {
+  "domain": "irhythmtech.com",
+  "via": "clearbit",
+  "org": "iRhythm Technologies Inc.",
+  "ts": "2026-10-14"
+ },
+ "arthur j jerry": {
+  "domain": "",
+  "via": "not found",
+  "org": "Arthur J. Jerry",
+  "ts": "2026-10-14"
+ },
+ "penquis cap": {
+  "domain": "penquis.org",
+  "via": "clearbit",
+  "org": "Penquis CAP",
+  "ts": "2026-10-14"
+ },
+ "access residential management": {
+  "domain": "",
+  "via": "not found",
+  "org": "Access Residential Management",
+  "ts": "2026-10-14"
+ },
+ "covercraft industries": {
+  "domain": "",
+  "via": "not found",
+  "org": "Covercraft Industries, LLC",
+  "ts": "2026-10-14"
+ },
+ "north slope borough school district": {
+  "domain": "",
+  "via": "not found",
+  "org": "North Slope Borough School District",
+  "ts": "2026-10-14"
+ },
+ "cerner": {
+  "domain": "",
+  "via": "not found",
+  "org": "Cerner Corporation",
+  "ts": "2026-10-14"
+ },
+ "hudson river museum of westchester": {
+  "domain": "hrm.org",
+  "via": "clearbit",
+  "org": "The Hudson River Museum of Westchester, Inc.",
+  "ts": "2026-10-14"
+ },
+ "family medical associates of raleigh pa": {
+  "domain": "fmaraleigh.com",
+  "via": "clearbit",
+  "org": "Family Medical Associates of Raleigh, PA",
+  "ts": "2026-10-14"
+ },
+ "heuer publishing": {
+  "domain": "",
+  "via": "not found",
+  "org": "Heuer Publishing",
+  "ts": "2026-10-14"
+ },
+ "aldrich services llp": {
+  "domain": "aldrichco.com",
+  "via": "clearbit",
+  "org": "Aldrich Services LLP",
+  "ts": "2026-10-14"
+ },
+ "marana health center": {
+  "domain": "",
+  "via": "not found",
+  "org": "Marana Health Center",
+  "ts": "2026-10-14"
+ },
+ "greenberg traurig llp": {
+  "domain": "gtlaw.com",
+  "via": "clearbit",
+  "org": "Greenberg Traurig, LLP",
+  "ts": "2026-10-14"
+ },
+ "virgo gems": {
+  "domain": "",
+  "via": "not found",
+  "org": "Virgo Gems, LLC",
+  "ts": "2026-10-14"
+ },
+ "live nation entertainment": {
+  "domain": "livenationentertainment.com",
+  "via": "clearbit",
+  "org": "Live Nation Entertainment, Inc.",
+  "ts": "2026-10-14"
+ },
+ "drivewealth": {
+  "domain": "drivewealth.com",
+  "via": "clearbit",
+  "org": "DriveWealth",
+  "ts": "2026-10-14"
+ },
+ "american family connect insurance": {
+  "domain": "",
+  "via": "not found",
+  "org": "American Family Connect Insurance Company",
+  "ts": "2026-10-14"
+ },
+ "nishiyamato academy": {
+  "domain": "",
+  "via": "not found",
+  "org": "Nishiyamato Academy",
+  "ts": "2026-10-14"
+ },
+ "procamps": {
+  "domain": "procamps.com",
+  "via": "clearbit",
+  "org": "ProCamps",
+  "ts": "2026-10-14"
+ },
+ "mebs global reach": {
+  "domain": "mebs-global.com",
+  "via": "clearbit",
+  "org": "MEBS Global Reach",
+  "ts": "2026-10-14"
+ },
+ "viewsonic": {
+  "domain": "viewsonic.com",
+  "via": "clearbit",
+  "org": "ViewSonic Corporation",
+  "ts": "2026-10-14"
+ },
+ "woodlands art council": {
+  "domain": "",
+  "via": "not found",
+  "org": "The Woodlands Art Council",
+  "ts": "2026-10-14"
+ },
+ "mckenzie creative brands": {
+  "domain": "mckenziecreative.net",
+  "via": "clearbit",
+  "org": "McKenzie Creative Brands",
+  "ts": "2026-10-14"
+ },
+ "midvale indemnity": {
+  "domain": "",
+  "via": "not found",
+  "org": "Midvale Indemnity Company",
+  "ts": "2026-10-14"
+ },
+ "challenge financial services": {
+  "domain": "",
+  "via": "not found",
+  "org": "Challenge Financial Services, Inc.",
+  "ts": "2026-10-14"
+ },
+ "pdcm insurance": {
+  "domain": "pdcm.com",
+  "via": "clearbit",
+  "org": "PDCM Insurance",
+  "ts": "2026-10-14"
+ },
+ "association of bar of city of new york": {
+  "domain": "",
+  "via": "not found",
+  "org": "Association of the Bar of the City of New York",
+  "ts": "2026-10-14"
+ },
+ "petrovits patrick smith": {
+  "domain": "ppscllc.com",
+  "via": "clearbit",
+  "org": "Petrovits, Patrick, Smith & Company, LLC",
+  "ts": "2026-10-14"
+ },
+ "lamb weston holdings": {
+  "domain": "lambweston.com",
+  "via": "clearbit",
+  "org": "Lamb Weston Holdings, Inc.",
+  "ts": "2026-10-14"
+ },
+ "san bernardino county on behalf of arrowhead regional medical center": {
+  "domain": "",
+  "via": "not found",
+  "org": "San Bernardino County on behalf of Arrowhead Regional Medical Center",
+  "ts": "2026-10-14"
+ },
+ "dentaquest": {
+  "domain": "dentaquest.com",
+  "via": "clearbit",
+  "org": "DentaQuest",
+  "ts": "2026-10-14"
+ },
+ "peoplesbank": {
+  "domain": "peoplesbanknet.com",
+  "via": "clearbit",
+  "org": "PeoplesBank",
+  "ts": "2026-10-14"
+ },
+ "indico data center": {
+  "domain": "",
+  "via": "not found",
+  "org": "Indico Data Center",
+  "ts": "2026-10-14"
+ },
+ "onemain financial": {
+  "domain": "onemainfinancial.com",
+  "via": "clearbit",
+  "org": "OneMain Financial",
+  "ts": "2026-10-14"
+ },
+ "saber healthcare": {
+  "domain": "saberhealth.com",
+  "via": "clearbit",
+  "org": "Saber Healthcare Inc.",
+  "ts": "2026-10-14"
+ },
+ "kings united way": {
+  "domain": "",
+  "via": "not found",
+  "org": "Kings United Way",
+  "ts": "2026-10-14"
+ },
+ "restorative therapies": {
+  "domain": "restorative-therapies.com",
+  "via": "clearbit",
+  "org": "Restorative Therapies, Inc.",
+  "ts": "2026-10-14"
+ },
+ "td bank": {
+  "domain": "",
+  "via": "not found",
+  "org": "TD Bank",
+  "ts": "2026-10-14"
+ },
+ "aesto": {
+  "domain": "aestohealth.com",
+  "via": "clearbit",
+  "org": "Aesto, LLC",
+  "ts": "2026-10-14"
+ },
+ "waterford hotel group lcc lmd holding": {
+  "domain": "waterfordhotelgroup.com",
+  "via": "clearbit",
+  "org": "Waterford Hotel Group, LCC & LMD Holding Company, LLC",
+  "ts": "2026-10-14"
+ },
+ "harbor fish market": {
+  "domain": "",
+  "via": "not found",
+  "org": "Harbor Fish Market",
+  "ts": "2026-10-14"
+ },
+ "bee bergvall": {
+  "domain": "bbcocpa.com",
+  "via": "clearbit",
+  "org": "Bee, Bergvall & Co",
+  "ts": "2026-10-14"
+ },
+ "blanchard training development": {
+  "domain": "blanchard.com",
+  "via": "clearbit",
+  "org": "Blanchard Training & Development, Inc.",
+  "ts": "2026-10-14"
+ },
+ "pe a and bromberg": {
+  "domain": "",
+  "via": "not found",
+  "org": "Peña and Bromberg",
+  "ts": "2026-10-14"
+ },
+ "5star life insurance": {
+  "domain": "5starlifeinsurance.com",
+  "via": "clearbit",
+  "org": "5Star Life Insurance Company",
+  "ts": "2026-10-14"
+ },
+ "hilt trust 2020 a and its underlying trusts and affiliates": {
+  "domain": "",
+  "via": "not found",
+  "org": "HILT-Trust 2020-A and its underlying trusts and affiliates",
+  "ts": "2026-10-14"
+ },
+ "nse insurance agencies": {
+  "domain": "nseinsurance.com",
+  "via": "clearbit",
+  "org": "NSE Insurance Agencies",
+  "ts": "2026-10-14"
+ },
+ "ladenburg thalmann": {
+  "domain": "ladenburg.com",
+  "via": "clearbit",
+  "org": "Ladenburg Thalmann & Co. Inc.",
+  "ts": "2026-10-14"
+ },
+ "boyd gaming": {
+  "domain": "",
+  "via": "not found",
+  "org": "Boyd Gaming Corporation",
+  "ts": "2026-10-14"
+ },
+ "call on doc": {
+  "domain": "",
+  "via": "not found",
+  "org": "Call-On-Doc, Inc.",
+  "ts": "2026-10-14"
+ },
+ "fairwinds credit union": {
+  "domain": "",
+  "via": "not found",
+  "org": "Fairwinds Credit Union",
+  "ts": "2026-10-14"
+ },
+ "lee county mosquito control district": {
+  "domain": "",
+  "via": "not found",
+  "org": "Lee County Mosquito Control District",
+  "ts": "2026-10-14"
+ },
+ "health access network": {
+  "domain": "hanfqhc.org",
+  "via": "clearbit",
+  "org": "Health Access Network Inc.",
+  "ts": "2026-10-14"
+ },
+ "modoc medical center": {
+  "domain": "",
+  "via": "not found",
+  "org": "Modoc Medical Center",
+  "ts": "2026-10-14"
+ },
+ "kid centered": {
+  "domain": "",
+  "via": "not found",
+  "org": "Kid CenterEd, PLLC",
+  "ts": "2026-10-14"
+ },
+ "harbisonwalker international": {
+  "domain": "",
+  "via": "not found",
+  "org": "HarbisonWalker International, Inc.",
+  "ts": "2026-10-14"
+ },
+ "friesen group": {
+  "domain": "",
+  "via": "not found",
+  "org": "Friesen Group",
+  "ts": "2026-10-14"
+ },
+ "ethan conrad properties": {
+  "domain": "",
+  "via": "not found",
+  "org": "Ethan Conrad Properties",
+  "ts": "2026-10-14"
+ },
+ "united underwriters": {
+  "domain": "",
+  "via": "not found",
+  "org": "United Underwriters",
+  "ts": "2026-10-14"
+ },
+ "azure farms d b a azure standard": {
+  "domain": "",
+  "via": "not found",
+  "org": "Azure Farms, Inc., d/b/a Azure Standard",
+  "ts": "2026-10-14"
+ },
+ "millstone medical outsourcing": {
+  "domain": "millstonemedical.com",
+  "via": "clearbit",
+  "org": "Millstone Medical Outsourcing, LLC",
+  "ts": "2026-10-14"
+ },
+ "corpay": {
+  "domain": "corpay.com",
+  "via": "clearbit",
+  "org": "Corpay, Inc.",
+  "ts": "2026-10-14"
+ },
+ "seyfarth shaw llp": {
+  "domain": "seyfarth.com",
+  "via": "clearbit",
+  "org": "Seyfarth Shaw LLP",
+  "ts": "2026-10-14"
+ },
+ "office of los angeles city": {
+  "domain": "",
+  "via": "not found",
+  "org": "The Office of the Los Angeles City",
+  "ts": "2026-10-14"
+ },
+ "g i medicine associates p c": {
+  "domain": "gimedicine.com",
+  "via": "clearbit",
+  "org": "G.I. Medicine Associates, P.C.",
+  "ts": "2026-10-14"
+ },
+ "american service center associates": {
+  "domain": "",
+  "via": "not found",
+  "org": "American Service Center Associates, LLC",
+  "ts": "2026-10-14"
+ },
+ "sound hsa": {
+  "domain": "",
+  "via": "not found",
+  "org": "SOUND HSA, Inc.",
+  "ts": "2026-10-14"
+ },
+ "lemaitre vascular": {
+  "domain": "lemaitre.com",
+  "via": "clearbit",
+  "org": "LeMaitre Vascular, Inc.",
+  "ts": "2026-10-14"
+ },
+ "wellington at seven hills homeowner s association": {
+  "domain": "",
+  "via": "not found",
+  "org": "Wellington at Seven Hills Homeowner's Association, Inc.",
+  "ts": "2026-10-14"
+ },
+ "idscan net": {
+  "domain": "idscan.net",
+  "via": "clearbit",
+  "org": "IDScan.net",
+  "ts": "2026-10-14"
+ },
+ "callondoc": {
+  "domain": "callondoc.com",
+  "via": "clearbit",
+  "org": "CallonDoc, Inc.",
+  "ts": "2026-10-14"
+ },
+ "lincoln investment planning": {
+  "domain": "lincolninvestment.com",
+  "via": "clearbit",
+  "org": "Lincoln Investment Planning, LLC",
+  "ts": "2026-10-14"
+ },
+ "boston capital holdings": {
+  "domain": "bostoncapital.com",
+  "via": "clearbit",
+  "org": "Boston Capital Holdings LP",
+  "ts": "2026-10-14"
+ },
+ "powerhouse retail services": {
+  "domain": "",
+  "via": "not found",
+  "org": "Powerhouse Retail Services",
+  "ts": "2026-10-14"
+ },
+ "avl growth partners an ampleo": {
+  "domain": "avlgrowth.com",
+  "via": "clearbit",
+  "org": "AVL Growth Partners, an Ampleo Company",
+  "ts": "2026-10-14"
+ },
+ "tessco": {
+  "domain": "tessco.com",
+  "via": "clearbit",
+  "org": "Tessco, LLC",
+  "ts": "2026-10-14"
+ },
+ "kurt j lesker": {
+  "domain": "lesker.com",
+  "via": "clearbit",
+  "org": "Kurt J. Lesker Company",
+  "ts": "2026-10-14"
+ },
+ "ocracoke health center": {
+  "domain": "",
+  "via": "not found",
+  "org": "Ocracoke Health Center, Inc.",
+  "ts": "2026-10-14"
+ },
+ "leggett platt incorporated employee benefits plan": {
+  "domain": "leggett.com",
+  "via": "clearbit",
+  "org": "Leggett & Platt, Incorporated Employee Benefits Plan",
+  "ts": "2026-10-14"
+ },
+ "tarter krinsky drogin llp": {
+  "domain": "tarterkrinsky.com",
+  "via": "clearbit",
+  "org": "Tarter Krinsky & Drogin LLP",
+  "ts": "2026-10-14"
+ },
+ "alliance environmental group": {
+  "domain": "alliance-enviro.com",
+  "via": "clearbit",
+  "org": "Alliance Environmental Group, LLC",
+  "ts": "2026-10-14"
+ },
+ "c2m d b a click2mail": {
+  "domain": "",
+  "via": "not found",
+  "org": "C2M LLC d/b/a Click2Mail",
+  "ts": "2026-10-14"
+ },
+ "nevada estate planning and probate": {
+  "domain": "",
+  "via": "not found",
+  "org": "Nevada Estate Planning and Probate, LLC",
+  "ts": "2026-10-14"
+ },
+ "kaniksu community health": {
+  "domain": "",
+  "via": "not found",
+  "org": "Kaniksu Community Health",
+  "ts": "2026-10-14"
+ },
+ "paradigm healthcare services": {
+  "domain": "",
+  "via": "not found",
+  "org": "Paradigm Healthcare Services",
+  "ts": "2026-10-14"
+ },
+ "cambridge mercantile": {
+  "domain": "",
+  "via": "not found",
+  "org": "Cambridge Mercantile Corp.",
+  "ts": "2026-10-14"
+ },
+ "accela": {
+  "domain": "accela.com",
+  "via": "clearbit",
+  "org": "Accela, Inc.",
+  "ts": "2026-10-14"
+ },
+ "lpl financial": {
+  "domain": "",
+  "via": "not found",
+  "org": "LPL Financial LLC",
+  "ts": "2026-10-14"
+ },
+ "healthstream": {
+  "domain": "healthstream.com",
+  "via": "clearbit",
+  "org": "HealthStream, Inc.",
+  "ts": "2026-10-14"
+ },
+ "texas spine consultants": {
+  "domain": "texasspineconsultants.com",
+  "via": "clearbit",
+  "org": "Texas Spine Consultants, PLLC",
+  "ts": "2026-10-14"
+ },
+ "craneware": {
+  "domain": "",
+  "via": "not found",
+  "org": "Craneware, Inc.",
+  "ts": "2026-10-14"
+ },
+ "see s candies corporate office": {
+  "domain": "",
+  "via": "not found",
+  "org": "See's Candies - Corporate Office",
+  "ts": "2026-10-14"
+ },
+ "green clinic": {
+  "domain": "",
+  "via": "not found",
+  "org": "Green Clinic",
+  "ts": "2026-10-14"
+ },
+ "e z pack trucks": {
+  "domain": "ezpacktrucks.com",
+  "via": "clearbit",
+  "org": "E-Z Pack Trucks",
+  "ts": "2026-10-14"
+ },
+ "kvh": {
+  "domain": "",
+  "via": "not found",
+  "org": "KVH",
+  "ts": "2026-10-14"
+ },
+ "mariebelle new york": {
+  "domain": "mariebelle.com",
+  "via": "clearbit",
+  "org": "MarieBelle New York",
+  "ts": "2026-10-14"
+ },
+ "buckner": {
+  "domain": "buckner.com",
+  "via": "clearbit",
+  "org": "The Buckner Company, Inc.",
+  "ts": "2026-10-14"
+ }
+}

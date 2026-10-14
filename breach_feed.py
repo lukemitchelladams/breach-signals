@@ -53,6 +53,10 @@ FIT_RULES = [
 def product_fit(text):
     t = (text or "").lower()
     hits = [name for name, rx in FIT_RULES if re.search(rx, t)]
+    if not hits:
+        it = incident_type(t)
+        if it in ("network intrusion", "third-party / vendor incident"):
+            hits = ["Illumio", "RSA"]
     return "; ".join(hits) if hits else "Illumio; RSA (unclassified incident)"
 
 # ----------------------------------------------------------------------------
@@ -378,11 +382,13 @@ def to_int(s):
 
 def incident_type(text):
     t = (text or "").lower()
-    if re.search(r"ransom|encrypt|leak.site|extort", t): return "ransomware / extortion"
-    if re.search(r"phish|credential|password|account takeover|email account|mfa|business email", t): return "credential / identity compromise"
-    if re.search(r"vendor|third.party|supplier|service provider", t): return "third-party / vendor incident"
-    if re.search(r"unauthori[sz]ed access|hack|intrusion|external", t): return "network intrusion (unspecified vector)"
-    if re.search(r"misdirect|inadvertent|error|misconfig|exposed", t): return "exposure / error"
+    if re.search(r"ransom|encrypt|leak.site|extort|lockbit|akira|qilin|\bplay\b|inc ransom|safepay|medusa|clop|black ?basta|dragonforce|interlock|everest", t): return "ransomware / extortion"
+    if re.search(r"phish|credential|password|account takeover|e-?mail account|mailbox|mfa|business e-?mail|compromised account|employee.{0,20}account|login", t): return "credential / identity compromise"
+    if re.search(r"vendor|service provider|supplier|business associate|third.party (provider|service|software|platform|vendor)|(one of our|a) third.part(y|ies) (that|who|which)|\bmetabase\b|\bsalesforce\b|\bsnowflake\b|\bmoveit\b|\bcitrix\b", t): return "third-party / vendor incident"
+    if re.search(r"unauthori[sz]ed (third party|actor|individual|person|party|access)|unusual activity|suspicious activity|network environment|cyber-?security incident|cyber-?attack|intrusion|hack|exfiltrat|accessed (and|or|and/or) (acquired|copied|taken)|gained (remote )?access", t): return "network intrusion"
+    if re.search(r"misdirect|inadvertent|human error|misconfig|exposed|mailing error|wrong (recipient|address)", t): return "exposure / error"
+    if re.search(r"stolen|theft of|lost (laptop|device)|physical", t): return "device theft / loss"
+    if re.search(r"^data compromised:|^breach notice filed", t): return "not stated in filing"
     return "unspecified"
 
 # ----------------------------------------------------------------------------
@@ -406,18 +412,65 @@ def name_variants(org):
             seen.add(v.lower()); out.append(v)
     return out or [org]
 
+GENERIC = set("inc llc ltd llp lp plc pllc pc corp corporation company co group holdings international incorporated the of and for county city town village district school schools public services service solutions partners associates associates bank credit union health healthcare medical center centre hospital clinic law firm office offices financial insurance management systems technologies technology america american usa us national global".split())
+def _foreign(domain):
+    """Two-letter country TLD other than the ones US/Canada companies actually use."""
+    tld = domain.rsplit(".", 1)[-1]
+    if re.search(r"\.(co|com|org|net|ac|gov|edu)\.[a-z]{2}$", domain):
+        return True
+    return len(tld) == 2 and tld not in {"us", "ca", "co", "io", "ai", "me", "tv", "cc", "ly", "fm", "gg", "to", "sh"}
+class _F:  # keeps the FOREIGN_TLD.search(x) call sites
+    @staticmethod
+    def search(d): return _foreign(d)
+FOREIGN_TLD = _F()
+def sig(s):
+    return set(w for w in norm(s).split() if len(w) > 2 and w not in GENERIC)
+
+FOREIGN_SUFFIX = re.compile(r"\b(ltd|limited|pvt|gmbh|s\.?a\.?|pty|bhd|sdn|plc|ag|nv|bv|oy|ab|as|kk|srl|spa|sas|sarl)\b\.?", re.I)
+
+def domain_matches(domain, cand_name, org):
+    """Strict: the candidate's distinctive words must all belong to the org, the
+    candidate must not carry a foreign corporate suffix the org lacks, and the
+    domain stem must be built from the org's words or initials. 'McMinnville
+    Funeral Home' for 'City of McMinnville' fails; 'Winona County Fair' fails;
+    'National Life Insurance Company Ltd' (Bangladesh) fails."""
+    if not domain or DOMAIN_BLOCK.search(domain) or FOREIGN_TLD.search(domain):
+        return False
+    so, sc = sig(org), sig(cand_name)
+    if not so:
+        return False
+    if cand_name and FOREIGN_SUFFIX.search(cand_name) and not FOREIGN_SUFFIX.search(org):
+        return False
+    if sc and not sc <= so:
+        return False
+    stem = re.sub(r"[^a-z0-9]", "", domain.split(".")[0])
+    stem_hits = [w for w in so if len(w) >= 4 and w in stem]
+    words = [w for w in re.sub(r"[^a-z0-9 ]", " ", (org or "").lower()).split() if w not in ("the", "of", "and", "a", "an", "d", "b", "dba")]
+    initials = "".join(w[0] for w in words)
+    stem2 = re.sub(r"^the", "", stem)
+    acronym = len(initials) >= 2 and len(stem2) >= 2 and (stem2.startswith(initials) or (len(stem2) >= 3 and initials.startswith(stem2))) and len(stem2) <= len(initials) + 6
+    if stem_hits or acronym:
+        return True
+    return bool(sc) and sc == so and len(so) >= 2   # Clearbit's canonical name is the whole org name
+
+PERSON_RX = re.compile(r"^(Dr\.? |Mr\.? |Ms\.? )?[A-Z][a-z]+ ([A-Z]\.? |[A-Z][a-z]+ )?[A-Z][a-z]+(,? (Jr|Sr|II|III|MD|DDS|CPA|Esq)\.?)?$")
+
 def domain_clearbit(org):
-    toks = _tokens(org)
-    first = next(iter(norm(name_variants(org)[0]).split()), "")
-    for v in name_variants(org):
+    if re.match(r"^(city|county|town|village|state|borough) of \b", org, re.I) or re.search(r"\b(county|school district|boces|unified|public schools)\b", org, re.I):
+        return "", ""   # Clearbit does not know governments; it guesses businesses with the same place name
+    if PERSON_RX.match(org) and not sig(org) & {"group", "associates", "partners"}:
+        return "", ""   # an individual filer (sole proprietor, trustee); any company match is a coincidence
+    variants = name_variants(org)
+    words = [w for w in variants[0].split() if w.lower() not in GENERIC]
+    if words and len(words[0]) >= 6 and words[0].lower() not in GENERIC:
+        variants.append(words[0])   # distinctive first word alone, e.g. Fragomen, Advantest, Covercraft
+    for v in variants:
         try:
             raw = get("https://autocomplete.clearbit.com/v1/companies/suggest?query=" + urllib.parse.quote(v[:60]), timeout=15, retries=0)
-            cands = [c for c in json.loads(raw)[:5] if c.get("domain") and not DOMAIN_BLOCK.search(c["domain"])]
-            # prefer a domain that literally contains the org's first word, then best token overlap
-            cands.sort(key=lambda c: (first and first in c["domain"].replace("-", ""), len(_tokens(c.get("name", "")) & toks)), reverse=True)
-            for c in cands:
-                if (first and first in c["domain"].replace("-", "")) or len(_tokens(c.get("name", "")) & toks) >= max(1, min(2, len(toks))):
-                    return c["domain"], "clearbit"
+            cands = [c for c in json.loads(raw)[:5] if domain_matches(c.get("domain", ""), c.get("name", ""), org)]
+            cands.sort(key=lambda c: (len(sig(c.get("name", "")) & sig(org)), c["domain"].endswith((".com", ".org", ".net", ".us", ".ca", ".edu", ".bank"))), reverse=True)
+            if cands:
+                return cands[0]["domain"], "clearbit"
         except Exception:
             pass
         time.sleep(0.3)
@@ -443,15 +496,20 @@ def pdf_text(url, max_pages=4):
 
 def letter_facts(text, org):
     """-> (excerpt, domain). excerpt = the 'what happened' paragraph."""
-    t = re.sub(r"\s+", " ", text or "")
+    t = re.sub(r"\s+", " ", (text or "").replace("“", '"').replace("”", '"').replace("’", "'").replace("‘", "'").replace("­", ""))
     if not t:
         return "", ""
-    m = re.search(r"what happened\??\s*[:.]?\s*(.{80,700}?)(?=\s*(what information|what we are doing|what you can do|the information involved|for more information)\b|$)", t, re.I | re.S)
-    excerpt = m.group(1).strip() if m else ""
+    excerpt = ""
+    m = re.search(r"(?:WHAT HAPPENED|What Happened|What happened)\??\s*[:.]?\s*(?=[A-Z(\"'])(.{80,700}?)(?=\s*(What Information|WHAT INFORMATION|What We Are Doing|WHAT WE ARE DOING|What You Can Do|WHAT YOU CAN DO|The Information Involved|For More Information|FOR MORE INFORMATION)\b|$)", t, re.S)
+    if m:
+        excerpt = m.group(1).strip()
+    else:  # incident narratives almost always open with a date
+        m = re.search(r"((?:On|In|Between|Around|On or about|In early|In late)\s+(?:or about\s+)?(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{0,2},?\s*\d{4}.{80,600})", t)
+        excerpt = m.group(1).strip() if m else ""
     if not excerpt:
         m = re.search(r"(?:Dear [^.]{0,80}[.,:])\s*(.{80,600})", t, re.S)
         excerpt = m.group(1).strip() if m else t[:500]
-    toks = _tokens(org); first = next(iter(norm(name_variants(org)[0]).split()), "")
+    excerpt = re.sub(r"\s+", " ", excerpt)
     cands = []
     for mm in re.finditer(r"[A-Za-z0-9._%+-]+@([A-Za-z0-9.-]+\.[A-Za-z]{2,})", t):
         cands.append((mm.group(1).lower(), 2))
@@ -459,13 +517,10 @@ def letter_facts(text, org):
         cands.append((re.sub(r"^www\.", "", mm.group(1).lower()), 1))
     best, score = "", 0
     for d, w in cands:
-        if VENDOR_RX.search(d) or DOMAIN_BLOCK.search(d):
+        if VENDOR_RX.search(d) or not domain_matches(d, "", org):
             continue
-        s = w + (3 if first and first in d.replace("-", "") else 0) + len(_tokens(d.split(".")[0]) & toks)
-        if s > score:
-            best, score = d, s
-    if best and score < 3:  # an unrelated domain (law firm, call center) is worse than none
-        best = ""
+        if w > score:
+            best, score = d, w
     return excerpt[:600], best
 
 def enrich_from_letters(rows, cache_path):
@@ -483,7 +538,7 @@ def enrich_from_letters(rows, cache_path):
             cache[u] = {"excerpt": ex, "domain": d}
             n += 1
         ex, d = cache[u]["excerpt"], cache[u]["domain"]
-        if ex:
+        if ex and len(ex.strip()) > 40:
             r["detail"] = ("Letter: " + ex)[:400]
         if d and not r.get("domain"):
             r["domain"], r["domain_source"] = d, "notice letter"

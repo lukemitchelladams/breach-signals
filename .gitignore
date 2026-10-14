@@ -1,4 +1,8 @@
 __pycache__/
 *.pyc
-breach_signals.csv
-signals.json
+/breach_signals.csv
+/signals.json
+.vercel/
+
+.vercel
+.env*
