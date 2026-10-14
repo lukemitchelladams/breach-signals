@@ -3,6 +3,11 @@ __pycache__/
 /breach_signals.csv
 /signals.json
 .vercel/
-
-.vercel
+# PRIVATE enrichment: never in the public repo or on the public site
+hubspot_matches.json
+account_matches.json
+account_index.json.gz
+private/
+run*.log
 .env*
+hs_*.sql

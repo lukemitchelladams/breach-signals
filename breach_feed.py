@@ -376,8 +376,8 @@ NA_RX = re.compile(r"\b(U\.?S\.?A?|United States|America[n]?|Canad[ai][a-z]*|fed
 def north_america(r):
     """True if the row is tied to a US/Canada organization. Government filings and
     rwl rows are already geo-scoped; everything else must name a US/Canada marker."""
-    if r["source"].startswith("state_") or r["source"] == "rwl":
-        return True
+    if r["source"].startswith("state_") or r["source"] in ("rwl", "rss_sb", "rss_lc"):
+        return True   # US regulators, US plaintiff firms, rwl already country-filtered
     dom = (r.get("domain") or "").lower()
     if dom.endswith((".us", ".ca", ".gov")):
         return True
@@ -456,6 +456,14 @@ class _F:  # keeps the FOREIGN_TLD.search(x) call sites
 FOREIGN_TLD = _F()
 def sig(s):
     return set(w for w in norm(s).split() if len(w) > 2 and w not in GENERIC)
+
+# words too common to identify a company on their own (single-word matches only)
+WEAK_WORDS = set("medicine medical dental vision family community regional national american united first general pacific atlantic northern southern western eastern central north south east west office department university college institute foundation association society trust fund industries manufacturing logistics transport transportation properties realty construction engineering consulting marketing media digital energy power water gas oil food foods farms farm market markets retail stores store shop restaurant hotel hotels hospitality resort casino gaming sports fitness wellness care senior living home homes housing academy church ministries township valley river lake mountain bay coast harbor island capital premier advanced integrated global international universal standard quality summit apex alpha omega prime elite select choice heritage legacy pioneer frontier liberty freedom patriot eagle star sun moon blue green red gold silver diamond".split())
+
+def strong_sig(s):
+    """sig() minus words that cannot identify a company alone; empty => no single-word matching"""
+    t = sig(s)
+    return t if len(t) >= 2 else set(w for w in t if w not in WEAK_WORDS and len(w) >= 5)
 
 FOREIGN_SUFFIX = re.compile(r"\b(ltd|limited|pvt|gmbh|s\.?a\.?|pty|bhd|sdn|plc|ag|nv|bv|oy|ab|as|kk|srl|spa|sas|sarl)\b\.?", re.I)
 
@@ -581,6 +589,142 @@ def enrich_from_letters(rows, cache_path):
         pass
     return n
 
+# ----------------------------------------------------------------------------
+# one real news article per org, via Google News RSS search. Kept only when the
+# headline names the org, cached in news.json so daily runs only query new orgs.
+# ----------------------------------------------------------------------------
+def find_news(org):
+    short = name_variants(org)[0]
+    key = sig(org)
+    first = next(iter(short.lower().split()), "")
+    q = urllib.parse.quote(f'"{short}" (breach OR ransomware OR cyberattack OR "cyber attack" OR "security incident" OR "data security")')
+    try:
+        root = ET.fromstring(get(f"https://news.google.com/rss/search?q={q}&hl=en-US&gl=US&ceid=US:en", timeout=30, retries=0).encode("utf-8", "ignore"))
+    except Exception:
+        return {}
+    for item in list(root.iter("item"))[:8]:
+        title = strip(item.findtext("title", ""))
+        tl = norm(title)
+        if (key and key <= set(tl.split())) or (first and len(first) >= 5 and first in tl):
+            return {"url": (item.findtext("link") or "").strip(), "title": title[:160],
+                    "date": (parse_date(item.findtext("pubDate", "")) or TODAY).isoformat()}
+    return {}
+
+def enrich_news(rows, cache_path):
+    try:
+        cache = json.load(open(cache_path, encoding="utf-8"))
+    except Exception:
+        cache = {}
+    n = 0
+    for r in rows:
+        k = norm(r["org"])
+        if not k:
+            continue
+        hit = cache.get(k)
+        if hit is None or (not hit.get("url") and hit.get("ts", "") < (TODAY - dt.timedelta(days=7)).isoformat()):
+            hit = find_news(r["org"]); hit["ts"] = TODAY.isoformat(); cache[k] = hit; n += 1
+            time.sleep(0.4)
+        r["news_url"], r["news_title"], r["news_date"] = hit.get("url", ""), hit.get("title", ""), hit.get("date", "")
+    try:
+        json.dump(cache, open(cache_path, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+    except Exception:
+        pass
+    return n
+
+# ----------------------------------------------------------------------------
+# HubSpot overlay. hubspot_matches.json is produced by hs_tools.py from HubSpot
+# connector answers (no API token on this machine); merged here on every run.
+# ----------------------------------------------------------------------------
+def enrich_hubspot(rows, path):
+    try:
+        m = json.load(open(path, encoding="utf-8"))
+    except Exception:
+        m = {}
+    hit = 0
+    for r in rows:
+        h = m.get(r["domain"]) if r["domain"] else None
+        if h is None:
+            h = m.get(norm(r["org"]))
+        if not h:
+            r.update({"hs_company_id": "", "hs_company_url": "", "hs_owner": "", "hs_deals": "", "hs_contacts": "", "hs_industry": "", "hs_employees": "", "hs_revenue": "", "hs_last_touch": "", "hs_deal_names": "", "hs_resellers": "", "hs_vendors": "", "relationship": "none on file"})
+            continue
+        hit += 1
+        if not r["domain"] and h.get("domain"):
+            r["domain"], r["domain_source"] = h["domain"], "hubspot"
+        dl = h.get("deal_list", [])
+        resellers = sorted({d["reseller"] for d in dl if d.get("reseller")})
+        vendors = sorted({d["vendor"] for d in dl if d.get("vendor")})
+        r.update({
+            "hs_company_id": h.get("company_id", ""),
+            "hs_company_url": f"https://app.hubspot.com/contacts/40099206/company/{h['company_id']}" if h.get("company_id") else "",
+            "hs_owner": h.get("owner", ""), "hs_deals": h.get("deals", "") or str(len(dl)), "hs_contacts": h.get("contacts", ""),
+            "hs_industry": h.get("industry", ""), "hs_employees": h.get("employees", ""), "hs_revenue": h.get("revenue", ""),
+            "hs_last_touch": h.get("modified", ""),
+            "hs_deal_names": " | ".join(f"{d['name']} [{d.get('stage','')}{', $'+str(d['amount']) if d.get('amount') else ''}]" for d in dl)[:400],
+            "hs_resellers": ", ".join(resellers), "hs_vendors": ", ".join(vendors),
+        })
+        if dl:
+            r["relationship"] = f"deal history via {', '.join(resellers) or 'unnamed reseller'}"
+        elif h.get("company_id"):
+            r["relationship"] = "company on file, no deals"
+        else:
+            r["relationship"] = "none on file"
+    return hit
+
+# ----------------------------------------------------------------------------
+# SEC EDGAR: public-company flag from the free company_tickers.json
+# ----------------------------------------------------------------------------
+def enrich_sec(rows, cache_path):
+    try:
+        if not os.path.exists(cache_path) or (time.time() - os.path.getmtime(cache_path)) > 7 * 86400:
+            raw = get("https://www.sec.gov/files/company_tickers.json", headers={"User-Agent": "Radius Channels ladams@radiuschannels.com"}, timeout=60)
+            open(cache_path, "w", encoding="utf-8").write(raw)
+        data = json.load(open(cache_path, encoding="utf-8"))
+    except Exception:
+        for r in rows: r.update({"sec_ticker": "", "sec_cik": "", "edgar_url": ""})
+        return 0
+    by_sig = {}
+    for v in data.values():
+        s = frozenset(sig(v["title"]))
+        if s: by_sig.setdefault(s, []).append(v)
+    n = 0
+    for r in rows:
+        so = frozenset(sig(r["org"]))
+        hit = by_sig.get(so) if so else None
+        if not hit and r["domain"]:
+            stem = r["domain"].split(".")[0].replace("-", "")
+            cands = [v for s, vs in by_sig.items() for v in vs if len(s) >= 1 and "".join(sorted(s)) == stem]
+            hit = cands or None
+        if hit:
+            v = hit[0]; n += 1
+            r.update({"sec_ticker": v["ticker"], "sec_cik": str(v["cik_str"]),
+                      "edgar_url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={int(v['cik_str']):010d}&type=8-K&dateb=&owner=include&count=40"})
+        else:
+            r.update({"sec_ticker": "", "sec_cik": "", "edgar_url": ""})
+    return n
+
+# ----------------------------------------------------------------------------
+# partner / rep account-list overlay (PRIVATE), from account_lists.py
+# ----------------------------------------------------------------------------
+def enrich_accounts(rows, path):
+    try:
+        m = json.load(open(path, encoding="utf-8"))
+    except Exception:
+        m = {}
+    n = 0
+    for r in rows:
+        h = (m.get(r["domain"]) if r["domain"] else None) or m.get(norm(r["org"]))
+        if not h:
+            r["account_lists"], r["account_list_hits"] = "", 0
+            continue
+        n += 1
+        r["account_lists"] = h["summary"]
+        r["account_list_hits"] = len(h["hits"])
+    return n
+
+PRIVATE_FIELDS = ("relationship", "hs_company_url", "hs_owner", "hs_deals", "hs_contacts", "hs_resellers", "hs_vendors", "hs_deal_names",
+                  "hs_industry", "hs_employees", "hs_revenue", "hs_last_touch", "hs_company_id", "account_lists", "account_list_hits")
+
 def clean_domain(d):
     d = (d or "").strip().lower()
     d = re.sub(r"^https?:/{0,2}", "", d); d = re.sub(r"^www\.", "", d); d = d.split("/")[0].split("?")[0]
@@ -622,11 +766,12 @@ def norm(s):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--days", type=int, default=14)
+    ap.add_argument("--days", type=int, default=90, help="window on the REPORTED date; state filings lag incidents 30-90 days and are posted in batches")
     ap.add_argument("--out", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "breach_signals.csv"))
     ap.add_argument("--only", default="", help="comma list of source keys")
     ap.add_argument("--json", default="", help="also write a JSON feed (for the site / POE)")
     ap.add_argument("--no-domains", action="store_true", help="skip web domain lookup")
+    ap.add_argument("--private", default="", help="directory for the ENRICHED (HubSpot + account lists) json/csv; never published")
     ap.add_argument("--keep-news", action="store_true", help="keep unmatched news headlines as rows (default: drop)")
     a = ap.parse_args()
     keys = [k.strip() for k in a.only.split(",") if k.strip()] or list(SOURCES)
@@ -703,6 +848,10 @@ def main():
     looked = 0
     if not a.no_domains:
         looked = resolve_domains(out, os.path.join(here, "domains.json"))
+    newsed = enrich_news(out, os.path.join(here, "news.json"))
+    hs_hits = enrich_hubspot(out, os.path.join(here, "hubspot_matches.json"))
+    acct_hits = enrich_accounts(out, os.path.join(here, "account_matches.json"))
+    sec_hits = enrich_sec(out, os.path.join(here, "company_tickers.json"))
     for r in out:
         r["incident_type"] = incident_type(r["detail"] + " " + r["sector"])
         r["product_fit"] = product_fit(r["detail"] + " " + r["sector"] + " " + r["org"])
@@ -711,7 +860,7 @@ def main():
         # confidence: filing = the org itself admitted it; claim = gang says so; corroborated = claim + a second independent source
         if any(s.startswith("state_") for s in srcs):
             r["confidence"] = "confirmed: organization filed with a regulator"
-        elif "rwl" in srcs and (len(srcs) > 1 or r.get("press_url")):
+        elif "rwl" in srcs and (len(srcs) > 1 or r.get("press_url") or r.get("news_url")):
             r["confidence"] = "corroborated: leak-site claim plus independent report"
         elif "rwl" in srcs:
             r["confidence"] = "unverified: leak-site claim only"
@@ -722,7 +871,10 @@ def main():
         r["verify_url"] = "https://news.google.com/search?q=" + urllib.parse.quote(f'"{r["org"]}" (breach OR ransomware OR cyberattack OR "security incident")')
 
     cols = ["tier", "reported", "org", "domain", "domain_source", "country", "state", "sector", "affected", "breach_date",
-            "incident_type", "lead_with", "product_fit", "confidence", "reported_to", "source", "detail", "url", "letter_url", "evidence_url", "press_url", "verify_url"]
+            "incident_type", "lead_with", "product_fit", "confidence", "reported_to", "source", "detail", "url", "letter_url", "evidence_url", "press_url",
+            "news_url", "news_title", "news_date", "verify_url",
+            "sec_ticker", "sec_cik", "edgar_url"]
+    private_cols = cols + list(PRIVATE_FIELDS)
     with open(a.out, "w", newline="", encoding="utf-8-sig") as f:
         w = csv.DictWriter(f, fieldnames=cols)
         w.writeheader()
@@ -741,9 +893,19 @@ def main():
         }
         with open(a.json, "w", encoding="utf-8") as f:
             json.dump(feed, f, ensure_ascii=False, indent=1)
+    if a.private:
+        os.makedirs(a.private, exist_ok=True)
+        pfeed = {"generated_utc": dt.datetime.now(dt.timezone.utc).replace(microsecond=0).strftime("%Y-%m-%dT%H:%M:%SZ"), "window_days": a.days,
+                 "private": True, "count": len(out), "hubspot_hits": hs_hits, "account_list_hits": acct_hits, "sec_hits": sec_hits,
+                 "signals": [{c: r.get(c, "") for c in private_cols} for r in out]}
+        with open(os.path.join(a.private, "signals_enriched.json"), "w", encoding="utf-8") as f:
+            json.dump(pfeed, f, ensure_ascii=False, indent=1)
+        with open(os.path.join(a.private, "signals_enriched.csv"), "w", newline="", encoding="utf-8-sig") as f:
+            w = csv.DictWriter(f, fieldnames=private_cols); w.writeheader()
+            for r in out: w.writerow({c: r.get(c, "") for c in private_cols})
 
     print(f"\nwindow: last {a.days} days   unique orgs: {len(out)}   raw rows: {len(rows)}   dropped non-US/CA: {dropped}   "
-          f"news headlines unmatched: {len(news)}   letters read: {letters}   domains looked up: {looked}   with domain: {sum(1 for r in out if r['domain'])}   -> {a.out}")
+          f"news headlines unmatched: {len(news)}   letters read: {letters}   domains looked up: {looked}   news looked up: {newsed}   with news: {sum(1 for r in out if r.get('news_url'))}   hubspot hits: {hs_hits}   account-list hits: {acct_hits}   SEC public cos: {sec_hits}   with domain: {sum(1 for r in out if r['domain'])}   -> {a.out}")
     print(f"{'source':10} {'status':44} {'rows':>5} {'sec':>5}")
     for k, s, n, sec in status:
         print(f"{k:10} {s[:44]:44} {n:5d} {sec:5}")

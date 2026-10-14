@@ -1,0 +1,76 @@
+C:\Users\ladams1\AppData\Local\Programs\Python\Python312\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Unknown extension is not supported and will be removed
+  warn(msg)
+C:\Users\ladams1\AppData\Local\Programs\Python\Python312\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Conditional Formatting extension is not supported and will be removed
+  warn(msg)
+  Alex Full Account List 2025 Sept_Partners.xlsx / Full Account List: header=yes names=2 web=3
+  Alexis Lists\Abira%20Survey_Split_Columns.xlsx / Abira Survey: header=yes names=1 web=1
+  Alexis Lists\Chuco Lead List .xlsx / ChucoLeadListQ3_Refined.csv: header=yes names=11 web=4
+  Alexis Lists\Move list.csv / csv: header=no names=0 web=0
+  Alexis Lists\USA Prospect List.xlsx / Sheet1: header=yes names=1 web=1
+  Andrew Quellmalzs Accounts (Mapped).xlsx / Sheet1: header=yes names=1 web=0
+  Carls Accounts (Mapped).xlsx / Sheet1: header=yes names=1 web=0
+  Carson Williams Accounts (Mapped).xlsx / Sheet1: header=yes names=1 web=0
+  Copy of Account list 2026.xlsx / Sheet1: header=no names=0 web=0
+  Illumio Whitespace & Customer List - Mar 2026 2.xlsx / Illumio Account List: header=yes names=1 web=1
+  Insight Account List.csv / csv: header=yes names=13 web=0
+  Jennah Lists\Audra Account list_Druva_2026.xlsx / Sheet1: header=yes names=1 web=0
+  Jennah Lists\Aurda ICP Accounts 2026.xlsx / Sheet1: header=yes names=1 web=0
+  Jennah Lists\CathyJahan_AccountList_It1Source_3.11.25.xlsx / Sheet1: header=yes names=1 web=0
+  Jennah Lists\Clay Bradley ICP List 2026.xlsx / Sheet1: header=yes names=1 web=0
+  Jennah Lists\ClayB Accounts_2026_Vancouver.xlsx / Vancouver BC: header=yes names=2 web=0
+  Jennah Lists\ClayBradley AccountList_Druva_FY2026 Account List.xlsx / Washington: header=yes names=2 web=0
+  Jennah Lists\ClayBradley AccountList_Druva_FY2026 Account List.xlsx / Calgary: header=yes names=3 web=0
+  Jennah Lists\ClayBradley AccountList_Druva_FY2026 Account List.xlsx / Oregon: header=yes names=2 web=0
+  Jennah Lists\ClayBradley AccountList_Druva_FY2026 Account List.xlsx / Edmonton: header=yes names=2 web=0
+  Jennah Lists\ClayBradley AccountList_Druva_FY2026 Account List.xlsx / AK,ID: header=yes names=2 web=0
+  Jennah Lists\ClayBradley AccountList_Druva_FY2026 Account List.xlsx / Sask & Manitoba: header=no names=0 web=0
+  Jennah Lists\Druva_Jake Giles Accounts for Jennah_.xlsx / Sheet1: header=yes names=1 web=0
+  Jennah Lists\Druva_WestTargetAccounts_2.23.26.xlsx / Export West TAL by Rep: header=no names=0 web=0
+  Jennah Lists\Druva_WestTargetAccounts_2.23.26.xlsx / Accounts by Rep (no Crossbeam): header=yes names=1 web=1
+  Jennah Lists\Druva_WestTargetAccounts_2.23.26.xlsx / West Accounts with Crossbeam: header=yes names=1 web=0
+  Jennah Lists\HarryKuo_ICPList_2026.xlsx / Sheet1: header=no names=0 web=0
+  Jennah Lists\JakeGiles_ICP List_2026.xlsx / Sheet1: header=no names=0 web=0
+  Jennah Lists\Katina Hamann Trace3 Account mapping_12.6.23.xlsx / Reveal-account-mapping-2023-12-: header=yes names=2 web=1
+  Jennah Lists\KristinWhittlesey_AccountList_RyArmstrong_1.21.26.xlsx / Sheet1: header=yes names=1 web=0
+  Jennah Lists\LukeMcCorm_ICPList_2026.xlsx / Sheet1: header=yes names=1 web=0
+  Jennah Lists\MacLovenICPList_2026.xlsx / Sheet1: header=no names=0 web=0
+  Jennah Lists\Manny O_MicroAge_AM_3.13.24.xlsx / Manny O_MicroAge_AM_3.13.24: header=yes names=2 web=2
+  Jennah Lists\MicroAge_NathanDietzAccounts_ClayBradley_2026.xlsx / Sheet1: header=yes names=2 web=0
+C:\Users\ladams1\AppData\Local\Programs\Python\Python312\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Data Validation extension is not supported and will be removed
+  warn(msg)
+  Jennah Lists\NathanDietz_MicroAge_ListOfAccounts_8.4.26.xlsx / My Active Accounts: header=yes names=2 web=0
+  Jennah Lists\NathanDietz_MicroAge_ListOfAccounts_8.4.26.xlsx / hiddenSheet: header=yes names=2 web=0
+  Jennah Lists\NathanDietz_Microage_Accounts_AudraKincart_2026.xlsx / Sheet1: header=yes names=2 web=0
+  Jennah Lists\Shane M_MicroAge_Current Buying Customers AM_2.28.24.csv / csv: header=yes names=2 web=1
+  Jennah Lists\TeamArmstrong-Pellera-Account-List.xlsx / Copy-TeamArmstrong-Converge-Acc: header=yes names=1 web=1
+  Jennah Lists\Trace3_Mark Weisman AM_3.1.24.csv / csv: header=yes names=1 web=1
+  Jennah Lists\ZachN_ICPList_2026.xlsx / Sheet1: header=yes names=1 web=0
+  Jennah Lists\partners from the audra list.xlsx / Sheet2: header=no names=0 web=0
+  Lenovo Softchoice Utah Accounts 2026.xlsx / Sheet1: header=yes names=3 web=0
+  Lenovo Softchoice Utah Accounts 2026.xlsx / Sheet2: header=yes names=2 web=0
+  Mapped Accounts for DSAs.xlsx / Partner Outreach: header=yes names=1 web=0
+  Martha Lists\CDW Account List Ashley +Martha.xlsx / Sheet1: header=yes names=1 web=0
+  Martha Lists\Dawson Reinis.xlsx / dawson reinis: header=yes names=1 web=0
+  Mckenna Lists\List My Accounts-FY26_FINAL 3.11.2025(1)_Radius.xlsx / My Accounts: header=no names=0 web=0
+  Mckenna Lists\Patrick Top 25.xlsx / Sheet1: header=no names=0 web=0
+  Randy Eilerings Accounts (Mapped).xlsx / Sheet1: header=yes names=1 web=0
+  Sam Barone Illumio VSA Accounts.xlsx / report1786652927867: header=yes names=1 web=1
+  ThombsAccounts with CF AEs.xlsx / Top25_2024: header=yes names=1 web=0
+  ThombsAccounts with CF AEs.xlsx / Top25_2025: header=yes names=1 web=0
+  ThombsAccounts with CF AEs.xlsx / MA Banks: header=yes names=1 web=0
+  ThombsAccounts with CF AEs.xlsx / ME Banks: header=yes names=1 web=0
+C:\Users\ladams1\AppData\Local\Programs\Python\Python312\Lib\site-packages\openpyxl\worksheet\_reader.py:329: UserWarning: Slicer List extension is not supported and will be removed
+  warn(msg)
+  Todd Side Quest\Lenovo Corp. Acquisition Master List - BOA + Baseline FY26+1H27.xlsx / Summary: header=no names=0 web=0
+  Todd Side Quest\Lenovo Corp. Acquisition Master List - BOA + Baseline FY26+1H27.xlsx / Baseline Pivots: header=no names=0 web=0
+  Todd Side Quest\Lenovo Corp. Acquisition Master List - BOA + Baseline FY26+1H27.xlsx / Baseline: header=yes names=2 web=0
+  Todd Side Quest\Lenovo Corp. Acquisition Master List - BOA + Baseline FY26+1H27.xlsx / BOA: header=yes names=2 web=0
+  Todd Side Quest\Lenovo_Corp_Acquisition_Master_List_-_ENRICHED_Domains_filled(1).xlsx / Summary: header=no names=0 web=0
+  Todd Side Quest\Lenovo_Corp_Acquisition_Master_List_-_ENRICHED_Domains_filled(1).xlsx / Baseline Pivots: header=no names=0 web=0
+  Todd Side Quest\Lenovo_Corp_Acquisition_Master_List_-_ENRICHED_Domains_filled(1).xlsx / Baseline: header=yes names=2 web=0
+  Todd Side Quest\Lenovo_Corp_Acquisition_Master_List_-_ENRICHED_Domains_filled(1).xlsx / BOA: header=yes names=2 web=1
+  Todd Side Quest\Lenovo_Corp_Acquisition_Master_List_-_ENRICHED_Domains_filled.xlsx / Summary: header=no names=0 web=0
+  Todd Side Quest\Lenovo_Corp_Acquisition_Master_List_-_ENRICHED_Domains_filled.xlsx / Baseline Pivots: header=no names=0 web=0
+  Todd Side Quest\Lenovo_Corp_Acquisition_Master_List_-_ENRICHED_Domains_filled.xlsx / Baseline: header=yes names=2 web=0
+  Todd Side Quest\Lenovo_Corp_Acquisition_Master_List_-_ENRICHED_Domains_filled.xlsx / BOA: header=yes names=2 web=1
+index: 67 sheets, 115342 rows, 97762 names, 56099 domains -> C:\Users\ladams1\repos\breach-signals\account_index.json.gz

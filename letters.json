@@ -214,5 +214,449 @@
  "https://oag.ca.gov/system/files/Buchalter%20Example%20Notice.pdf": {
   "excerpt": "On August 28, 2026, Buchalter learned that a limited amount of Buchalter data was subject to unauthorized acquisition. In response, Buchalter immediately took steps to confirm the security of its systems and commenced an internal investigation with the assistance of third-party computer forensic specialists to evaluate the scope of the incident. Buchalter has determined that this was an isolated incident and there is no evidence that the unauthorized actor gained access to or impacted Buchalter's network or systems. Buchalter engaged data mining experts to perform a comprehensive review of the",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/DentaQuest%20-%20Adult%20Notification%20Letter.pdf": {
+  "excerpt": "On May 20, 2026, DentaQuest discovered that unauthorized individuals accessed certain data on our computer network. This included personal identification and dental or vision health information. We took immediate action to secure the network. We also reported the incident to law enforcement. We later learned that the incident began on May 17, 2026, and ended by May 20, 2026. We immediately began an investigation with leading, independent cybersecurity experts to learn what information was accessed. After finishing our review, we determined that your personal information was accessed and posted",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/ASOS%20US%20Sales%20LLC%20-%20CA-US%20notification.pdf": {
+  "excerpt": "com Limited, to let you know that information associated with your ASOS account may have been accessed by an unauthorised third party. I'm writing to let you know what happened, what information was involved, what we've done to protect your privacy, and what steps you can take. What happened. On Tuesday, July 28, 2026, we detected unusual activity involving your ASOS account and immediately began an investigation. On Wednesday, July 29, 2026, we confirmed that an unauthorized third party may have gained access to your account using login credentials obtained from a source outside ASOS. We have",
+  "domain": "asos.com"
+ },
+ "https://oag.ca.gov/system/files/EXP_Q3591_CATALYST_DBM-5969_L01_SAS_0.pdf": {
+  "excerpt": "Catalyst Brands LLC recently became aware of a cybersecurity incident on or around May 26, 2026, involving unauthorized access to certain servers managed by a third party that supports Catalyst Brands HR and pa yroll- related services. Based on our investigation, we determined on August 5, 2026, that an unauthorized third party obtained some of your personal information in connection with this issue.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/BBU%20-%20California%20Notification.pdf": {
+  "excerpt": "We recently completed our investigation of an incident that involved a zero-day vulnerability in Oracle's E-Business Suite application. Upon learning of the zero-day vulnerability, we immediately applied patches provided by Oracle to address the vulnerability and launched an investigation. The investigation determined on December 6, 2025 that the zero-day vulnerability allowed unauthorized parties to acquire files stored in the Oracle's E-Business Suite application. As part of the investigation, we launched a comprehensive review to determine the contents of the files involved in the incident.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Apple%20American%20Group%20LLC%20and%20Apple%20American%20Group%20II%2C%20LLC%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "On April 9, 2026, we became aware of suspicious network activity and promptly took steps to secure our systems. In response, we also launched a comprehensive investigation to determine the full nature and scope of the activity. The investigation determined that an unknown actor accessed certain servers between April 8, 2026 and April 9, 2026, and accessed or acquired certain files during that time. We then undertook a review of the involved files to determine what was contained therein and to whom it related. Recently, it was determined that information related to you may have been present in ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Turner%20Construction%20Company%20-%20Notice%20of%20Data%20Event%20-%20CA.pdf": {
+  "excerpt": "On July 27, 2026, Turner confirmed that files containing personal information had been accessed without authorization. The files identified during the review contained one or more of the following categories of personal information: name, Social Security number (for individuals in the United States), Social Insurance Number (for individuals in Canada), date of birth, salary, bank account information used for direct deposit, and home address. For a limited number of individuals, the files may also have contained a passport number. Notice to California Residents On or about August 18, 2026, Turn",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Paylogix%2C%20LLC%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "In November 2025, Paylogix experienced a network disruption involving certain computer systems and services. In response, we promptly took steps to confirm the security of our systems and began a thorough investigation to determine the nature and scope of the event. The investigation confirmed that the disruption was the result of a cyber incident and that certain files may have been viewed or taken from the Paylogix network between November 13, 2025 and November 18, 2025. As a result, we undertook a comprehensive and thorough review of the relevant files to determine what information was pres",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Kovack%20Securities%20Inc.%20-%20Notice%20of%20Data%20Event%20-%20CA%20AG_0.pdf": {
+  "excerpt": "Kovack became aware of suspicious activity on our computer network on or around August 28, 2025. Kovack promptly took steps to secure our network and launched an investigation to determine the full nature and scope of the event. Kovack's investigation determined that an unknown actor gained access to files within our network between August 8, 2025 to August 27, 2025. Kovack then undertook a review of the files to determine what was contained therein and to whom it related for purposes of providing notice. On July 16, 2026, it was determined that information related to you was contained within ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/JRK%20notification.pdf": {
+  "excerpt": "On March 26, 2026, we identified suspicious activity associated with our network. As soon as we became aware of the activity, we immediately initiated our incident response protocols, took steps to secure our systems, and engaged cybersecurity experts to assist with the investigation. On June 28, 2026, the investigation determined that an unauthorized individual may have accessed certain files and folders where your personal information was stored.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Template%20Individual%20Notice_0.pdf": {
+  "excerpt": "Eyemart learned about a cybersecurity incident on February 13, 2026 that involved unauthorized access to our systems on February 12, 2026. We were able to contain the incident and secure our systems that same day. We immediately launched an investigation to determine the nature and scope of the incident. However, we were not able to identify the affected files to a reasonable degree of certainty until on or about March 17, 2026, after which time we diligently worked to analyze the records involved in order to identify affected individuals so that we could make appropriate notifications.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/AG%20Sample%20Notice.pdf": {
+  "excerpt": "On May 18, 202 6, we learned of a potential employee email compromise and unauthorized access to our system (the \"Incident\"). Bridgeway immediately launched a comprehensive investigation with the assistance of cybersecurity experts and contacted law enforcement. The investigation identified evidence indicating that unauthorized access occurred betwee n March 5, 2026 to May 19, 2026. On June 18, 2026, we determined that some of your personal information may have been involved in the Incident.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Unlimited%20-%20Exhibit%20A%20-%20Sample%20Individual%20Notice.pdf": {
+  "excerpt": "On October 19, 2025, we discovered unauthorized activity within our commercial datacenter. Upon discovering the unauthorized activity, Unlimited hired a leading cybersecurity forensic firm to conduct an investigation, notified law enforcement, and conducted a review of the data involved. Through this investigation, we found evidence that an unauthorized actor obtained a copy of some of your personal information between October 5 and October 10, 2025.",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42154.pdf": {
+  "excerpt": "On or about December 18, 2025, Aesto experienced a network security incident that impacted a limited portion of their Amazon Web Services (\"AWS\") infrastructure. Upon learning of the issue, Aesto commenced a prompt and thorough investigation. As part of Aesto's investigation, Aesto worked very closely with external cybersecurity professionals experienced in handling these types of incidents. After an extensive forensic investigation and manual document review, on May 26, 2026, Aesto confirmed that between on or about December 2, 2025, and December 18, 2025, a limited amount of sensitive inform",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/ELN-28001%20KCH%20Ad%20CM%20r1prf.pdf": {
+  "excerpt": "On or about June 26, 2026, Aesto informed Kaniksu that Aesto had experienced a security event related to its electronic health data management platform. As we have provided care to you, and we utilize Aesto for data management services platform, your patient data may have been accessed or acquired due to the unauthorized access to Aesto's platform. Aesto advised that it engaged leading cybersecurity professionals and conducted a manual review of the impacted data to assist in its mitigation and investigation of the event. Unfortunately, these types of incidents are becoming increasingly common",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/CSSI_CA_Letter.pdf": {
+  "excerpt": " ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/%28zHealth%29%2012%20Month%20Proof%20-%20CA.pdf": {
+  "excerpt": "On or about June 15, 2026, zHealth became aware that certain information may have been copied from its network environment by an unauthorized third party. Upon becoming aware, zHealth promptly began an investigation into the scope and nature of the incident and retained legal counsel and third-party forensic specialists to investigate. The investigation revealed that the unauthorized activity occurred between January 20 to January 21, 2026. zHealth then began a comprehensive review of the data set to determine what sensitive and/or personal information was potentially impacted and to whom it p",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Quatrro_CA%20App%20%26%20Sample_0.pdf": {
+  "excerpt": "Quatrro identified and began taking measures to address a security incident on December 7, 2025. A thorough investigation was conducted. The investigation identified unauthorized access from November 11-19, 2025 to certain files. Those files were reviewed and it was determined that the files contained your information. Following the investigation, Quatrro undertook efforts to identify the clients whose employees' and vendors' information was involved. On August 20, 2026, we notified those clients and now we are notifying you.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/AAC%20-%20California%20Notification.pdf": {
+  "excerpt": "On June 5, 2026, we learned of suspicious activity in our Salesforce environment. We immediately implemented our incident response protocols, took measures to contain the activity, and initiated an investigation. On June 8, 2026, we determined that an unauthorized third-party acquired certain information from our Salesforce instance on May 12, 2026. Importantly, this incident did not involve any access to our systems, network, or health records application.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Full%20Exhibit%20Packet%20-%20FINAL_Redacted.pdf": {
+  "excerpt": " This letter also provides other precautionary measures you can take to protect your personal information, including placing a Fraud Alert and/or Security Freeze on your credit files, and/or obtaining a free credit report. Additionally, you should always remain vigilant in reviewing your financial account statements and credit reports for fraudulent or irregular activity on a regular basis. To the extent that it is helpful, we are also suggesting steps you can take to protect your medical inform",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/SIU_-_Redacted_Letter_39895066v1_0.pdf": {
+  "excerpt": "",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42412.pdf": {
+  "excerpt": "",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Quantum%20-%20California%20Notification.pdf": {
+  "excerpt": "On June 1, 2026, Quantum Health detected a service outage, which affected the availability of certain internal and external systems. Upon identifying the outage, we promptly secured and isolated our systems, while simultaneously launching an investigation with the support of third-party forensics experts. We also reported the incident to federal law enforcement. We immediately took measures to continue supporting members while we completed our restoration efforts. Our investigation determined that the service outage was related to unauthorized access to our IT network, resulting from a user re",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Baylor%20Genetics%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "Baylor Genetics is writing to inform you of a recent cybersecurity incident that impacted a limited portion of our information technology environment and potentially involved some of your personal information. We recognize that receiving a letter like this can be concerning, and we want to provide clear information about what happened and the steps we are taking to support you. Protecting the privacy and security of the information entrusted to us is among our highest priorities. Upon identifying the incident, we immediately secured our systems, engaged leading independent cybersecurity and di",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Lennar%20Mortgage%20-%20California%20-%20Sample%20Individual%20Notice%20Letter.pdf": {
+  "excerpt": "On June 1, 2026, we became aware of a potential issue involving a limited portion of our information systems. We immediately took steps to secure our systems and, with the assistance of a third-party forensics team, investigate the extent of this activity. We then determined that an unauthorized party used sophisticated social engineering tactics to access some of our systems between May 26, 2026 and June 1, 2026.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/AdaptHealth%20-%20Sample%20Individual%20Notice%20Letter.pdf": {
+  "excerpt": "On June 15, 2026, we became aware that an unauthorized third party obtained access to certain company systems. Upon discovery, we immediately took steps to secure our systems, and we initiated an investigation and engaged third-party forensics experts to confirm the scope of the incident. Through this investigation, we learned that the unauthorized third-party gained access to our systems on June 5 through a social engineering attack targeting a single company user account and took with them certain data, including patient information. Importantly, there is no evidence of ongoing unauthorized ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/CareCloud_-_SSN_39739837v1.pdf": {
+  "excerpt": "On March 16, 2026, CareCloud experienced a network disruption in its CareCloud Health division that impacted one of its electronic health record environments. Upon discovering this incident, CareCloud promptly opened an investigation and engaged a leading cyber response advisory team experienced in handling these types of incidents, to assist with securing the environment, and conduct a comprehensive forensic investigation to determine the nature and scope of the incident. CareCloud also reported the matter to the appropriate law enforcement authorities. The investigation determined that, betw",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/EXP_Q2216_SME_DBM-5880_L01_SAS_1.pdf": {
+  "excerpt": "SM Energy experienced a cybersecurity incident on or around May 15, 2026, involving unauthorized access to certain company systems. Based on our investigation, we determined on June 30, 2026, that an unauthorized third party accessed certain SM Energy systems and obtained files containing certain of your personal information.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/CA%20Template%20Letter_Redacted.pdf": {
+  "excerpt": "On June 12, 2026, our cybersecurity system alerted us to unusual activity on our computer network. We promptly began an internal review, took steps to secure our systems, and notified law enforcement. We also engaged a forensic security firm to review what took place and confirm the security of our computer systems. We subsequently determined that some information was illegally acquired from our system on or about June 12, 2026.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Sample%20Letter_7.pdf": {
+  "excerpt": "On February 24, 2026, we discovered your personal information may have been accessed or acquired by unauthorized actor(s) as a result of the Incident. Based on the investigation, it appears the Incident occurred on or around February 18, 2026.",
+  "domain": "transglobalus.com"
+ },
+ "https://oag.ca.gov/system/files/SafetyFirst%20-%20Exhibit%201%20-%20CA_0.pdf": {
+  "excerpt": "On January 19, 2026, a log review revealed suspicious activity associated with a portion of our environment. We secured and remediated the compromise, engaged additional third-party experts, hardened and enhanced our data security, and commenced an investigation. Unfortunately, these types of incidents have become commonplace and impact organizations of all sizes. A third-party forensic investigation determined the unauthorized actor had access to a limited portion of our environment between January 16, 2026, and January 19, 2026, and may have accessed some of your Information.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Fox%20Rothschild%20LLP%20-%20sample%20notice.pdf": {
+  "excerpt": "On May 21, 2026, Fox Rothschild became aware of unusual activity related to a single employee account. We immediately launched an investigation, with the assistance of third-party forensic specialists, to determine the nature and scope of the activity. Our investigation determined that on May 21, 2026 the employee was the target of a social engineering attack, commonly referred to as ªvishingº, and certain files were copied and taken. Social engineering attacks are human-targeted attacks that rely on deception rather than technical intrusion. The incident was limited to a single device and did",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/EXP_Q3728_SUFFOLK_DBM-5989_L01_SAS_1%28121252245.1%29_Redacted.pdf": {
+  "excerpt": "On or about November 7, 2025 , Mercadien, P.C., CPAs (\"Mercadien\"), a former service provider to Suffolk Credit Union , detected unauthorized access to a portion of its computer environment. According to Mercadien, upon discovering the incident, it took immediate steps to secure its environment and began an investigation with assistance from digital forensics and cybersecurity experts. Mercadien's investigation determined that an unauthorized third party may have accessed certain data at times between September 17, 2025, and October 9, 2025. Importantly, the incident was limited to Mercadien's",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/00617240t3_Kroll_ELN-28104_D15_0903_AUDITS_Redacted%20%28ADULT%201YR%29.pdf": {
+  "excerpt": "to make you aware that this could have resulted in unauthorized access to some of your personal information as a current employee of Hibbett or one of Hibbett's affiliate companies. This letter provides additional information about what happened, what we are doing, and steps you can take in response to this matter. What Information Was Involved? The records contain your name, along with your . September 8, 2026 (Your code will not work after this date.) engagement number as proof of eligibility for the identity restoration services by Experian. 5596 Rhode Island Residents : We believe that thi",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/L01_Virta_Adult_SSN_Letter_Revised.pdf": {
+  "excerpt": "On March 24, 2026, Virta Health identified unauthorized activity limited to a data repository that is separate from our current production platform. Upon discovery, we immediately took steps to secure the environment, initiated an investigation to understand the scope of the incident, engaged external cybersecurity experts to perform an independent review, and notified law enforcement. The investigation revealed that the incident was limited to the data repository where certain files were potentially accessed between March 19, 2026, and March 22, 2026. Following a thorough investigation of the",
+  "domain": "virtahealth.com"
+ },
+ "https://oag.ca.gov/system/files/Template%20Notice%20Letter%2012%20Month%20Services%209.2.26.pdf": {
+  "excerpt": "On April 12, 2026, we were notified that an unauthorized user accessed certain portions of our network and encrypted files on a subset of our servers. We immediately launched an investigation and remediation effort with the assistance of outside cybersecurity experts and notified law enforcement. Our investigation determined that there was unauthorized access to portions of our network from April 11, 2026 to April 13, 2026. We initially were unable to determine whether any files had been taken, but we later learned that the unauthorized user acquired certain files before encrypting them and th",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/HumanEdge%20-%20Sample%20Notice%20Letter.pdf": {
+  "excerpt": "HdQYTRc2 C^cXRT ^U 44KPaXPQ[T ITgc )2 =TPSTa55 9TPa 44;Xabc CP\\T55 44APbc CP\\T552 LT PaT faXcX]V c^ X]U^a\\ h^d ^U P aTRT]c SPcP bTRdaXch X]RXST]c cWPc \\Ph WPeT PUUTRcTS h^da _Tab^]P[ X]U^a\\PcX^]& =d\\P]:SVT$ >]R&$ cPZTb cWT _aXePRh P]S bTRdaXch ^U P[[ X]U^a\\PcX^] fXcWX] Xcb _^bbTbbX^] eTah bTaX^db[h& E[TPbT aTPS cWXb [TccTa RPaTUd[[h Pb Xc R^]cPX]b X]U^a\\PcX^] aTVPaSX]V cWT X]RXST]c P]S bcT_b cWPc h^d RP] cPZT c^ WT[_ _a^cTRc h^da _Tab^]P[ X]U^a\\PcX^]& 9A;L -;HH>F>=% D] ^a PQ^dc BPaRW )0$ *(*.$ f",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/DDC%20-%20State%20Regulatory%20Notification%20Letter%20-%20CA%2815254651.2%29_0.pdf": {
+  "excerpt": "On or about March 27, 2026, we became aware of suspicious activity in our network. We immediately took steps to ensure our systems remained secure and launched an investigation with the assistance of independent forensic experts. As a result of the investigation, we learned that certain files may have been downloaded from our network without authorization. Following a comprehensive review of those files, which concluded on July 23, 2026, we determined that your personal information may have been involved in this incident, which is the reason for this notification.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/BRG%20Adult%20CM%202Y.pdf": {
+  "excerpt": "On Sunday, March 2, 2025, we detected suspicious activity in our network and immediately launched an investigation with the assistance of leading data security and privacy professionals. Based on the findings from the investigation, an unauthorized actor briefly gained access to our systems from the evening of Friday, February 28, 2025, until Sunday, March 2, 2025. Our analysis also determined that the unauthorized actor was able to copy some of your Information from our network, but we are unaware of any fraud or identity theft involving your Information stemming from the Incident.",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42591.pdf": {
+  "excerpt": "On April 9, 2026, we became aware of suspicious network activity and promptly took steps to secure our systems. In response, we also launched a comprehensive investigation to determine the full nature and scope of the activity. The investigation determined that an unknown actor accessed certain servers between April 8, 2026 and April 9, 2026, and accessed or acquired certain files during that time. We then undertook a review of the involved files to determine what was contained therein and to whom it related. Recently, it was determined that information related to you may have been present in ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/ISC-Template%20Notification%20Letter.pdf": {
+  "excerpt": "We detected suspicious automated access activity associated with a single account on a third-party cloud platform that ISC uses to facilitate electronic document execution and management. We acted promptly to contain the activity, initiate our incident response protocols, and engage external cybersecurity experts to help us investigate and respond. Our investigation determined that an unauthorized third party accessed a single ISC workspace within the cloud platform between June 8, 2026 and June 11, 2026 and downloaded certain files available there.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/August%202026%20LACMA%20Notice%20-%20CM%20Redacted.pdf": {
+  "excerpt": "In August 2025, the investigation found that an unauthorized third party gained access to a portion of ourcomputernetworkfromJuly7to11,2025.Weidentifiedthefilesimpactedbytheeventandthen engagedadata-reviewfirmtoanalyzethosefiles'contents.Wereceivedtheinitialdata-reviewresultsin lateFebruary2026,andhavebeenworkingsincethentoensurewehaveaccuratecontactinformation fornotifyingimpactedindividuals. WhatInformationWasInvolved? We determined that the impacted files contained some of your personal information, which may includeyour , , . WhatWeAreDoing. We worked with third-party experts to address th",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Pan%20American%20Group%20LLC%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "On April 9, 2026, we became aware of suspicious network activity and promptly took steps to secure our systems. In response, we also launched a comprehensive investigation to determine the full nature and scope of the activity. The investigation determined that an unknown actor accessed certain servers between April 8, 2026 and April 9, 2026, and accessed or acquired certain files during that time. We then undertook a review of the involved files to determine what was contained therein and to whom it related. Recently, it was determined that information related to you may have been present in ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/L01%20Template_CA.pdf": {
+  "excerpt": "Similar to other financial services firms, Apollo recently experienced a social engineering incident. Upon detecting the incident, we promptly notified law enforcement, engaged leading outside cybersecurity and forensic experts, enhanced our security protocols, and launched an investigation. Based on our investigation, we determined that there was unauthorized access to certain cloud platforms between July 6 and July 10, 2026.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Amgen%20Consumer%20Notification%20Letters%20%282%29.pdf": {
+  "excerpt": "On or about July 2, 2026, Amgen became aware of an unauthorized third party access to certain Amgen systems and data stored in cloud environments hosted by third party cloud service providers. Upon discovering the incident, Amgen promptly commenced an investigation and engaged independent cybersecurity forensic experts. On July 18, 2026, Amgen identified that the unauthorized third party had obtained access to and acquired certain files containing patient personal information and health information.",
+  "domain": "amgen.com"
+ },
+ "https://oag.ca.gov/system/files/Corporation%20Service%20Company%20%28CSC%29%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "On July 15, 2026, the review was completed and we determined your information was within the impacted files. What Information Was Involved? The information identified in the impacted files included What We Are Doing. CSC takes the confidentiality, privacy, and security of information in its care seriously. Upon learning of the incident, we immediately commenced an investigation and took steps to implement additional safeguards and review our policies and procedures relating to data privacy and security. As an added precaution, CSC is offering you with access to 12 months of Single Bureau Credi",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Dubrow%20-%20Regulatory%20Notification%20Packet%20%28CA%29_0.pdf": {
+  "excerpt": "On July 27, 2026, the Practice learned that some of your personal information was accessed and acquired without authorization. At this time, we have no evidence that your personal information has been misused or publicly disclosed. Based on our investigation to date, we believe the incident has been contained. While no organization can eliminate all future risk, we are notifying you out of an abundance of caution and in accordance with our legal obligations. What Information Was Involved. The data that was acquired included your name and information contained in your patient chart that you or ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/May%20Trucking%20-%20Regulatory%20Report%20Letter%20%28CA%29_0.pdf": {
+  "excerpt": "On June 21, 2026, we detected suspicious activity within our network and immediately initiated an investigation. We also engaged independent cybersecurity specialists to assist with the process. The investigation determined that certain files were acquired without authorization at the time we detected the incident. On July 23, 2026, we learned that some of your personal information was contained within the affected files. We then engaged a third party vendor to notify you as soon as possible.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Universal%20Plant%20Services%20Adult%20CM.pdf": {
+  "excerpt": "On June 12, 2026, we became aware of unauthorized activity on our computer network and immediately engaged third-party forensic specialists to determine the full nature and scope of the event. This investigation confirmed an unauthorized individual accessed data within the Universal Plant Services network from June 8, 2026, through June 12, 2026. We then began a thorough review of the impacted data to determine the types of information contained therein and to whom the information related. We completed this review July 14, 2026, and proceed to provide notification of this event.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/USA%20DeBusk%20-%20Individual%20Notice%20Letter.pdf": {
+  "excerpt": "USA DeBusk LLC experienced a cybersecurity incident on or around September 5, 2025, involving unauthorized access to certain of our systems. Based on our investigation, we determined on July 6, 2026, that, in connection with this issue, an unauthorized third party obtained certain of your personal information.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/BHCHP%20CA%20Reg%20Notice%20Letter.docx__0.pdf": {
+  "excerpt": "On June 8, 2026, we discovered that certain personal information of certain patients or employees was potentially impacted as the result of a network disruption initially learned of on November 11, 2025. We initiated an investigation of the matter and engaged cybersecurity experts to assist with the process. As a result of the investigation, we determined that certain files may have been accessed and / or acquired without authorization. We then undertook a comprehensive review of those files and, on or about June 8, 2026, learned that some of your personal information was contained within the ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Sample%20Notification%20Letter_10_0.pdf": {
+  "excerpt": "SAMPLE NOTIFICATION LETTER Return Mail Processing PO Box 999 Suwanee, GA 30024 August7,2026 Engagement#[EngagementNumber] FTDAADTATADFDADADTAATFDDFTTFFFAFTADFATDTDDDFATATFATTATADFDAADTFDD 811981*******************************MIXEDWKGSAMPLEA.SAMPLE-L01APTABC123ANYSTANYTOWN,US12345-6789 NOTICEOFDATABREACH DearSampleA.Sample:Wearewritingtoinformyouofadatasecurityincidentinvolvingcertainpersonaldatarelatingtoyou.Thisletterexplainswhathappened,thecategoriesofpersonaldatainvolved,thestepswehavetakenor",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Robert%20Arshagouni%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "We were alerted to a potential cybersecurity event and immediately began an investigation. The investigation determined that in January and February 2026, an unauthorized person gained intermittent access to certain systems and the information stored therein. The potentially impacted data was reviewed to determine whether it contained sensitive information and to whom that information related. <<Variable Sentence (WA only): This review was completed on or around May 14, 2026.>>",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/M%2BG%20-%20Exhibit%201%20-%20CA_0.pdf": {
+  "excerpt": "On June 15, 2026, we received con ﬁrmation from a third-party service provider relating to a potential compromise on our website which we were investigating. The investigation into the activity identi ﬁed unauthorized code on our site that may have captured certain information entered on the checkout/payment page, at times between May 22, 2026 and June 10, 2026. We took immediate action to analyze the transactions identi ﬁed as at risk and determine which customers' information could have been captured to notify them accordingly.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/CTS_Letter_A_Redacted_39787951v1.pdf": {
+  "excerpt": "As a result of a cybersecurity incident, CTS learned that an unauthorized actor gained access to our network environment.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Everside%20-%20California%20Notification_Redacted.pdf": {
+  "excerpt": "On or about December 18, 2025, Aesto experienced a network security incident that impacted a limited portion of Aesto's Amazon Web Services infrastructure.",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42014.pdf": {
+  "excerpt": "ADT's cybersecurity systems detected unauthorized access to a limited set of customer and prospective customer data on April 20. • What We've Done: We activated our response protocols immediately — terminating the intrusion, launching a forensic investigation with leading third-party cybersecurity experts, and notifying law enforcement. •",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Stack%20Sports%20-%20Consumer%20Notification%20for%20California%20Residents.pdf": {
+  "excerpt": "On June 8, 2026, Stack Sports identified suspicious activity affecting the Platform through its internal security monitoring mechanisms. We immediately took steps to contain, investigate and remediate the activity, engaging an independent incident response team to assist with a forensic investigation and experienced cybersecurity counsel to advise on our response. On June 22, 2026, based on our review of the system, related data, and detection records, Stack Sports was able to determine the following timeline and details: ● Incident Window: The unauthorized activity began on or about May 8, 20",
+  "domain": "stacksports.com"
+ },
+ "https://oag.ca.gov/system/files/Devereux%20Foundation%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "On November 9, 2025, Devereux identified suspicious activity within certain systems on our computer network. We took prompt and extensive action to isolate our systems, assess the security of our network, and launched an investigation to determine the nature and scope of the event. The investigation determined that an unauthorized actor gained access to certain systems from November 6, 2025, to November 9, 2025, and copied files without permission.​ ​ ​ As part of the investigation, Devereux undertook a thorough and comprehensive review of the files to determine whether any sensitive informati",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/ELN-27475_Questo_Ad_CM_Variable_A_r1prf_39626763v1.pdf": {
+  "excerpt": "On October 9, 2025, we detected unusual activity in Questo's network environment.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/ZenPatient%20-%20Sample%20Notice.pdf": {
+  "excerpt": "Sample: ZenPatient, Inc. (\"ZenPatient\") writes to inform you of a recent event involving certain information related to you. While we are not aware of any actual or attempted misuse of data as a result of this event, we have taken measures to address the incident and are providing details of the incident and the resources available to you to help protect your information from possible misuse, should you feel it is appropriate to do so. What Happened? ZenPatient, with the assistance of third-party cybersecurity and data privacy specialists, has been investigating suspicious activity, within its",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/ELC%20-%20U.S.%20Individual%20Notification%20Letter.pdf": {
+  "excerpt": "We became aware of a cybersecurity issue involving a vulnerability in the Oracle E -Business Suite system which is used by the Estee Lauder Companies for HR management purposes . On June 1 9, 2026, we determined through our investigation that, on or around August 9, 2025 , an unauthorized third party gained access to the Oracle E-Business Suite system and obtained personal information of certain individuals.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Bayada%20-%20Sample%20Notice.pdf": {
+  "excerpt": "On March 2, 2026, BAYADA first became aware of a cybersecurity event. BAYADA immediately initiated our incident response protocols and engaged third party specialists to conduct a forensic investigation. Through the investigation BAYADA determined that an unauthorized actor gained access to certain BAYADA systems and copied data between February 18 and March 2, 2026. Following completion of the investigation, BAYADA engaged third-party data review specialists to review the affected data. Subsequently, BAYADA undertook a thorough and detailed review of the data identified to identify individual",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/CPG%20-%20Aesto.pdf": {
+  "excerpt": "On or about December 18, 2025, A esto experienced a network security incident that impacted a limited portion of their Amazon Web Services infrastructure.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Elixir%20-%20California%20Notification.pdf": {
+  "excerpt": "After learning that an unauthorized party gained access to our computer network, we immediately began an investigation with assistance from third-party experts. We also notified law enforcement of the incident. The investigation determined that the unauthorized party accessed Elixir's computer network between July 20, 2026 and July 21, 2026. On August 11, 2026, we determined that some of the potentially at-risk files contained human resources information pertaining to current and former employees and consultants, along with information related to certain beneficiaries and dependents.",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42695.pdf": {
+  "excerpt": "On April 7, 2026, LHC became aware that one of its employees may have been the victim of a vishing (voice phishing) attack. Subsequently, our third-party technology vendor reported that there was suspicious activity in their platform associated with an LHC user account. We immediately launched an investigation, took steps to secure its systems, worked with our vendor, enlisted the assistance of third- party forensic experts, and notified the FBI. LHC's investigation determined that a threat actor stole user account credentials and accessed files on the vendor's platform that contained patient ",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42680.pdf": {
+  "excerpt": "On April 20, 2026, Lighthouse identified suspicious activity related to a Lighthouse email account. Lighthouse promptly took steps to secure its email environment and conduct an investigation. As a result of the investigation, Lighthouse determined that an unauthorized party gained access to a Lighthouse email account from April 9, 2026 to April 20, 2026. As a result, Lighthouse conducted a comprehensive review of the emails in the accessed email account to determine whether they contained any personal information and to whom the information may relate in order to provide notifications to pote",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42675.pdf": {
+  "excerpt": "Thank you for using version 2025.4.1104.462 of Telerik Document Processing Libraries. Access to the latest updates and support requires a valid license. Renew your license and download a new license key. Learn more about Telerik Document Processing Libraries licensing https://prgress.co/3PwQMut Thank you for using version 2025.4.1104.462 of Telerik Document Processing Libraries. Access to the latest updates and support requires a valid license. Renew your license and download a new license key. ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Fiesta_Notice_Letter_40024434v1.pdf": {
+  "excerpt": " For More Information We sincerely regret any concern or inconvenience this incident may cause. Fiesta Insurance is committed to maintaining the privacy of the personal information in our possession and has taken many precautions to safeguard it. Fiesta Insurance continually evaluates and modifies its practices and internal controls to enhance the security and privacy of your personal information. If you have any further questions regarding this incident, please call our dedicated and confidenti",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Sample%20California%20Notice%20Letter%20YouLend%20US%20LLC%20-%20Wave%202.pdf": {
+  "excerpt": "On June 9, 2026, we received alerts of a disruption to our computer network. Upon identifying the disruption, we launched an immediate investigation and engaged outside cybersecurity specialists to assist. The investigation determined that our network was accessed without authorization between June 5, 2026 to June 9, 2026, and that certain files containing your personal information, as described below, was acquired.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/KRC%20-%20Sample%20Individual%20Notice%20Letter%20-%209.2.2026_Redacted.pdf": {
+  "excerpt": " 1 ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/DOB%20California%20-%20Breach%20Notification%20260831.docx_.pdf": {
+  "excerpt": "On August 19, 2026, we discovered that an unauthorized person accessed an environment used by Fishbrain to host user data, and we immediately commenced a forensic investigation. On August 24, 2026, Fishbrain determined that the unauthorized person accessed information associated with certain users' login credentials, among other things. Our investigation indicates that the unauthorized access occurred as early as July 30, 2026.",
+  "domain": "fishbrain.com"
+ },
+ "https://oag.ca.gov/system/files/Bennett%20College%20-%20Exhibit%20A%20%28Adult%2012%20months%29.pdf": {
+  "excerpt": " For More Information. Please call our dedicated assistance line at 1-866-899-7220, between 8:00 a.m. to 8:00 p.m. Eastern, Monday through Friday, excludi ng US holidays, or write to us at Attn: Di rector of Finance, Bennett College, 900 E Washington Street Greensboro, North Carolina, 27401. We take the security of information in our care seriously and we acted promptly to ensure this event was remediated and that none of the information described above would be misused. We regret this event occ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Sample%20Notification%20Letter_11.pdf": {
+  "excerpt": " ",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42570.pdf": {
+  "excerpt": "Between May 1, 2026 and May 18, 2026, an unauthorized third party accessed an employee email account and acquired certain files stored in that account. After identifying the unauthorized activity, we contained the access, began an investigation with outside cybersecurity specialists, took steps to secure our environment, and notified law enforcement. We also undertook a review to determine the types of information contained in the acquired files.",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42560.pdf": {
+  "excerpt": "Sample, We are writing to notify you of a security issue that involves certain of your personal information. On or around July 20, 2026, an unauthorized third party accessed a portion of our IT network and took certain records from one of our business applications. The affected records contained customers' names, email addresses, postal addresses, phone numbers and dates of birth. Not every data element was impacted for each affected customer. We take the security of our customers' information very seriously. Promptly upon learning of the issue, we began an investigation with the assistance of",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42548.pdf": {
+  "excerpt": " Aubrey Weaver, Partner Cybersecurity & Data Privacy Team 1650 Market Street, Suite 3600 Philadelphia, PA 19103 aweaver@constangy.com Mobile: 941.875.5335 AL · CA · CO · DC · FL · GA · IL · IN · MA · MD · MN · MO · NJ · NY · NC · OR · PA · SC · TN · TX · VA · WA August 26, 2026 VIA ONLINE SUBMISSION Attorney General Nick Brown Ofﬁce of the Attorney General Consumer Protection Division 1125 Washington Street SE P .O. Box 40100 Olympia, WA 98504-0100 Email: SecurityBreach@atg.wa.gov RE: Notice of ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/USBFS4564-TWH-CE-Letter-Aesto-Adult-SSN_v2_Redacted_0.pdf": {
+  "excerpt": " This letter also provides other precautionary measures you can take to protect your personal information, including placing a Fraud Alert and/or Security Freeze on your credit files, and/or obtaining a free credit report. Additionally, you should always remain vigilant in reviewing your financial account statements and credit reports for fraudulent or irregular activity on a regular basis. To the extent that it is helpful, we are also suggesting steps you can take to protect your medical inform",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Livara%20Health%20Medical%20Group%20dba%20SpineZone%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "On or about December 18, 2025, Aesto experienced a network security incident that impacted a limited portion of their Amazon Web Services infrastructure.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Allied%20Health%20-%20Aesto%20Consumer%20Notice%20Letter%20Template_Redacted.pdf": {
+  "excerpt": "On or about December 18, 2025, Aesto experienced a network security incident that impacted a limited portion of Aesto's Amazon Web Services infrastructure.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/POLAM_-_Redacted_Letter_39912355v1.pdf": {
+  "excerpt": "On or about May 20, 2025, POLAM FCU learned that a former employee potentially accessed and/or exfiltrated a limited amount of documents without authorization.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Notice%20of%20Data%20Event%20-%20The%20Health%20Trust%20-%20CA_0.pdf": {
+  "excerpt": "On May 26, 2025, The Health Trust identified suspicious activity on our computer network. In response, we took steps to secure our network and restore our systems. On June 11, 2025, further suspicious activity was identified. Upon identifying the subsequent activity, the Health Trust brought our systems offline to ensure their security and investigate the nature and scope of the activity. The investigation determined that an unknown actor gained access to certain The Health Trust systems prior to March 26, 2025, and then again between June 8, 2025, and June 11, 2025, and accessed and/or copied",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/drop42_Audits_Genesis-PWC_Letter_final_12%20months_revd1%20%28Redacted%29.pdf": {
+  "excerpt": "On June 22, 2026, our management company, Genesis Healthcare Management (\"Genesis\"), discovered unusual activity on their computer network and immediately began an investigation with the assistance of third-party specialists. The investigation determined that certain files on their network, which houses certain PWC data, were accessed without authorization. Therefore, we began a comprehensive review of the files at issue to determine the information they contained and to whom the information related.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Inyo%20-%20California%20Notification.pdf": {
+  "excerpt": "On or about December 18, 2025, Aesto experienced a network security incident that impacted a limited portion of Aesto's Amazon Web Services infrastructure.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Nebraska%20Orthopaedic%20-%20Notice%20of%20Data%20Event%20-%20California_Redacted.pdf": {
+  "excerpt": "On or about December 18, 2025, Aesto experienced a network security incident that impacted a limited portion of their Amazon Web Services infrastructure.",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42441.pdf": {
+  "excerpt": "On August 20, 2026, Rockwood notified 7,136 Washington residents with available address information of this data security incident via U.S. First-Class Mail. A sample copy of the notification letter sent to the impacted individuals is included with this correspondence. Steps Taken to Address the Incident In response to the incident, Rockwood is providing individuals with information about steps that they can take to help protect their personal information and offering eligible individuals complimentary credit monitoring and identity protection services through IDX. This includes 12 months of c",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/SSMC%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "On or about July 20, 2026, SSMC became aware that a third-party vendor's cybersecurity event affected personal or protected health information received by SSMC. Certain data from the vendor's systems was acquired without authorization between November 27, 2025 and November 30, 2025.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/CA_Notice_Letter_MUHSD_Final_Redacted.pdf": {
+  "excerpt": "Merced Union High School identified and responded to unauthorized network activity on August 12, 2025. We immediately secured and remediated the compromise, engaged additional third-party experts, and commenced an investigation. We have worked diligently to determine what happened and what info rmation could have been compromised. Unfortunately, these types of incidents have become commonplace and impact organizations of all sizes.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Langwasser_Company_CPAs_-_Notice_Letter_39860744v1.pdf": {
+  "excerpt": " For More Information. We take this incident seriously and are committed to maintaining the privacy and security of the personal information in our possession. We have implemented numerous safeguards to protect that information and continually evaluate and enhance our practices and internal controls to strengthen the security and privacy of the information entrusted to us. For further questions or additional information regarding this incident, please contact , Monday through Friday, 6:00 am unt",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Forrestall%20CPAs%20-%20CA%20Notification%20Letter%20Sample.pdf": {
+  "excerpt": "We recently concluded an investigation into an incident involving unauthorized access to certain of our systems. Upon discovering the incident, we took measures to secure our systems and launched an investigation. A cybersecurity firm was engaged to assist. Our investigation determined that between December 22, 2025, and December 30, 2025, an unauthorized individual viewed and obtained certain files on our network.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/07-18-26%20IncidentFollowUpTASSisterhood.pdf": {
+  "excerpt": "In January 2026, an incident involving this data occurred. A former volunteer for the TAS Sisterhood Mah Jongg Tournament accessed and used the information and data, without the knowledge or permission of TAS Sisterhood or Temple Leadership, for personal gain. All persons and emails listed in Sisterhood Excel Spreadsheets created up to Sunday, January 18, 2026 were involved. Temple Adat Shalom resources and logos were used as a part of the former volunteer's initial targeted advertising email campaign, unbeknownst to Temple Adat Shalom and Sisterhood Leadership's knowledge. A second email camp",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Lennar%20Corporation%20-%20Template%20Notification%20Letter%20-%20California.pdf": {
+  "excerpt": "On March 30, 2026, we became aware of a potential issue involving a limited portion of our information systems. We immediately took steps to secure our systems and, with the assistance of a third-party forensics team, investigate the extent of this activity. We then determined that an unauthorized party used sophisticated social engineering tactics to access some of our systems between March 24, 2026, and March 30, 2026.",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42288.pdf": {
+  "excerpt": "On or about May 24, 2026, Chelan County became aware of suspicious activity in its computer environment. Chelan County promptly began an investigation to determine the nature and scope of the event. The investigation determined that between May 20, 2026 and May 24, 2026, data from certain systems was accessed or acquired without authorization. Chelan County then reviewed the data involved to determine what information was present and to whom such information may relate. Chelan County's review, which concluded on July 16, 2026, determined that personal information was present in the data involv",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42237.pdf": {
+  "excerpt": "On June 11, 2026, GOALS discovered that Chloe Sloan, a former employee terminated on June 10th 2026 for misconduct, had retained unauthorized access to company resources and client information. Our internal investigation conﬁrmed that Ms. Sloan acquired client lists and contact details, which she has since used to market a competing behavioral health/advocacy business. Furthermore, Ms. Sloan has refused to surrender login credentials for company property, including social media accounts and electronic devices (that had to be factory reset) and has made false or defamatory statements regarding ",
+  "domain": "goalsupport.org"
+ },
+ "https://oag.ca.gov/system/files/Sample%20of%20Data%20Incident%20Notice_0.pdf": {
+  "excerpt": " ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Adult%20CMW2_Source.pdf": {
+  "excerpt": "On March 5, 2026, we identified suspicious activity associated with our network. As soon as we became aware of the activity, we immediately initiated our incident response protocols, took steps to secure our systems, and engaged cybersecurity experts to assist with the investigation.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/New%20York%20City%20Regional%20Center%2C%20LLC%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "LLC (\"NYCRC\") is writing to let you know about a cybersecurity incident that may involve some of your personal information. Due to requirements imposed by Massachusetts law, we are unable to provide you with the details about the nature of this incident. Nevertheless, we are providing you with access to resources to protect against the possibility of misuse of your information should you feel it is appropriate to do so. NYCRC is offering you two years of complimentary credit monitoring and fraud assistance services through Kroll. Kroll is a leader in risk mitigation and response, and their tea",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/EXP_Q1655_UCLE_DBM-5843_L02_SAS_1.pdf": {
+  "excerpt": " What Information Was Involved? The information involved was contained in your medical record. It varied by individual and may have included your name, address, date of birth, and health insurance information, as well as clinical information, such as referral orders. For some individuals, the affected information may have also included the last four digits of a Social Security number. No full Social Security numbers, financial account numbers, or payment card information were involved. What We A",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42137.pdf": {
+  "excerpt": "As a result of a cybersecurity incident, CTS learned that an unauthorized actor gained access to our network environment.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/SCHSA%20-%20California%20Notification_Redacted.pdf": {
+  "excerpt": "On or about December 18, 2025, Aesto experienced a network security incident that impacted a limited portion of Aesto's Amazon Web Services infrastructure.",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42069.pdf": {
+  "excerpt": "On April 14, 2026, MicroCode experienced a ransomware event involving a system that hosts the tracking database and associated documents. MicroCode immediately initiated an investigation with a forensic vendor to determine what happened. The investigation identified that there was unauthorized access to the MicroCode server that hosted CommonSpirit's Health's database between January 19, 2026 and April 14, 2026. The investigation was unable to confirm if data on the server was accessed or taken during the event. After an extensive review of the data, it was determined on July 1, 2026 that your",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/CRS%20-%20Sample%20Notice%20Letter%20%28CA%29_0.pdf": {
+  "excerpt": "On April 9, 2026, we discovered a network disruption . Upon identifying the disruption, we took immediate action to secure our network, including taking our systems offline and retaining cybersecurity specialists to investigate the incident. Following the investigation, we learned that our network suffered an unauthorized access on April 9, 2026, and that certain files containing patient information may have been taken from our network. Your personal information and/or protected health information, as described below, was in the data set.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Sunrise%20Company%20-%20Notice%20of%20Data%20Breach%20-%20CA_0.pdf": {
+  "excerpt": "Return Mail Processing PO Box 999 Suwanee, GA 30024 July28,2026 Engagement#[EngagementNumber] FFFTAADATAFTDTFAADFTADDTDTFDTTAFFTFAFFTDAAFFAAADATDADATTAAFTADDDA 2114420*******************AUTO**AllForSCF808SAMPLEA.SAMPLE-L01APTABC123ANYSTANYTOWN,US12345-6789 NOTICEOF[Extra2]DearSampleA.Sample:SunriseCompany(\"Sunrise\")iswritingtoinformyouofarecenteventthatmayaffectsomeofyourinformation.Wewereinpossessionofyourinformationduetoourrelationshipwith[Company].Sunrisetakesthisevent,andtheprivacy,security,",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/26-0473%20Notification%20Letter.pdf": {
+  "excerpt": "On 6/2/26, the Department learned of anomalous unauthorized activity involving an employee. We reviewed the incident and determined that on 8/26/25 a data file containing sensitive information was accessed by an unauthorized user. Th e data file may have contained some of your personal information. At this time, the Department has no indication that your personal information has been improperly used.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/RCOC-%201%20YR%20Adult%20CM.pdf": {
+  "excerpt": "On May 27, 2026, a janitorial service contracted to clean our Cypress office mistakenly disposed of documents placed in bins designated for secure destruction into the regular trash. On the morning of May 28, 2026, our staff discovered the issue and immediately attempted to retrieve the documents. Unfortunately, the trash had already been collected, and the documents could not be recovered. We cannot easily determine which specific documents were involved and with whom the documents were associated. Out of an abundance of caution, we are notifying all individuals served through our Cypress off",
+  "domain": "rcocdd.com"
+ },
+ "https://oag.ca.gov/system/files/SAG%20Final%20Notice%20Letter%20Redacted.pdf": {
+  "excerpt": "On September 26, 2025, we became aware of potential unauthorized access into our network that impacted certain systems. Upon discovery, we took immediate action to address and investigate the event, which included engaging third-party specialists to assist with determining the nature and scope of the incident. The investigation determined that our network was subject to unauthorized access network between September 25, 2025, and October 1, 2025. Therefore, we conducted a comprehensive review of the relevant information to determine the types of information present and to whom that information ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Lasership_Ontrac%20-%20Adult_Letter%20-%20Mailing%20Proof.pdf": {
+  "excerpt": "On March 23, 2026, we learned of potentially suspicious activity on a limited portion our corporate computer network. In response, we immediately began an investigation with the assistance of third-party specialists. The investigation determined that certain files may have been accessed without authorization between March 20 and March 22, 2026. Therefore, we worked with third-party specialists to begin a comprehensive review of the files at issue to determine the type of information they contained and to whom the information related.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Redacted%20CA%20Consumer%20Notice.pdf": {
+  "excerpt": "On or about April 28, 2026, we became aware of unusual activity in our network environment. Upon becoming aware, we promptly began an investigation into the scope and nature of the suspicious activity and retained legal counsel and third-party forensic specialists to investigate the unusual activity. That investigation revealed that certain information may have been accessed and copied without authorization between April 23, 2026, to April 28, 2026. We then began a comprehensive review of the data set to determine what sensitive and/or personal information was impacted and to whom it related. ",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA41917.pdf": {
+  "excerpt": "On March 30, 2026, the County detected and responded to ransomware on our computer network. As soon as we learned this, we immediately took steps to secure our network and restore County operations. We also launched an investigation with assistance from nationally recognized third-party cybersecurity and data forensics consultants to determine the scope of the incident and notified federal law enforcement. Through our investigation, we learned that the cyber criminals took certain data from the County's network. We then conducted a thorough review to determine: (1) what information was involve",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Xsolis_CA_Individual%20Notification%20Exemplar%20%2806.19.26%29_0.pdf": {
+  "excerpt": "Your healthcare provider values the opportunity to provide services to you, and they take their responsibility to protect the information you share with them seriously. We are writing to tell you about a data security incident that may have exposed some of your personal information. What happened? Your healthcare provider uses a vendor, Xsolis, Inc. (\"Xsolis\"), to provide certain case and utilization management services. Xsolis recently informed your healthcare provider of certain unauthorized activity impacting a limited portion of their environment. Xsolis became aware of unauthorized activi",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Quontic%20Bank%20Acquisition%20Corp.%20-%20Sample%20Notice.pdf": {
+  "excerpt": "Return Mail Processing PO Box 999 Suwanee, GA 30024 July16,2026 Engagement#[EngagementNumber] TDDFTDAADADDTDDTFAADDAADFTTAFFDADFTTTDTATTADTDFADAFTFFDFDFDTDATFA 1624626*******************AUTO**AllForSCF334SAMPLEA.SAMPLE-L01APTABC123ANYSTANYTOWN,US12345-6789 [EXTRA2]DearSampleA.Sample:QuonticBankAcquisitionCorp.(\"QuonticBank\")iswritingtoinformyouofarecenteventthatmayinvolveinformationrelatedtoyou.Althoughthereisnoindicationofanyactualorattemptedidentitytheftorfraudasaresultofthisevent,thisnoticepr",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Individual_Notice_Template.pdf": {
+  "excerpt": "On August 14, 2026, our security team identified a vulnerability in a third-party software product we use that allowed unauthorized access to a portion of the environment beginning August 13, 2026. We promptly investigated the issue with the assistance of an independent cybersecurity firm, remediated the vulnerability, engaged with law enforcement, and took steps to further reinforce the security of our systems. We remain committed to protecting the security of our customers' data and continuously strengthening our security practices. What Personal Information was involved: The Company has bee",
+  "domain": ""
  }
 }

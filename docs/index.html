@@ -62,11 +62,14 @@ function render(){
   $('#stat').textContent=v.length+' shown';
   $('tbody').innerHTML=v.map(r=>{
     const src=r.source.split('+'),links=[];
-    if(r.url)links.push(`<a href="${esc(r.url)}" target="_blank" rel="noopener">${src[0]==='rwl'?'ransomware.live record':src[0]}</a>`);
+    const srcLabel={rwl:'ransomware.live record',state_ca:'CA AG filing record',state_wa:'WA AG list',state_vt:'VT AG list (no per-filing doc)',state_or:'OR DOJ list (no per-filing doc)',state_de:'DE DOJ list',state_hi:'HI OCP list',hibp:'HIBP record',rss_sb:'law-firm post',rss_lc:'law-firm post',rss_dbn:'DataBreaches.net'}[src[0]]||src[0];
+    if(r.url)links.push(`<a href="${esc(r.url)}" target="_blank" rel="noopener">${srcLabel}</a>`);
     if(r.letter_url)links.push(`<a href="${esc(r.letter_url)}" target="_blank" rel="noopener">notice letter (PDF)</a>`);
     if(r.evidence_url)links.push(`<a href="${esc(r.evidence_url)}" target="_blank" rel="noopener">screenshot of gang post</a>`);
     if(r.press_url)links.push(`<a href="${esc(r.press_url)}" target="_blank" rel="noopener">press</a>`);
-    if(r.verify_url)links.push(`<a href="${esc(r.verify_url)}" target="_blank" rel="noopener">news check</a>`);
+    if(r.edgar_url)links.push(`<a href="${esc(r.edgar_url)}" target="_blank" rel="noopener" title="public company, CIK ${esc(r.sec_cik)}">EDGAR ${esc(r.sec_ticker)}</a>`);
+    if(r.news_url)links.push(`<a href="${esc(r.news_url)}" target="_blank" rel="noopener" title="${esc(r.news_title)} (${esc(r.news_date)})">news article</a>`);
+    else if(r.verify_url)links.push(`<a href="${esc(r.verify_url)}" target="_blank" rel="noopener">news check</a>`);
     src.slice(1).forEach(x=>links.push(`<span class="chip">${esc(x)}</span>`));
     const orgLink=r.domain?`<a href="https://${esc(r.domain)}" target="_blank" rel="noopener">${esc(r.org)}</a><div class="dom">${esc(r.domain)}</div>`:`<span>${esc(r.org)}</span><div class="dom">domain not found</div>`;
     return `<tr><td><span class="tier t${r.tier}">${r.tier}</span></td><td>${esc(r.reported)}</td><td class="org">${orgLink}</td><td class="hide-m">${esc(r.country)}${r.state?' · '+esc(r.state):''}</td><td class="hide-m">${esc(r.sector)}</td><td class="num">${r.affected?Number(r.affected).toLocaleString():''}</td><td>${esc(r.incident_type)}</td><td>${['Illumio','RSA','DigiCert'].map(x=>`<span class="chip" style="${r.lead_with===x?'background:var(--accent);color:#fff':'opacity:.55'}">${x}</span>`).join('')}</td><td class="dom" title="${esc(r.confidence)}">${esc((r.confidence||'').split(':')[0])}</td><td><div>${esc(r.reported_to.split(' | ')[0])}</div>${links.join(' · ')}</td><td class="detail">${esc(r.detail)}</td></tr>`;
