@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+breach_signals.csv
+signals.json

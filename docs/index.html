@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Breach Signals</title>
+<meta name="description" content="Recently disclosed security incidents at US and Canada organizations, from mandatory government filings, leak sites and public feeds. Refreshed daily.">
+<style>
+:root{--bg:#0f1115;--panel:#171a21;--line:#262b36;--text:#e6e8ee;--muted:#9aa3b2;--accent:#5b8cff;--t1:#2fbf71;--t2:#f0a53b;--t3:#9b7bff;--chip:#222733}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 system-ui,Segoe UI,Roboto,sans-serif}
+header{padding:20px 24px 12px;border-bottom:1px solid var(--line)}h1{margin:0 0 4px;font-size:20px}h1 small{color:var(--muted);font-weight:400;font-size:13px;margin-left:10px}
+.sub{color:var(--muted);font-size:13px}.sub a{color:var(--accent)}
+.bar{display:flex;flex-wrap:wrap;gap:8px;padding:12px 24px;border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:2}
+.bar input,.bar select{background:var(--bg);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:7px 9px;font-size:13px}
+.bar input{min-width:240px}.stat{color:var(--muted);align-self:center;margin-left:auto;font-size:13px}
+table{width:100%;border-collapse:collapse}th,td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+th{position:sticky;top:58px;background:var(--panel);color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.03em;cursor:pointer;white-space:nowrap}
+tr:hover td{background:#141822}td a{color:var(--accent);text-decoration:none}td a:hover{text-decoration:underline}
+.org{font-weight:600}.dom{color:var(--muted);font-size:12px}.tier{display:inline-block;min-width:22px;text-align:center;border-radius:4px;padding:1px 6px;font-weight:700;font-size:12px;color:#000}
+.t1{background:var(--t1)}.t2{background:var(--t2)}.t3{background:var(--t3)}
+.chip{display:inline-block;background:var(--chip);border-radius:4px;padding:1px 6px;margin:1px 2px 1px 0;font-size:12px;white-space:nowrap}
+.detail{color:var(--muted);font-size:12px;max-width:420px}.num{text-align:right;font-variant-numeric:tabular-nums}
+footer{padding:16px 24px;color:var(--muted);font-size:12px;border-top:1px solid var(--line)}footer code{background:var(--chip);padding:1px 5px;border-radius:4px}
+@media (max-width:900px){.detail,.hide-m{display:none}}
+</style>
+</head>
+<body>
+<header>
+<h1>Breach Signals <small id="gen">loading</small></h1>
+<div class="sub">US and Canada organizations with a recently disclosed security incident. Tier 1 = mandatory government filing, 2 = leak-site claim or verified credential dump, 3 = plaintiff-firm investigation after a consumer notice. Leak-site rows are criminal claims until corroborated. Machine feed: <a href="signals.json">signals.json</a> · <a href="signals.csv">signals.csv</a></div>
+</header>
+<div class="bar">
+<input id="q" placeholder="Search org, domain, sector, detail">
+<select id="tier"><option value="">All tiers</option><option value="1">Tier 1 filings</option><option value="2">Tier 2 claims</option><option value="3">Tier 3 law-firm</option></select>
+<select id="country"><option value="">US + CA</option><option value="US">US</option><option value="CA">Canada</option></select>
+<select id="state"><option value="">All states</option></select>
+<select id="fit"><option value="">All product fits</option><option>Illumio</option><option>RSA</option><option>DigiCert</option></select>
+<select id="src"><option value="">All sources</option></select>
+<span class="stat" id="stat"></span>
+</div>
+<table id="t"><thead><tr>
+<th data-k="tier">Tier</th><th data-k="reported">Reported</th><th data-k="org">Organization</th><th data-k="state" class="hide-m">Loc</th><th data-k="sector" class="hide-m">Sector</th><th data-k="affected" class="num">Affected</th><th data-k="incident_type">Incident</th><th data-k="product_fit">Fit</th><th>Filed with / source</th><th class="detail">Detail</th>
+</tr></thead><tbody></tbody></table>
+<footer id="foot"></footer>
+<script>
+let rows=[],sortK='reported',sortD=-1;
+const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+fetch('signals.json?'+Date.now()).then(r=>r.json()).then(d=>{
+  rows=d.signals.filter(r=>r.tier!=4);
+  $('#gen').textContent='refreshed '+d.generated_utc.replace('T',' ').replace('Z',' UTC')+' · last '+d.window_days+' days · '+rows.length+' orgs';
+  const states=[...new Set(rows.map(r=>r.state).filter(Boolean))].sort(),srcs=[...new Set(rows.flatMap(r=>r.source.split('+')))].sort();
+  states.forEach(s=>$('#state').insertAdjacentHTML('beforeend',`<option>${s}</option>`));
+  srcs.forEach(s=>$('#src').insertAdjacentHTML('beforeend',`<option>${s}</option>`));
+  $('#foot').innerHTML='Sources this run: '+d.sources.map(s=>`<code>${s.key} ${s.status==='ok'?s.rows:'FAIL'}</code>`).join(' ')+'<br>Manual registries not scriptable: '+d.manual_sources.map(m=>`<a href="${m.url}" style="color:var(--accent)">${esc(m.name.split(' (')[0])}</a>`).join(' · ');
+  render();
+});
+function render(){
+  const q=$('#q').value.toLowerCase(),t=$('#tier').value,c=$('#country').value,st=$('#state').value,f=$('#fit').value,s=$('#src').value;
+  let v=rows.filter(r=>(!t||String(r.tier)===t)&&(!c||r.country===c)&&(!st||r.state===st)&&(!f||r.product_fit.includes(f))&&(!s||r.source.split('+').includes(s))&&(!q||[r.org,r.domain,r.sector,r.detail,r.state,r.incident_type].join(' ').toLowerCase().includes(q)));
+  v.sort((a,b)=>{let x=a[sortK]??'',y=b[sortK]??'';if(sortK==='affected'){x=+x||0;y=+y||0}return (x>y?1:x<y?-1:0)*sortD||(a.reported<b.reported?1:-1)});
+  $('#stat').textContent=v.length+' shown';
+  $('tbody').innerHTML=v.map(r=>{
+    const src=r.source.split('+'),links=[];
+    if(r.url)links.push(`<a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(src[0])}</a>`);
+    if(r.letter_url)links.push(`<a href="${esc(r.letter_url)}" target="_blank" rel="noopener">notice letter</a>`);
+    src.slice(1).forEach(x=>links.push(`<span class="chip">${esc(x)}</span>`));
+    const orgLink=r.domain?`<a href="https://${esc(r.domain)}" target="_blank" rel="noopener">${esc(r.org)}</a><div class="dom">${esc(r.domain)}</div>`:`<span>${esc(r.org)}</span><div class="dom">domain not found</div>`;
+    return `<tr><td><span class="tier t${r.tier}">${r.tier}</span></td><td>${esc(r.reported)}</td><td class="org">${orgLink}</td><td class="hide-m">${esc(r.country)}${r.state?' · '+esc(r.state):''}</td><td class="hide-m">${esc(r.sector)}</td><td class="num">${r.affected?Number(r.affected).toLocaleString():''}</td><td>${esc(r.incident_type)}</td><td>${r.product_fit.split(';').map(x=>`<span class="chip">${esc(x.trim().split(' (')[0])}</span>`).join('')}</td><td><div>${esc(r.reported_to.split(' | ')[0])}</div>${links.join(' · ')}</td><td class="detail">${esc(r.detail)}</td></tr>`;
+  }).join('');
+}
+['q','tier','country','state','fit','src'].forEach(id=>$('#'+id).addEventListener('input',render));
+document.querySelectorAll('th[data-k]').forEach(th=>th.addEventListener('click',()=>{const k=th.dataset.k;sortD=(sortK===k)?-sortD:-1;sortK=k;render()}));
+</script>
+</body>
+</html>
