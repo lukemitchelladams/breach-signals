@@ -2140,5 +2140,95 @@
   "via": "not found",
   "org": "Company #68",
   "ts": "2026-10-15"
+ },
+ "mld mortgage dba money store": {
+  "domain": "",
+  "via": "not found",
+  "org": "MLD Mortgage Inc. dba The Money Store",
+  "ts": "2026-10-16"
+ },
+ "city of foster city": {
+  "domain": "",
+  "via": "not found",
+  "org": "City of Foster City",
+  "ts": "2026-10-16"
+ },
+ "bdg law group": {
+  "domain": "",
+  "via": "not found",
+  "org": "BDG Law Group",
+  "ts": "2026-10-16"
+ },
+ "allcare health": {
+  "domain": "allcarehealth.com",
+  "via": "clearbit",
+  "org": "AllCare Health, Inc.",
+  "ts": "2026-10-16"
+ },
+ "hood river dental": {
+  "domain": "hoodriverdentist.com",
+  "via": "clearbit",
+  "org": "Hood River Dental",
+  "ts": "2026-10-16"
+ },
+ "peacehealth sacred heart medical center": {
+  "domain": "peacehealth.org",
+  "via": "clearbit",
+  "org": "PeaceHealth Sacred Heart Medical Center",
+  "ts": "2026-10-16"
+ },
+ "75": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #75",
+  "ts": "2026-10-16"
+ },
+ "74": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #74",
+  "ts": "2026-10-16"
+ },
+ "adams warehouse delivery": {
+  "domain": "adamsdist.com",
+  "via": "clearbit",
+  "org": "Adams Warehouse & Delivery, Inc.",
+  "ts": "2026-10-16"
+ },
+ "verveba com www att com": {
+  "domain": "",
+  "via": "not found",
+  "org": "verveba.com \\ www.att.com",
+  "ts": "2026-10-16"
+ },
+ "tgm manufacturing": {
+  "domain": "",
+  "via": "not found",
+  "org": "TGM Manufacturing, Inc",
+  "ts": "2026-10-16"
+ },
+ "hilmar cheese": {
+  "domain": "",
+  "via": "not found",
+  "org": "hilmar-cheese",
+  "ts": "2026-10-16"
+ },
+ "middleby": {
+  "domain": "middleby.com",
+  "via": "clearbit",
+  "org": "middleby",
+  "ts": "2026-10-16"
+ },
+ "svd": {
+  "domain": "",
+  "via": "not found",
+  "org": "Svd",
+  "ts": "2026-10-16"
+ },
+ "mid florida dermatology plastic surgery": {
+  "domain": "midflmed.com",
+  "via": "clearbit",
+  "org": "Mid Florida Dermatology & Plastic Surgery",
+  "ts": "2026-10-16"
  }
 }

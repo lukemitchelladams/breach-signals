@@ -658,5 +658,17 @@
  "https://oag.ca.gov/system/files/Individual_Notice_Template.pdf": {
   "excerpt": "On August 14, 2026, our security team identified a vulnerability in a third-party software product we use that allowed unauthorized access to a portion of the environment beginning August 13, 2026. We promptly investigated the issue with the assistance of an independent cybersecurity firm, remediated the vulnerability, engaged with law enforcement, and took steps to further reinforce the security of our systems. We remain committed to protecting the security of our customers' data and continuously strengthening our security practices. What Personal Information was involved: The Company has bee",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/MLD%20-%20Sample%20Individual%20Notification%20Letter.pdf": {
+  "excerpt": "On September 9, 2026, we identified unusual activity within portions of our information technology environment. We immediately took steps to secure the environment, contain the incident, and subsequently engaged independent cybersecurity specialists to assist with our investigation. Our investigation determined that, beginning on or about September 8, 2026, an unauthorized third party accessed a portion of our environment through a remote monitoring and management platform used by a third-party service provider that supports our environment. During this period, the unauthorized party accessed ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/ELN-28528%20Foster%20City%20-%20Adult%2012%20months%20CM.pdf": {
+  "excerpt": "Earlier this year, the City identified suspicious activity within portions of its network. Upon discovery, we took steps to investigate, secure our systems, and notify law enforcement. We also engaged an independent forensic security firm to assist with the investigation. The investigation determined that an unauthorized third party accessed certain City systems and may have viewed or acquired files from those systems between February 28, 2026, and March 25, 2026.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/BDG%20Law%20Group-%20Regulator%20Notice%20Letter_Wave%202_CA_0.pdf": {
+  "excerpt": " ",
+  "domain": ""
  }
 }
