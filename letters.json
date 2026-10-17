@@ -670,5 +670,21 @@
  "https://oag.ca.gov/system/files/BDG%20Law%20Group-%20Regulator%20Notice%20Letter_Wave%202_CA_0.pdf": {
   "excerpt": " ",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Inner%20City%20Education%20Foundation%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "On September 30, 2024, ICEF became aware of suspicious activity on its network. We promptly launched an investigation, with the assistance of third-party cybersecurity specialists, into the nature and scope of the activity. The investigation determined that, between August 4th and September 29th, 2024, an unauthorized actor gained access to certain ICEF systems and may have taken certain information. Accordingly, we conducted a comprehensive and time-intensive review to determine what information was involved and to whom such information relates. We completed this process and are providing ind",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Notice%20of%20Data%20Breach_3_Redacted.pdf": {
+  "excerpt": "On September 25, 2026, ETS identified unauthorized activity involving an SFTP site used to exchange California statewide assessment information with CDE. ETS disabled the account involved, took the affected SFTP site offline, and initiated an investigation with the assistance of external cybersecurity experts. The investigation determined that an unauthorized party used a compromised login credential at various times during the period from May 22, 2026 to September 18, 2026 to access the SFTP site to copy files containing California student information.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/John%20G.%20Yphantides%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "On September 14, 2026, we determined that certain information related to you was contained in the files. What Information Was Involved? Our review determined that your name and the following information was included in the files that were accessed: . What We Are Doing. We take the confidentiality, privacy, and security of information in our care very seriously. Upon becoming aware of the suspicious activity, we conducted a diligent investigation to confirm the full nature and scope, took prompt steps to ensure the security of our network, and conducted a comprehensive review of the information",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/DATA%20BREACH%20NOTICE%20-%20NWS.pdf": {
+  "excerpt": "On August 24, 2026, a file containing patient information was inadvertently emailed to another patient instead of the correct document. We became aware of the incident on September 16, 2026, when we were informed of it by the other patient. We determined that your information was included in the disclosed file.",
+  "domain": ""
  }
 }
