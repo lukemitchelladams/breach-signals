@@ -686,5 +686,25 @@
  "https://oag.ca.gov/system/files/DATA%20BREACH%20NOTICE%20-%20NWS.pdf": {
   "excerpt": "On August 24, 2026, a file containing patient information was inadvertently emailed to another patient instead of the correct document. We became aware of the incident on September 16, 2026, when we were informed of it by the other patient. We determined that your information was included in the disclosed file.",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/STS%20-%20Sample%20Individual%20Notice_0.pdf": {
+  "excerpt": "On September 12, 2025, STS Aviation Group identified a cybersecurity incident involving unauthorized access to certain of our systems, which occurred on or around August 5, 2025. Promptly after becoming aware of the issue, we began an investigation with leading external cybersecurity experts to understand its nature and scope, including to determine the impact to personal information and to identify affected individuals. Based on our investigation, we determined on September 19, 2026 that, in connection with this issue, an unauthorized third party obtained certain of your personal information.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Citizens%20Bank%20-%20Breach_Notice.pdf": {
+  "excerpt": "On September 10, 2026, Citizens identified an issue that allowed some data to be accessed by an unauthorized third-party. We have found no evidence that any customer data was examined or used maliciously, and the issue has been fully remediated",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Email%20Sample.pdf": {
+  "excerpt": "",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Frazer_LLP_Redacted_Sample_Proof_40313313v1.pdf": {
+  "excerpt": " remain vigilant in reviewing your financial account statements and credit reports for fraudulent or irregular activity on a regular basis. For More Information Frazer is committed to maintaining the privacy of personal information in our possession and has taken many precautions to safeguard it. Frazer continually evaluates and modifies its practices and internal controls to enhance the security and privacy of your personal information. If you have any further questions regarding this incident,",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Agent%20Breach%20Letter%20Template_APPROVED.pdf": {
+  "excerpt": "Covered California learned that an unauthorized individual used a phishing scheme to gain access to information relating to agents. As a result of this incident, your information, along with information relating to other agents, was disclosed.",
+  "domain": ""
  }
 }

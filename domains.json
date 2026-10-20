@@ -2542,5 +2542,83 @@
   "via": "clearbit",
   "org": "SMIC US Company (Sunnyvale, CA — US arm of Semiconductor Manufacturing International Corpo...",
   "ts": "2026-10-19"
+ },
+ "sts aviation group": {
+  "domain": "stsaviationgroup.com",
+  "via": "clearbit",
+  "org": "STS Aviation Group",
+  "ts": "2026-10-20"
+ },
+ "chevy chase club": {
+  "domain": "chevychaseclub.org",
+  "via": "clearbit",
+  "org": "Chevy Chase Club",
+  "ts": "2026-10-20"
+ },
+ "citizens bank": {
+  "domain": "citizensbank.com",
+  "via": "clearbit",
+  "org": "Citizens Bank",
+  "ts": "2026-10-20"
+ },
+ "roseburg therapy dba stronger oregon": {
+  "domain": "roseburgtherapy.com",
+  "via": "clearbit",
+  "org": "Roseburg Therapy dba Stronger Oregon",
+  "ts": "2026-10-20"
+ },
+ "stitch connect": {
+  "domain": "123stitch.com",
+  "via": "clearbit",
+  "org": "Stitch Connect Inc",
+  "ts": "2026-10-20"
+ },
+ "frazer llp": {
+  "domain": "frazer.com",
+  "via": "clearbit",
+  "org": "Frazer LLP",
+  "ts": "2026-10-20"
+ },
+ "covered california": {
+  "domain": "coveredca.com",
+  "via": "clearbit",
+  "org": "Covered California",
+  "ts": "2026-10-20"
+ },
+ "baker donelson": {
+  "domain": "bakerdonelson.com",
+  "via": "clearbit",
+  "org": "Baker Donelson",
+  "ts": "2026-10-20"
+ },
+ "vormittag associates": {
+  "domain": "",
+  "via": "not found",
+  "org": "Vormittag Associates Inc",
+  "ts": "2026-10-20"
+ },
+ "froggys fog": {
+  "domain": "",
+  "via": "not found",
+  "org": "Froggys Fog",
+  "ts": "2026-10-20"
+ },
+ "latham watkins": {
+  "domain": "lwcareers.com",
+  "via": "clearbit",
+  "org": "Latham & Watkins",
+  "ts": "2026-10-20"
+ },
+ "hotel dupont": {
+  "domain": "",
+  "via": "not found",
+  "org": "Hotel DuPont",
+  "ts": "2026-10-20"
+ },
+ "kingwood endoscopy": {
+  "domain": "kingwoodendoscopy.com",
+  "via": "clearbit",
+  "org": "Kingwood Endoscopy",
+  "ts": "2026-10-20"
  }
 }
