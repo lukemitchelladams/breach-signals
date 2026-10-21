@@ -2620,5 +2620,59 @@
   "via": "clearbit",
   "org": "Kingwood Endoscopy",
   "ts": "2026-10-20"
+ },
+ "networking technology": {
+  "domain": "",
+  "via": "not found",
+  "org": "Networking Technology, Inc.",
+  "ts": "2026-10-21"
+ },
+ "csx": {
+  "domain": "",
+  "via": "not found",
+  "org": "CSX",
+  "ts": "2026-10-21"
+ },
+ "thehomemag norcal": {
+  "domain": "thehomemag.com",
+  "via": "clearbit",
+  "org": "TheHomeMag NorCal",
+  "ts": "2026-10-21"
+ },
+ "xylanpicks": {
+  "domain": "",
+  "via": "not found",
+  "org": "Xylanpicks",
+  "ts": "2026-10-21"
+ },
+ "bruin group": {
+  "domain": "bruin.com",
+  "via": "clearbit",
+  "org": "Bruin Group LLC",
+  "ts": "2026-10-21"
+ },
+ "51ridge": {
+  "domain": "",
+  "via": "not found",
+  "org": "51Ridge",
+  "ts": "2026-10-21"
+ },
+ "duarte nursery": {
+  "domain": "duartenursery.com",
+  "via": "clearbit",
+  "org": "Duarte Nursery, Inc.",
+  "ts": "2026-10-21"
+ },
+ "heritage pediatrics": {
+  "domain": "heritagepediatrics.com",
+  "via": "clearbit",
+  "org": "Heritage Pediatrics",
+  "ts": "2026-10-21"
+ },
+ "ultramobile imaging": {
+  "domain": "ultramobileimaging.com",
+  "via": "clearbit",
+  "org": "Ultramobile Imaging",
+  "ts": "2026-10-21"
  }
 }
