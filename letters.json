@@ -706,5 +706,37 @@
  "https://oag.ca.gov/system/files/Agent%20Breach%20Letter%20Template_APPROVED.pdf": {
   "excerpt": "Covered California learned that an unauthorized individual used a phishing scheme to gain access to information relating to agents. As a result of this incident, your information, along with information relating to other agents, was disclosed.",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Dill%20Dill%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "2EJ@:< E= ,9J9 *H<9:? 7NJ[ 2 7RUU 7RUU 6J[[ C]XWK[JTN[ JWM ;^]LQRWP\\$ A&6& \"e7RUU 7RUUf# '[R]N\\ ]X WX]ROb bX^ XO JW N_NW] ]QJ] RW_XU_N\\ \\XVN XO bX^[ YN[\\XWJU RWOX[VJ]RXW& FN J[N Y[X_RMRWP bX^ 'R]Q WX]RLN XO ]QN N_NW]$ \\]NY\\ 'N QJ_N ]JTNW RW [N\\YXW\\N$ JWM [N\\X^[LN\\ J_JRUJKUN ]X QNUY bX^ KN]]N[ Y[X]NL] bX^[ RWOX[VJ]RXW$ \\QX^UM bX^ ONNU R] R\\ JYY[XY[RJ]N ]X MX \\X& 7?9J /9FF<D<;( @W =^WN )$ *(*.$ 7RUU 7RUU MN]N[VRWNM ]QJ] YN[\\XWJU RWOX[VJ]RXW VJb QJ_N KNNW \\^KSNL] ]X ^WJ^]QX[RcNM JLLN\\\\ X[ LXYRNM KN",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/USBFS4975C-Opportune-adult%20CM%2840286121.1%29_Redacted_0.pdf": {
+  "excerpt": "We are writing with important information regarding a data security incident involving your personal information. Opportune LP, a wholly owned subsidiary of Opportune, LLP (\"Opportune\"), is a vendor and service provider in the oil & gas industry. We work with many companies in the industry to provide accounting services, facilitate payments, and other services that our firm offers. Opportune received your information in the course of providing services to . Accordingly, we want to provide you with information about the incident, let you know the services we are making available to you, and let",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/BASS%20-%20Preliminary%20Regulatory%20Notice%20Letter%20-%20CA_0.pdf": {
+  "excerpt": "On or about September 22, 2026, the investigation determined that certain personal and/or protected health information may have been accessed or acquired without authorization. Based on BASS's review of the potentially affected data set, the following information may have been involved as a result of the incident: medical treatment codes or billing information and health insurance information. Not all information was involved for all individuals. We currently have no evidence to suggest misuse or attempted misuse of this information. As soon as we discovered the incident, we took the steps des",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Deposition%20Solutions%20LLC%20-%20Breach%20Notification%20Letter%20%28Adult%29%20-%20Final%20Proof.pdf": {
+  "excerpt": "On May 29, 2026, Lexitas learned from a customer that a web server configuration error had caused certain files in its OnDemand (DepositionNet) application to become accessible over the internet without authentication. The investigation determined that this configuration error occurred in or around September 2019 and was not detected at the time. After learning about the issue, Lexitas restricted access to the affected server within hours and began an investigation to determine what information may have been affected. The affected files consisted primarily of deposition transcripts, exhibits, ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Regulatory%20Notice%20Letter_Dorsata_CA_0.pdf": {
+  "excerpt": "On August 12, 2026, we received a notice that the Metabase business intelligence software we use contained a security vulnerability. We immediately patched the software and began an investigation with the assistance of third-party cybersecurity experts. Our investigation determined the Metabase security vulnerability allowed unauthorized access to our database platform from August 10, 2026, to August 12, 2026. We reviewed the data involved in the incident and advised your healthcare provider that your protected health information was contained within the affected data. Your healthcare provider",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Mercadien_Northwest%20Bank%20Sample%20Notice%20Letter_Redacted.pdf": {
+  "excerpt": "On August 14, 2026, after the third-party investigation and file review completed, we provided our findings to What Information Was Involved Our investigation determined that certain files held by Mercadien were accessed by an unauthorized third-party. In response to the incident, we implemented a variety of steps to prevent misuse of the personal information. We have not identified any evidence at this time that any personal information for any of our customers has been misused as a result of this incident. Based on review of these affected files, the types of personal information involved va",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Toyo_CA%20App%20%26%20Sample_0.pdf": {
+  "excerpt": "We identified unusual activity in our network. Upon identifying the activity, we took steps to secure our network and commenced an investigation. A cybersecurity firm that has assisted other companies in addressing similar situations was engaged to assi st. The investigation determined that the unauthorized access occurred between January 6, 2026, and February 4, 2026, and copies of certain files were taken.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Sample%20Notice%20Letters_0.pdf": {
+  "excerpt": "On July 10, 2026, Alma became aware of possible unauthorized access to its computer network. As soon as we learned of the issue, we immediately initiated our incident response protocols, took steps to secure our systems, contained the incident, and engaged cybersecurity experts to assist with the investigation.",
+  "domain": ""
  }
 }
