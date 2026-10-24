@@ -2818,5 +2818,71 @@
   "via": "clearbit",
   "org": "Kirkland & Ellis LLP",
   "ts": "2026-10-23"
+ },
+ "alabama fire college": {
+  "domain": "alabamafirecollege.org",
+  "via": "clearbit",
+  "org": "Alabama Fire College",
+  "ts": "2026-10-24"
+ },
+ "eyemed vision care": {
+  "domain": "eyemed.com",
+  "via": "clearbit",
+  "org": "EyeMed Vision Care, LLC",
+  "ts": "2026-10-24"
+ },
+ "ford audio video systems": {
+  "domain": "fordav.com",
+  "via": "clearbit",
+  "org": "Ford Audio-Video Systems, LLC",
+  "ts": "2026-10-24"
+ },
+ "adirondack networks": {
+  "domain": "adirondacknetworks.com",
+  "via": "clearbit",
+  "org": "Adirondack Networks, Inc.",
+  "ts": "2026-10-24"
+ },
+ "arthritis center of riverside": {
+  "domain": "thearthritiscenter.com",
+  "via": "clearbit",
+  "org": "Arthritis Center of Riverside",
+  "ts": "2026-10-24"
+ },
+ "js constructor": {
+  "domain": "",
+  "via": "not found",
+  "org": "JS Constructor, INC",
+  "ts": "2026-10-24"
+ },
+ "jb hunt": {
+  "domain": "",
+  "via": "not found",
+  "org": "JB Hunt",
+  "ts": "2026-10-24"
+ },
+ "whirlpool": {
+  "domain": "whirlpool.com",
+  "via": "clearbit",
+  "org": "Whirlpool",
+  "ts": "2026-10-24"
+ },
+ "dill dill carr stonbraker hutchings": {
+  "domain": "dillanddill.com",
+  "via": "clearbit",
+  "org": "Dill Dill Carr Stonbraker & Hutchings",
+  "ts": "2026-10-24"
+ },
+ "lexitas": {
+  "domain": "lexitaslegal.com",
+  "via": "clearbit",
+  "org": "Lexitas",
+  "ts": "2026-10-24"
+ },
+ "quest diagnostics": {
+  "domain": "questdiagnostics.com",
+  "via": "clearbit",
+  "org": "Quest Diagnostics",
+  "ts": "2026-10-24"
  }
 }
