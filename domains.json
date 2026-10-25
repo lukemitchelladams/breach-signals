@@ -2884,5 +2884,29 @@
   "via": "clearbit",
   "org": "Quest Diagnostics",
   "ts": "2026-10-24"
+ },
+ "mach law apc": {
+  "domain": "mach-law.com",
+  "via": "clearbit",
+  "org": "Mach Law APC",
+  "ts": "2026-10-25"
+ },
+ "keidel supply incorporated": {
+  "domain": "keidel.com",
+  "via": "clearbit",
+  "org": "Keidel Supply Company Incorporated",
+  "ts": "2026-10-25"
+ },
+ "andrews advisory group": {
+  "domain": "andrewsadvisorygroup.com",
+  "via": "clearbit",
+  "org": "Andrews Advisory Group LLC",
+  "ts": "2026-10-25"
+ },
+ "newcomer cremations funerals receptions": {
+  "domain": "newcomer.co",
+  "via": "clearbit",
+  "org": "Newcomer Cremations, Funerals & Receptions",
+  "ts": "2026-10-25"
  }
 }
