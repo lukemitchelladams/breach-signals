@@ -738,5 +738,25 @@
  "https://oag.ca.gov/system/files/Sample%20Notice%20Letters_0.pdf": {
   "excerpt": "On July 10, 2026, Alma became aware of possible unauthorized access to its computer network. As soon as we learned of the issue, we immediately initiated our incident response protocols, took steps to secure our systems, contained the incident, and engaged cybersecurity experts to assist with the investigation.",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/2026.10.26_EX%20A_Frontline%20-%20Sample%20Adult%20Individual%20Notification_0.pdf": {
+  "excerpt": "On August 14, 2026, our security team identified a vulnerability in a third-party software product we use that allowed unauthorized access to a portion of the environment beginning August 14, 2026. We promptly investigated the issue with the assistance of an independent cybersecurity firm, remediated the vulnerability, engaged with law enforcement, and took steps to further reinforce the security of our systems. We remain committed to protecting the security of our customers' data and continuously strengthening our security practices. What Personal Information was involved: The Company has bee",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/L01%20CA%20Notice.pdf": {
+  "excerpt": "",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42865.pdf": {
+  "excerpt": "On February 12, 2026, Boston began reviewing a claim involving potential unauthorized access to certain files on its computer network. After receiving this information, Boston Capital had its computer network reviewed by cybersecurity specialists to confirm that it was secure. While investigating this matter, Boston Capital determined that a sophisticated cyber actor made use of other legitimate companies' cloud systems attempting to circumvent its strict cybersecurity tools and permissions and gained access to its systems. After identifying files that were accessed and copied from January 16 ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Client%20Comms%20-%20P3%20Consumer%20%5BUS%5D%2020261023_Redacted.pdf": {
+  "excerpt": " ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Navigate360%20-%20Notification%20Template.pdf": {
+  "excerpt": "On or about March 18, 2026, Navigate360 became aware of suspicious activ ity on one of its systems. Navigate360 immediately instituted mitigation measures to minimize any disr uption while also investigating the activity. Navigate360 launched an investigation into the nature and scope of the incident with the assistance of a leading cybersecurity firm, which determined that an unauthorized third party accessed one of our systems and obtained copies of some data between November 21, 2025 to March 5, 2026. Navi gate360 has engaged a data mining firm to undertake a detailed review of this data to",
+  "domain": ""
  }
 }
