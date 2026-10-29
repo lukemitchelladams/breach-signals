@@ -758,5 +758,61 @@
  "https://oag.ca.gov/system/files/Navigate360%20-%20Notification%20Template.pdf": {
   "excerpt": "On or about March 18, 2026, Navigate360 became aware of suspicious activ ity on one of its systems. Navigate360 immediately instituted mitigation measures to minimize any disr uption while also investigating the activity. Navigate360 launched an investigation into the nature and scope of the incident with the assistance of a leading cybersecurity firm, which determined that an unauthorized third party accessed one of our systems and obtained copies of some data between November 21, 2025 to March 5, 2026. Navi gate360 has engaged a data mining firm to undertake a detailed review of this data to",
   "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42356.pdf": {
+  "excerpt": "Between May 29, 2026 and June 1, 2026, the unauthorized party accessed / acquired files from certain Quantum Health systems. Quantum Health conducted a review of the files involved in the incident and determined that they contain names in combination with one or more of the following: health insurance information (such as insurance policy number or claims/benefits information), health information (such as medical information, treatment information, diagnoses, prescriptions, provider names, and dates of service), and other personal information (such as date of birth, email, address, phone numbe",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42351.pdf": {
+  "excerpt": "In November 2025, Paylogix experienced a network disruption involving certain computer systems and services. In response, Paylogix promptly took steps to confirm the security of its systems and began a thorough investigation to determine the nature and scope of the event. The investigation confirmed that the disruption was the result of a cyber incident and that certain files may have been viewed or taken from the Paylogix network between November 13, 2025 and November 18, 2025. As a result, Paylogix undertook a comprehensive and thorough review of the relevant files to determine what informat",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42777.pdf": {
+  "excerpt": "Thank you for using version 2025.4.1104.462 of Telerik Document Processing Libraries. Access to the latest updates and support requires a valid license. Renew your license and download a new license key. Learn more about Telerik Document Processing Libraries licensing https://prgress.co/3PwQMut Thank you for using version 2025.4.1104.462 of Telerik Document Processing Libraries. Access to the latest updates and support requires a valid license. Renew your license and download a new license key. ",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42768.pdf": {
+  "excerpt": "On or about June 15, 2026, zHealth became aware that certain information may have been copied from its network environment by an unauthorized third party. Upon becoming aware, zHealth promptly began an investigation into the scope and nature of the incident and retained legal counsel and third-party forensic specialists to investigate. The investigation revealed that the unauthorized activity occurred between January 20 to January 21, 2026. zHealth then began a comprehensive review of the data set to determine what sensitive and/or personal information was potentially impacted and to whom it p",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42565.pdf": {
+  "excerpt": "Thank you for using version 2025.4.1104.462 of Telerik Document Processing Libraries. Access to the latest updates and support requires a valid license. Renew your license and download a new license key. Learn more about Telerik Document Processing Libraries licensing https://prgress.co/3PwQMut This letter also provides other precautionary measures you can take to protect your personal information, including placing a Fraud Alert and/or Security Freeze on your credit files, and/or obtaining a fr",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42352.pdf": {
+  "excerpt": "On August 14, 2026, Baylor Genetics began providing written notice of this incident to approximately twenty-seven thousand two hundred forty-three (27,243) Washington residents. Written notice is being provided in substantially the same form as the letter attached here as Exhibit A. Other Steps Taken and To Be Taken Upon identifying the event, Baylor Genetics moved quickly to investigate and respond to the same, assess the security of Baylor Genetics systems, and identify potentially affected individuals. Further, Baylor Genetics notified federal law enforcement regarding the event. Baylor Gen",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42347.pdf": {
+  "excerpt": "On June 1, 2026, we became aware of a potential issue involving a limited portion of our information systems. We immediately took steps to secure our systems and, with the assistance of a third-party forensics team, investigate the extent of this activity. We then determined that an unauthorized party used sophisticated social engineering tactics to access some of our systems between May 26, 2026 and June 1, 2026.",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42340.pdf": {
+  "excerpt": "On June 15, 2026, we became aware that an unauthorized third party obtained access to certain company systems. Upon discovery, we immediately took steps to secure our systems, and we initiated an investigation and engaged third-party forensics experts to confirm the scope of the incident. Through this investigation, we learned that the unauthorized third-party gained access to our systems on June 5 through a social engineering attack targeting a single company user account and took with them certain data, including patient information. Importantly, there is no evidence of ongoing unauthorized ",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA42682.pdf": {
+  "excerpt": "On March 24, 2026, Virta Health identified unauthorized activity limited to a data repository that is separate from our current production platform. Upon discovery, we immediately took steps to secure the environment, initiated an investigation to understand the scope of the incident, engaged external cybersecurity experts to perform an independent review, and notified law enforcement. The investigation revealed that the incident was limited to the data repository where certain files were potentially accessed between March 19, 2026, and March 22, 2026. Following a thorough investigation of the",
+  "domain": "virtahealth.com"
+ },
+ "https://oag.ca.gov/system/files/Notice%20of%20Data%20Breach%20v1-L01.pdf": {
+  "excerpt": "On September 19, 2026, Hitec became aware that an unauthorized person gained access to data maintained in Hitec's online store through a third-party application, including data regarding Hitec's customers. It appears that the unauthorized activity occurred from September 13, 2026 through September 17, 2026.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Data%20Subject%20Notification%20and%20Attachement.pdf": {
+  "excerpt": "On September 3, 2026, Tradier became aware of an attack against Etna Software Corporation (\"Etna\"), a company that provides the order management system and pre- trade controls used by Tradier in running its business. Tradier's network remained secure. Some data required for account identification by Etna may have been subject to unauthorized access.",
+  "domain": "tradierbrokerage.com"
+ },
+ "https://oag.ca.gov/system/files/Adult%20CM.pdf": {
+  "excerpt": "On May 7, 2026, Indico determined that it had suffered a cybersecurity incident which may have involved unauthorized access to various online repositories containing customer information. We immediately implemented our incident response protocols, took steps to secure our environment, and worked with external cybersecurity specialists to investigate. On test, we determined that some of your personal information was present in documents stored in the online repositories.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Baker%20McKenzie%20-%20Template_0.pdf": {
+  "excerpt": "Re: ​ ​Notice of Data Breach Baker & McKenzie LLP (\"Baker McKenzie\") is a global law firm which obtained information about you in connection with legal services it provided to its clients We are writing to inform you of a recent cybersecurity incident. Please read this notice carefully, as it provides you with information on what happened and what we are doing, as well as information on how you can obtain complimentary credit monitoring and identity protection services. What happened: On August ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Sarku-%20Individual%20Notification%20Letter.pdf": {
+  "excerpt": "On September 7, 2026, Sarku Japan discovered that parts of the Company's systems were inaccessible due to a cybersecurity contained the incident. In addition, we engaged third-party cybersecurity experts including specialized external legal counsel and reported the incident to law enforcement.",
+  "domain": ""
  }
 }
