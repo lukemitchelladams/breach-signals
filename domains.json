@@ -3130,5 +3130,71 @@
   "via": "clearbit",
   "org": "Baker McKenzie",
   "ts": "2026-10-29"
+ },
+ "del monte foods ii": {
+  "domain": "delmontefoods.com",
+  "via": "clearbit",
+  "org": "Del Monte Foods Corporation II Inc.",
+  "ts": "2026-10-30"
+ },
+ "marathon health": {
+  "domain": "marathonhg.com",
+  "via": "clearbit",
+  "org": "Marathon Health",
+  "ts": "2026-10-30"
+ },
+ "krum public library": {
+  "domain": "krumlibrary.org",
+  "via": "clearbit",
+  "org": "The Krum Public Library",
+  "ts": "2026-10-30"
+ },
+ "bangkok bank pcl new york branch": {
+  "domain": "bangkokbank.com",
+  "via": "clearbit",
+  "org": "Bangkok Bank PCL - New York Branch",
+  "ts": "2026-10-30"
+ },
+ "revolve group": {
+  "domain": "revolve.com",
+  "via": "clearbit",
+  "org": "Revolve Group, Inc.",
+  "ts": "2026-10-30"
+ },
+ "brandco": {
+  "domain": "",
+  "via": "not found",
+  "org": "BRANDco., LLC",
+  "ts": "2026-10-30"
+ },
+ "susman godfrey llp": {
+  "domain": "susmangodfrey.com",
+  "via": "clearbit",
+  "org": "Susman Godfrey LLP",
+  "ts": "2026-10-30"
+ },
+ "sarku japan": {
+  "domain": "sarkujapan.com",
+  "via": "clearbit",
+  "org": "Sarku Japan",
+  "ts": "2026-10-30"
+ },
+ "eye care center of snohomish": {
+  "domain": "",
+  "via": "not found",
+  "org": "Eye Care Center of Snohomish",
+  "ts": "2026-10-30"
+ },
+ "k l gates": {
+  "domain": "klgates.com",
+  "via": "clearbit",
+  "org": "K&L Gates",
+  "ts": "2026-10-30"
+ },
+ "cognitive health technologies": {
+  "domain": "cognitivehealthsolutions.com",
+  "via": "clearbit",
+  "org": "Cognitive Health Technologies",
+  "ts": "2026-10-30"
  }
 }

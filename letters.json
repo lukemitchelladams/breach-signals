@@ -814,5 +814,25 @@
  "https://oag.ca.gov/system/files/Sarku-%20Individual%20Notification%20Letter.pdf": {
   "excerpt": "On September 7, 2026, Sarku Japan discovered that parts of the Company's systems were inaccessible due to a cybersecurity contained the incident. In addition, we engaged third-party cybersecurity experts including specialized external legal counsel and reported the incident to law enforcement.",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/%28CA%29%20Del%20Monte%20Notice%20of%20Data%20Breach%20%281%29_0.pdf": {
+  "excerpt": "On February 9, 2026, Del Monte learned that it had experienced an issue impacting network operability and immediately initiated an investigation of the matter. Del Monte engaged independent cybersecurity experts to assist with the process. As a result of the investigation, we determined that certain files were acquired without authorization. Del Monte undertook a comprehensive review of those files and, on or about August 20, 2026, learned that certain personal information was contained therein which is the reason for this notification. Thereafter, Del Monte worked to confirm addresses suffici",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Photon_%20No%20CE%20Version2_Adult_Final%20%28003%29_Redacted.pdf": {
+  "excerpt": "On August 21, 2026, we learned that an unauthorized third party exploited a previously unknown security flaw (sometimes called a 'zero-day' vulnerability) in Metabase, a third-party application that we use on a self-hosted basis for business intelligence, product metrics, and customer dashboards, to access certain data. Upon learning of the incident, we took immediate measures to secure the application and engaged a team of cybersecurity experts to assess, contain, and remediate the incident. The investigation revealed that certain data may have been acquired without authorization between Augu",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Troutman%20-%20California%20Notification.pdf": {
+  "excerpt": "On August 7, 2026, a Troutman employee was targeted by a social engineering attack and interacted with communications that appeared legitimate but were not. During the interaction, the employee mistakenly sent certain documents to an unauthorized person. Upon realizing the interaction was suspicious, the employee reported the incident to our IT security team. This was an isolated incident that did not impact our operations, and the unauthorized person did not gain access to our systems. Upon learning of the incident, we immediately launched an investigation with the support of third -party cyb",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Directed%20Trust%20Company%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "On or about July 7, 2026, we became aware of suspicious activity involving our electronic signature platform, Dropbox Sign. We promptly launched an investigation into the nature and scope of the activity. The investigation determined that an unauthorized actor gained access to files containing personal information. After identifying this, we secured the Dropbox Sign access and undertook a detailed review of all potentially impacted files to determine what information was present and to whom it related. This review was completed on October 12, 2026. Through our review we determined that informa",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Bangkok%20Bank%20Data%20Security%20Incident%20Notification%20Letter%20-%20FINAL.pdf": {
+  "excerpt": "Mercadien became aware of the data security incident, and the Branch was informed on August 12, 2026 that your personal information may have been included in the incident.",
+  "domain": ""
  }
 }
