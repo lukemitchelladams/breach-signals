@@ -3244,5 +3244,107 @@
   "via": "not found",
   "org": "CP Manufacturing, Inc.",
   "ts": "2026-10-31"
+ },
+ "baanx us": {
+  "domain": "",
+  "via": "not found",
+  "org": "Baanx US Corp.",
+  "ts": "2026-11-02"
+ },
+ "nch": {
+  "domain": "",
+  "via": "not found",
+  "org": "NCH Corporation",
+  "ts": "2026-11-02"
+ },
+ "central ohio primary care physicians": {
+  "domain": "copcp.com",
+  "via": "clearbit",
+  "org": "Central Ohio Primary Care Physicians, Inc.",
+  "ts": "2026-11-02"
+ },
+ "hca healthcare": {
+  "domain": "",
+  "via": "not found",
+  "org": "HCA Healthcare, Inc.",
+  "ts": "2026-11-02"
+ },
+ "el camino health": {
+  "domain": "elcaminohealth.org",
+  "via": "clearbit",
+  "org": "El Camino Health",
+  "ts": "2026-11-02"
+ },
+ "nueva school": {
+  "domain": "nuevaschool.org",
+  "via": "clearbit",
+  "org": "The Nueva School",
+  "ts": "2026-11-02"
+ },
+ "incredible technologies": {
+  "domain": "incrediblehealth.com",
+  "via": "clearbit",
+  "org": "Incredible Technologies,Inc.",
+  "ts": "2026-11-02"
+ },
+ "vt department of labor": {
+  "domain": "",
+  "via": "not found",
+  "org": "VT Department of Labor",
+  "ts": "2026-11-02"
+ },
+ "blossom bh opco": {
+  "domain": "blossom.co",
+  "via": "clearbit",
+  "org": "Blossom BH Opco Inc.",
+  "ts": "2026-11-02"
+ },
+ "117": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #117",
+  "ts": "2026-11-02"
+ },
+ "116": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #116",
+  "ts": "2026-11-02"
+ },
+ "115": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #115",
+  "ts": "2026-11-02"
+ },
+ "114": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #114",
+  "ts": "2026-11-02"
+ },
+ "113": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #113",
+  "ts": "2026-11-02"
+ },
+ "howells motor freight": {
+  "domain": "howellsmotorfreight.com",
+  "via": "clearbit",
+  "org": "Howells Motor Freight",
+  "ts": "2026-11-02"
+ },
+ "michigan state university": {
+  "domain": "msu.edu",
+  "via": "clearbit",
+  "org": "Michigan State University",
+  "ts": "2026-11-02"
+ },
+ "amplifai": {
+  "domain": "amplifai.com",
+  "via": "clearbit",
+  "org": "AmplifAI",
+  "ts": "2026-11-02"
  }
 }

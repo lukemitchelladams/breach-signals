@@ -834,5 +834,49 @@
  "https://oag.ca.gov/system/files/Bangkok%20Bank%20Data%20Security%20Incident%20Notification%20Letter%20-%20FINAL.pdf": {
   "excerpt": "Mercadien became aware of the data security incident, and the Branch was informed on August 12, 2026 that your personal information may have been included in the incident.",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Notification%20Template%20Letter%20for%20Aesto%20Regulator%20Notices_Redacted.pdf": {
+  "excerpt": " – OTHER IMPORTANT INFORMATION – Enrolling in Complimentary <<ServiceTerminMonths>> months Identity Monitoring Visit Enroll.krollmonitoring.com/redeem to activate and take advantage of your identity monitoring services. You have until <<b2b_text_6 (activation deadline)>> to activate your identity monitoring services. Activation Code: <<b2b_text_5 (activation code)>> and Your Verification ID: <<b2b_text_7 (Verification ID)>> For more information about Kroll and your Identity Monitoring services, ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Marathon_California%20Notification.pdf": {
+  "excerpt": "On August 24, 2026, we received an alert of suspicious activity related to one of our employee's accounts. We immediately disabled the employee's account and began an investigation with the assistance of cybersecurity professionals. The investigation determined that an unauthorized individual posing as a Marathon IT worker was able to obtain the employee's credentials, used those credentials to access a cloud -hosted application, and exported information during that access. This all occurred within a few hours on August 24, 2026. We quickly began assessing the information potentially in scope ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Baanx%20US%20Corp%20-%20Notification%20Letter.pdf": {
+  "excerpt": "Between approximately September 23, 2026 and September 28, 2026 and on or about approximately October 17, 2026, unknown unauthorized parties accessed certain personal information associated with certain U.S. user accounts of the Crypto Life program offered by Baanx US Corp, including via a third-party service provider's access and via an internal administrative system. The unauthorized access has been contained. Based on the investigation to date, we have found no evidence that customer funds were accessed as a result of this unauthorized access.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/EyeMed%20Individual%20Notice%20Template.pdf": {
+  "excerpt": "On September 22, 2026 EyeMed sent a file containing member information to an incorrect email address. The incident was identified the same day and following a brief investigation, EyeMed determined that the incident was the result of human error and not an act with malicious intent. We have confirmed that the incident is isolated to a single email sent to an incorrect recipient and that EyeMed's systems, network, and applications were not compromised. What information was involved? The report contained information about individuals who are enrolled in your vision benefit plan managed by EyeMed",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/NCH%20-%20California%20Notification.pdf": {
+  "excerpt": "On March 9, 2026, we became aware that an unauthorized actor may have taken files from our network. We immediately implemented our response procedures, took containment measures, and launched an investigation with the support of third- party cybersecurity professionals. We also notified law enforcement and are supporting its investigation. The evidence showed that there was unauthorized activity in our network between January 21, 2026, and February 25, 2026. During that time, an unauthorized actor obtained copies of certain files from our network. We completed our review of the files involved ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Central%20Ohio%20Primary%20Care-%20HIPAA%20Breach%20Notification%20INDIVIDUAL%20TEMPLATE%20%28ADULT%29%20v2__Static_Proof_R3%20%281%29.pdf": {
+  "excerpt": "On August 25, 2026, COPC discovered that we had experienced a cybersecurity incident resulting from a social-engineering, or \"vishing\" (voice phishing), attack (the \"Incident\"). Through this attack, a criminal threat actor was able to gain unauthorized access to certain files containing protected health information. Immediately upon discovery of the Incident, COPC activated its incident- response protocols and engaged cybersecurity and legal experts. COPC has been working closely with these experts to investigate the Incident and comply with all data privacy regulations and requirements. The I",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/HCA%20Healthcare%20-%20Notice%20of%20Data%20Breach%20-%20Individual%20Notification%20Templates.pdf": {
+  "excerpt": "On August 12, 2026, we identified suspicious activity involving certain IT systems. We promptly took steps to secure those systems, began an investigation with the help of outside cybersecurity experts, and notified law enforcement. Our investigation determined that an unknown unauthorized party gained access to our systems on August 12, 2026, and obtained copies of certain files containing medical resident personal information. At this time, we have no indication that your data has been published, further disclosed, or used for unauthorized transactions or identity theft.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Revolve%20-%20California%20Notification.pdf": {
+  "excerpt": "We recently concluded an investigation into unauthorized activity involving our online shopping platform. Upon learning of that activity, we immediately implemented measures to contain it and began the investigation. We also notified law enforcement. Evidence from the investigation showed that, on September 11, 2026, an unauthorized actor accessed our platform and may have acquired certain customers' information.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/El%20Camino%20-%20California%20Notification.pdf": {
+  "excerpt": "On September 1, 2026, we identified unusual activity in our Microsoft 365 system. We immediately took steps to secure the system and initiated an investigation with the assistance of third-party forensic experts. We also notified law enforcement. The investigation identified intermittent unauthorized access to the Microsoft 365 accounts for four employees between August 26, 2026 and September 2, 2026, and certain documents that were copied or downloaded from those accounts. We then initiated a review and analysis of those documents, which is ongoing, to determine what information they containe",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/The%20Nueva%20School%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "On June 21, 2026, Nueva School became aware of suspicious activity within a limited portion of our network. In response, we promptly took steps to secure our network and initiated a comprehensive investigation to determine the full nature and scope of the activity with the assistance of third-party forensic specialists. The investigation determined that between June 13, 2026 and June 22, 2026, certain files within Nueva School's network were accessed and copied without authorization. Nueva School identified the affected files and performed a comprehensive and time- intensive review of the file",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/CA%20AG%20Letter%20-%20Blossom%20Health_0.pdf": {
+  "excerpt": "On August 27, 2026, an unauthorized actor gained access to our electronic health records (\"EHR\") software. We immediately implemented our incident response protocols, removed the unauthorized actor, and conducted an investigation to determine what occurred and whether any data may have been impacted. Our investigation determined on August 27, 2026 that the unauthorized actor gained entry to our EHR through a phishing attack on a non-employee contractor and had access to patient information before the actor was detected and removed.",
+  "domain": ""
  }
 }
