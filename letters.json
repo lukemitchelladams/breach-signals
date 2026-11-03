@@ -878,5 +878,17 @@
  "https://oag.ca.gov/system/files/CA%20AG%20Letter%20-%20Blossom%20Health_0.pdf": {
   "excerpt": "On August 27, 2026, an unauthorized actor gained access to our electronic health records (\"EHR\") software. We immediately implemented our incident response protocols, removed the unauthorized actor, and conducted an investigation to determine what occurred and whether any data may have been impacted. Our investigation determined on August 27, 2026 that the unauthorized actor gained entry to our EHR through a phishing attack on a non-employee contractor and had access to patient information before the actor was detected and removed.",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/DreamHost%20-%20Data%20Security%20Breach%20Notice%20Letter%20%28USA%20other%20than%20MA%29%20261102.1.pdf": {
+  "excerpt": "Between August 2026 and October 23, 2026, we discovered that an unauthorized third party accessed the server that runs our web -based File Manager at files.dreamhost.com. The unauthorized third party exploited a vulnerability in that software and was able to access the FTP/SFTP usernames and passwords of individuals who logged into this File Manager between approximately August 2026 and October 23, 2026. The unauthorized third party was also able to reach certain webmail systems, which may have exposed the session information (the data that keeps a user signed in, including session credentials",
+  "domain": "dreamhost.com"
+ },
+ "https://oag.ca.gov/system/files/UMMC_Notice_Letter_Example_%28Redacted%29_40414800v1.pdf": {
+  "excerpt": "On or about February 19, 2026, UMMC became aware of unauthorized access to our computer network.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Data%20Breach%20Notice_0.pdf": {
+  "excerpt": "In the process of transitioning the CottonWorks.com website from one hosting provider to another, a database export containing information about our users was inadvertently made public. We believe that this database export was downloaded four times by unknown parties between September 18, 2026 and October 15, 2026. We have not received any evidence that the information contained in the database has been used by any third party.",
+  "domain": "cottoninc.com"
  }
 }
