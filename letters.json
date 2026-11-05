@@ -890,5 +890,37 @@
  "https://oag.ca.gov/system/files/Data%20Breach%20Notice_0.pdf": {
   "excerpt": "In the process of transitioning the CottonWorks.com website from one hosting provider to another, a database export containing information about our users was inadvertently made public. We believe that this database export was downloaded four times by unknown parties between September 18, 2026 and October 15, 2026. We have not received any evidence that the information contained in the database has been used by any third party.",
   "domain": "cottoninc.com"
+ },
+ "https://oag.ca.gov/system/files/Quantum%20Health%20-%20California%20Notification.pdf": {
+  "excerpt": "On June 1, 2026, Quantum Health detected a service outage, which affected the availability of certain internal and external systems. Upon identifying the outage, we promptly secured and isolated our systems, while simultaneously launching an investigation with the support of third-party forensics experts. We also reported the incident to federal law enforcement. We immediately took measures to continue supporting members while we completed our restoration efforts. Our investigation determined that the service outage was related to unauthorized access to our IT network, resulting from a user re",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/RevSpring_California%20Notification.pdf": {
+  "excerpt": "On August 17, 2026, RevSpring discovered that an unauthorized person may have gained access to a RevSpring support tool that could be used to obtain information about patients that used our bill pay platform. We promptly launched an investigation, engaged outside cybersecurity experts, and notified law enforcement. The investigation determined that the unauthorized person successfully used the support tool between May 15, 2026 and June 1, 2026 to obtain certain information about patients of your healthcare provider. Your healthcare provider was informed of this issue on <<b2b_text_3 (date)>>. ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Notice%20of%20Data%20Breach_7_Redacted.pdf": {
+  "excerpt": "On September 25, 2026, ETS identified unauthorized activity involving an SFTP site used to exchange California statewide assessment information with CDE. ETS disabled the account involved, took the affected SFTP site offline, and initiated an investigation with the assistance of external cybersecurity experts. The investigation determined that an unauthorized party used a compromised login credential at various times during the period from May 22, 2026 to September 18, 2026 to access the SFTP site to copy files containing California student information.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Hoag%20Hospital%20-%20CA%20Regulatory%20Notice%20Letter%2815618477.1%29_0.pdf": {
+  "excerpt": "On October 8, 2026 , Hoag Hospital became aware of suspicious activity in our network. We immediately initiated an investigation into the matter and engaged independent forensic experts to assist with the process. As a result of the investigation, we learned that certain files may have been accessed without authorization. Hoag Hospital then engaged an independent team to conduct a comprehensive review of those files. On October 25, 2026, that review determined that some of your personal and/or protected health information may have been contained within the potentially affected data, which is t",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/UUSD%20Adult%20CM%20Redacted.pdf": {
+  "excerpt": " What You Can Do. We have no evidence that any of your information has been used for identity theft or to commit financial fraud. Nevertheless, out an abundance of caution, we want to make you aware of the incident and offer a complimentary 12 months membership for credit monitoring. For more information on identity theft prevention and the identity monitoring, including instructions on how to activate your complimentary membership, please see the additional information provided in this letter. ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Notification%20Letter%20-%20Template_0.pdf": {
+  "excerpt": "On July 27, 2026, a CTG employee inadvertently provided to EDD a file that contained personal information of current and former CTG employees, in addition to information about new hires. Stat e and federal law limits how EDD may use and disclose this information. Upon becoming aware of the inadvertent upload, we engaged with EDD and re ceived confirmation that the information contained in the file was deleted from their databases. What information was involved? The data involved included your name and So cial Security number. The file provided to EDD did not contain bank account information. W",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/2026-10-26-LTR-USBFS4387-TDS-Adult-v2.pdf": {
+  "excerpt": "On November 21, 2025, we determined some of your information may have been involved in the event. In November 2024, TDS experienced a network disruption that interrupted services. We immediately investigated with support from cybersecurity specialists. From the investigation, we determined some files related to citation payment services may have been accessed without authorization around November 21, 2024. We conducted a comprehensive and exhaustive review to determine the specific information present so we could notify applicable individuals. As part of the investigation, on November 21, 2025",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/ACPDRAFT%20Hippo%20-%20Individual%20Notification%20Template%20%28CA%20ONLY%29%20v2%20%283%29.pdf": {
+  "excerpt": "On August 3, 2026, Hippo identified suspicious activity involving its online auto insurance quote tool. Hippo immediately took steps to investigate and secure its systems. Assisted by third-party cybersecurity experts, Hippo identified activity consistent with the abuse of its quote tool by unidentified actors. The investigation determined that the unauthorized actors submitted information through the quote tool and may have been able to view personal information returned by the tool's pre-fill functionality between January 30, 2025, and August 11, 2026, when Hippo fully remediated the issue.",
+  "domain": ""
  }
 }
