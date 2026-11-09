@@ -922,5 +922,49 @@
  "https://oag.ca.gov/system/files/ACPDRAFT%20Hippo%20-%20Individual%20Notification%20Template%20%28CA%20ONLY%29%20v2%20%283%29.pdf": {
   "excerpt": "On August 3, 2026, Hippo identified suspicious activity involving its online auto insurance quote tool. Hippo immediately took steps to investigate and secure its systems. Assisted by third-party cybersecurity experts, Hippo identified activity consistent with the abuse of its quote tool by unidentified actors. The investigation determined that the unauthorized actors submitted information through the quote tool and may have been able to view personal information returned by the tool's pre-fill functionality between January 30, 2025, and August 11, 2026, when Hippo fully remediated the issue.",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/WM%20AG%20Notice%20-%20Consumer%20Notification%20Example%20%28CA%29%20%28Redacted%29.pdf": {
+  "excerpt": "On September 2, 2026, we became aware of a potential issue involving a limited portion of our information systems. We immediately took steps to secure our systems and, with the assistance of counsel and a third-party forensics team, investigate the extent of this activity. We then determined that an unauthorized party used sophisticated social engineering tactics to access data from our systems between June 17, 2026, and September 3, 2026.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/PH%20Sample%20Individual%20Notice%20Letter_0.pdf": {
+  "excerpt": "On September 18, 2026, Premise Health Holding Corp. (\"Premise Health\") discovered that an employee had violated company information security policies and misappropriated certain company data beginning on or about March 26, 2026. Upon discovery, we took immediate action to revoke the employee's credentials and system access, validate our security controls, and investigate the incident. On October 14, 2026, we received a preliminary analysis of the relevant data. Following further analysis and validation of the results, we are now reaching out to you to let you know that the incident involved so",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Amplifon%20-%20Individual%20Notice%20Template.pdf": {
+  "excerpt": "We are writing to inform you of a security incident impacting a limited number of systems at Amplifon, and which may have involved some of your information. <<B2B_TEXT_7 [Amplifon had this information through your interactions with the company or its franchise locations.]>><<B2B_TEXT_3 [Amplifon works with health insurance plans, including those offered by [data owner], to help provide plan benefits.]>> What happened? Amplifon detected suspicious activity on certain systems within its network on February 11, 2026 and immediately launched an investigation with the support of external cybersecur",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/UFP%20Technologies%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "Earlier this year, UFP identified suspicious activity on certain computer systems. We promptly launched an investigation to determine the nature and scope of the event with the assistance of cybersecurity specialists. Through our investigation, we determined that the unknown actor gained access between February 11, 2026, and February 14, 2026, and copied certain files on our system. We promptly began a review of the impacted emails to determine the impacted information and to whom it related. This review was completed on September 28, 2026 at which time we determined your information was impac",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Notice%20Letter%20-%20Patients%20-%20All%20Other%20Entities%20v2%28185716471.1%29.pdf": {
+  "excerpt": "On or around January 25, 2026, Telecare discovered unusual activity involving its digital environment. We promptly responded and launched an investig ation to confirm the nature and scope of the incident with the assistance of third-party cybersecurity experts. After extensive electronic discovery, which was completed on September 4, 2026, it was determined that your personal information was present in the impacted data set. We immediately took steps to notify you as soon as the investigation was completed.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Hollister%20Dental%20Sample%20Notification.pdf": {
+  "excerpt": " ADDITIONAL RESOURCES Review Account Statements and Credit Reports Individuals should remain vigilant, including for incidents of fraud and identity theft, by reviewing account statements and monitoring credit reports. Under federal law, an individual may be entitled every 12 months to one free copy of the individual's credit report from each of the three major credit reporting companies. To obtain a free annual credit report, go to www.annualcreditreport.com or call 1-877-322-8228. Individuals ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/ECS%20-%20Individual%20notice%20letter%20-%20Exhibit%20A_0.pdf": {
+  "excerpt": "On September 25, 2026, we identified unusual activ ity within our network environment and quickly worked to contain the activity. Thereafter third-party computer specialists were engaged to investigate and determine the nature and scope of the activity. After signi ficant efforts by all involved, the inves tigation determined that as part of the activity, certain files were accessed on September 25, 2026, within a small subsection of our network environment separate and apart from where student data is stored. After the scope of the unauthorized activity was confirmed, we engaged additional sp",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Enara%20Health%20Notification%20Letter%20SAMPLE.pdf": {
+  "excerpt": "On September 10, 2026, Enara detected suspicious activity associated with our provider application. We immediately began an investigation and took steps to contain and remediate the situation including changing passwords, disabling impacted accounts, notifying federal law enforcement, and engaging data security and privacy professionals to assist in our investigation and response. The investigation determined that there was unauthorized access to this platform for only a limited time on September 10, 2026. There was no unauthorized activity within our network or other systems. Through our inve",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Santa%20Barbara%20Endodonitcs%20Breach%20Notice.pdf": {
+  "excerpt": "",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Standard_Notice_R1_40435396v1.pdf": {
+  "excerpt": "We recently discovered unauthorized access to our network occurred between August 26, 2026 and August 27, 2026.",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA43651.pdf": {
+  "excerpt": "On or about October 8, 2026, we became aware that one of our backup hard drives had been stolen from an approved information technology vendor responsible for maintaining our backup systems. The theft was a result of a vehicle break-in, and the vendor filed a police report. Our vendor notified us, and upon becoming aware, we promptly began an investigation into the scope and nature of the theft. We learned the backup drive was not the intended target but was included in a bag along with other items that were stolen from the vehicle. We then began a comprehensive review of the data set to deter",
+  "domain": ""
  }
 }
