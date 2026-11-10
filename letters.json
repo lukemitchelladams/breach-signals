@@ -966,5 +966,25 @@
  "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA43651.pdf": {
   "excerpt": "On or about October 8, 2026, we became aware that one of our backup hard drives had been stolen from an approved information technology vendor responsible for maintaining our backup systems. The theft was a result of a vehicle break-in, and the vendor filed a police report. Our vendor notified us, and upon becoming aware, we promptly began an investigation into the scope and nature of the theft. We learned the backup drive was not the intended target but was included in a bag along with other items that were stolen from the vehicle. We then began a comprehensive review of the data set to deter",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Baker%20Tilly%20-%20Sample%20Individual%20Notice.pdf": {
+  "excerpt": "On September 6, 2026, Baker Tilly became aware of a potential cybersecurity incident involving certain information stored on a platform operated by a third-party service provider used by Baker Tilly in connection with services we provide to clients. The unauthorized actor was able to obtain data relating to certain Baker Tilly clients.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Kalahari%20Notification%20Letter%20%28CA%29_Redacted.pdf": {
+  "excerpt": "\"#$%&'(#)(*+$+(U.'+&4 *'+.( 6 7'(+.'(8.%$%19($#(1#$%)/(/#-(#)(+(.'&'1$(2+$+(:'&-.%$/(%1&%2'1$($4+$(;+/(4+<'(.':-=$'2(%1(-1+-$4#.%>'2(+&&'::($#(/#-. ?'.:#1+=( %1)#.;+$%#16( +12( 8'( 8+1$( $#( ?.#<%2'( /#-( 8%$4( %1)#.;+$%#1( +12( .':#-.&':( /#-( &+1( -:'( $#( ?.#$'&$( /#-. %1)#.;+$%#1(9#%19()#.8+.2@(A#-(+.'(.'&'%<%19($4%:(='$$'.(B'&+-:'(/#-(+.'(+(&-..'1$(#.()#.;'.(';?=#/''(#)(+(C+=+4+.% &#;?+1/(DEC+=+4+.%FG@ 74+$(H+??'1'2I J1( J&$#B'.( KL6( MNML6( 8'( 2'$'.;%1'2( $4+$( ?'.:#1+=( %1)#.;+$%#1( ;+/(",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Cornick%20Garber%20%26%20Sandler%20%28Redacted%20Letter%29.pdf": {
+  "excerpt": "",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Regulatory%20Notice%20Letter_Dorsata_CA_Wave%202_1.pdf": {
+  "excerpt": "On August 12, 2026, we received a notice that the Metabase business intelligence software we use contained a security vulnerability. We immediately patched the software and began an investigation with the assistance of third-party cybersecurity experts. Our investigation determined the Metabase security vulnerability allowed unauthorized access to our database platform from August 10, 2026, to August 12, 2026. We reviewed the data involved in the incident and advised your healthcare provider that your protected health information was contained within the affected data. Your healthcare provider",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA43474.pdf": {
+  "excerpt": "On or about March 18, 2026, Navigate360 became aware of suspicious activ ity on one of its systems. Navigate360 immediately instituted mitigation measures to minimize any disr uption while also investigating the activity. Navigate360 launched an investigation into the nature and scope of the incident with the assistance of a leading cybersecurity firm, which determined that an unauthorized third party accessed one of our systems and obtained copies of some data between November 21, 2025 to March 5, 2026. Navi gate360 has engaged a data mining firm to undertake a detailed review of this data to",
+  "domain": ""
  }
 }

@@ -4276,5 +4276,83 @@
   "via": "clearbit",
   "org": "Accumedic",
   "ts": "2026-11-09"
+ },
+ "atlantic federal credit union": {
+  "domain": "atlanticfcu.com",
+  "via": "clearbit",
+  "org": "The Atlantic Federal Credit Union",
+  "ts": "2026-11-10"
+ },
+ "premier business solutions": {
+  "domain": "premierbusinessstrategist.com",
+  "via": "clearbit",
+  "org": "Premier Business Solutions, LLC",
+  "ts": "2026-11-10"
+ },
+ "baker tilly advisory group": {
+  "domain": "bakertilly.com",
+  "via": "clearbit",
+  "org": "Baker Tilly Advisory Group, LP",
+  "ts": "2026-11-10"
+ },
+ "kalahari management": {
+  "domain": "",
+  "via": "not found",
+  "org": "Kalahari Management Co. LLC",
+  "ts": "2026-11-10"
+ },
+ "cornick garber sandler llp": {
+  "domain": "cgscpa.com",
+  "via": "clearbit",
+  "org": "Cornick, Garber & Sandler, LLP",
+  "ts": "2026-11-10"
+ },
+ "cirrus": {
+  "domain": "",
+  "via": "not found",
+  "org": "Cirrus",
+  "ts": "2026-11-10"
+ },
+ "navigate360": {
+  "domain": "navigate360.com",
+  "via": "clearbit",
+  "org": "Navigate360, LLC",
+  "ts": "2026-11-10"
+ },
+ "actualize consulting": {
+  "domain": "actualizeconsulting.com",
+  "via": "clearbit",
+  "org": "Actualize Consulting",
+  "ts": "2026-11-10"
+ },
+ "cresa": {
+  "domain": "cresa.com",
+  "via": "clearbit",
+  "org": "CRESA",
+  "ts": "2026-11-10"
+ },
+ "alexion": {
+  "domain": "alexion.com",
+  "via": "clearbit",
+  "org": "ALEXION",
+  "ts": "2026-11-10"
+ },
+ "pyramid healthcare": {
+  "domain": "pyramid-healthcare.com",
+  "via": "clearbit",
+  "org": "PYRAMID HEALTHCARE",
+  "ts": "2026-11-10"
+ },
+ "vertex pharmaceuticals incorporated": {
+  "domain": "vertexinc.com",
+  "via": "clearbit",
+  "org": "Vertex Pharmaceuticals Incorporated",
+  "ts": "2026-11-10"
+ },
+ "irwin automotive group": {
+  "domain": "irwinzone.com",
+  "via": "clearbit",
+  "org": "Irwin Automotive Group",
+  "ts": "2026-11-10"
  }
 }
