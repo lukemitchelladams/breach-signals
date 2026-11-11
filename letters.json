@@ -986,5 +986,9 @@
  "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA43474.pdf": {
   "excerpt": "On or about March 18, 2026, Navigate360 became aware of suspicious activ ity on one of its systems. Navigate360 immediately instituted mitigation measures to minimize any disr uption while also investigating the activity. Navigate360 launched an investigation into the nature and scope of the incident with the assistance of a leading cybersecurity firm, which determined that an unauthorized third party accessed one of our systems and obtained copies of some data between November 21, 2025 to March 5, 2026. Navi gate360 has engaged a data mining firm to undertake a detailed review of this data to",
   "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA43066.pdf": {
+  "excerpt": "In January 2026, Lamb Weston became aware of unauthorized access to its environment. In response, Lamb Weston promptly took steps to secure its network and initiated a comprehensive investigation to determine the full nature and scope of the event with the assistance of third-party cybersecurity and digital forensic specialists. The investigation determined that between January 9, 2026, and January 15, 2026, certain files within Lamb Weston's environment were downloaded without authorization. Lamb Weston further engaged third-party data review specialists to conduct a time-intensive and thorou",
+  "domain": ""
  }
 }
