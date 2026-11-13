@@ -990,5 +990,21 @@
  "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA43066.pdf": {
   "excerpt": "In January 2026, Lamb Weston became aware of unauthorized access to its environment. In response, Lamb Weston promptly took steps to secure its network and initiated a comprehensive investigation to determine the full nature and scope of the event with the assistance of third-party cybersecurity and digital forensic specialists. The investigation determined that between January 9, 2026, and January 15, 2026, certain files within Lamb Weston's environment were downloaded without authorization. Lamb Weston further engaged third-party data review specialists to conduct a time-intensive and thorou",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/LSB%20-%20Sample%20Notice.pdf": {
+  "excerpt": "On or about October 7, 2025, we identified potentially suspicious activity on our network environment and immediately initiated an investigation with the assistance of cybersecurity experts. That investigationdetermined that some of our files may have beenaccessedand/or acquired without authorization during the event. Following a thorough review of the impacted files which recently concluded, we learned that certain individuals' personal information may have been involved andundertookeffortstoidentifyappropriatecontactinformationforpurposesofprovidingnotice.We completedthoseeffortsonOctober5,2",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Multistate%20Template%20-%20Final.pdf": {
+  "excerpt": "On October 9, 2026, a service provider notified Uber that an unauthorized third party had compromised the service provider's internal credentials and used them to access Uber's account with the service provider. After being notified of this incident, Uber immediately severed data connections with the service provider and launched an investigation. On October 13, 2026, our investigation determined that the unauthorized party had used the compromised credentials to access Uber data connected to the service provider. We are notifying you about this incident because our investigation concluded tha",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/ELN-28726%20Vanguard%20Group%20Ad%20CM%203y%20L2%20r7prf.pdf": {
+  "excerpt": "We are writing to inform you about a data incident that involved some of your personal information associated with your Vanguard account. Importantly, your Vanguard account was not accessed, and the incident did not disrupt Vanguard's business operations or services. Vanguard is committed to protecting your personal information, which is why we are writing to you with information about the incident, measures we have taken to address this matter, and steps you can take to further protect your information. What Happened? Vanguard experienced a social engineering incident between July 29-31, 2026",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/PCH%20-%20Notice%20Templates.pdf": {
+  "excerpt": "On February 18, 2026, we detected suspicious activity in a portion of a legacy computer network. We promptly began working with third-party cybersecurity experts to investigate and remediate that activity. In April, the investigation found that an unauthorized third party gained access to a portion of our computer network from February 4 to 18, 2026. We identified the files impacted by the event, migrated data to a new environment with increased safeguards, and then engaged a data-review firm to analyze the affected files' contents. We received the data-review results in September and have bee",
+  "domain": ""
  }
 }
