@@ -1006,5 +1006,33 @@
  "https://oag.ca.gov/system/files/PCH%20-%20Notice%20Templates.pdf": {
   "excerpt": "On February 18, 2026, we detected suspicious activity in a portion of a legacy computer network. We promptly began working with third-party cybersecurity experts to investigate and remediate that activity. In April, the investigation found that an unauthorized third party gained access to a portion of our computer network from February 4 to 18, 2026. We identified the files impacted by the event, migrated data to a new environment with increased safeguards, and then engaged a data-review firm to analyze the affected files' contents. We received the data-review results in September and have bee",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Employer%20Solutions%20Staffing%20Group%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "On January 13, 2026, ESSG became aware of suspicious activity in our network. We promptly took steps to secure our systems and initiated an investigation into the nature and scope of the event. The investigation determined that certain files on ESSG systems were accessed or acquired without authorization on January 13, 2026. In response, ESSG undertook a comprehensive review of the affected files to determine what information was present and to whom it relates. ESSG's review identified on October 13, 2026 that personal information related to certain individuals was present in the affected file",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Fandango%20-%20Individual%20Notice%20Template_Redacted.pdf": {
+  "excerpt": "1 Subject: Fandango – Notice of Security Incident [ ATTENTION: EXTERNAL SENDER] Re: Notice of Data Breach Hello, Fandango Media, LLC (\"Fandango\" or \"we\") recently detected a security incident. Some of your information may have been impacted in this incident. Please read this notice carefully, as it provides information on what happened and what we are doing in response. What happened? We recently became aware of an issue involving Fandango's ticketing checkout page. We promptly investigated the ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Acadia%20-%20California%20Notification.pdf": {
+  "excerpt": "Acadia Healthcare is committed to protecting the confidentiality and security of the information we maintain. We are writing to let you know about a data security incident that involved some of your information. This letter explains the incident, measures that have been taken, and some steps you can take in response. We recently completed our investigation of an email security incident that resulted in unauthorized access to certain files. Upon first learning of this incident on March 25, 2026, we immediately launched an investigation with the assistance of a third-party forensic investigation",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Plant%20Construction%20Company%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "On October 14, 2026, Plant Construction was alerted to potential unauthorized access to certain files contained on Plant Construction systems. Plant Construction launched an investigation and determined between September 8, 2026, and October 15, 2026, an unauthorized actor accessed certain systems within the environment that stored information and downloaded certain files from those systems. Although we have no evidence of any identity theft or fraud occurring in connection with this incident, Plant Construction conducted a review of relevant systems and is notifying those whose information wa",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/MPOWER_-_Redacted_Letter_40479284v1.pdf": {
+  "excerpt": "On or about June 26, 2025, MPOWERHealth detected that an unauthorized party obtained access to a limited portion of our internal network.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/ELN-28926%20Dexcom.pdf": {
+  "excerpt": "On November 2, 2026, we determined that some of your information may have been involved in an incident involving unauthorized access to certain employee accounts. We immediately engaged outside counsel and a leading cybersecurity firm to investigate. The investigation determined that an unauthorized third party gained access through social engineering. With that access, the unauthorized third party was able to download certain files. We took steps to contain the incident, including revoking the compromised accounts' access. The investigation found no ongoing evidence of any unauthorized activi",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Individual%20Notification%20-%20ICW%20-%20NOV%202026_0.pdf": {
+  "excerpt": "On May 1, 2026, a single ICW employee was the victim of a sophisticated social engineering event that allowed an unknown third-party to gain unauthorized access to a limited set of documents on ICW's systems. We became aware of the social engineering event on May 19, 2026, and immediately launched a comprehensive investigation. As a part of that investigation, we engaged a third-party forensic firm and other third-party experts to assist us in investigating what happened and what data may have been impacted. We also notified law enforcement and worked with them in support of their investigatio",
+  "domain": ""
  }
 }
