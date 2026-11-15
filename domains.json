@@ -4594,5 +4594,35 @@
   "via": "clearbit",
   "org": "Aaron Family Jewish Community Center of Dallas",
   "ts": "2026-11-14"
+ },
+ "orion communications": {
+  "domain": "orioncom.com",
+  "via": "clearbit",
+  "org": "Orion Communications Inc",
+  "ts": "2026-11-15"
+ },
+ "koehler financial group": {
+  "domain": "koehler-ch.com",
+  "via": "clearbit",
+  "org": "Koehler Financial Group Inc",
+  "ts": "2026-11-15"
+ },
+ "four points financial solutions": {
+  "domain": "fourpointsmagazine.com",
+  "via": "clearbit",
+  "org": "Four Points Financial Solutions Inc.",
+  "ts": "2026-11-15"
+ },
+ "eagle fire extinguisher": {
+  "domain": "eaglefire.com",
+  "via": "clearbit",
+  "org": "Eagle Fire Extinguisher Company",
+  "ts": "2026-11-15"
+ },
+ "f g c c": {
+  "domain": "",
+  "via": "not found",
+  "org": "F***** G****** C********** C***",
+  "ts": "2026-11-15"
  }
 }
