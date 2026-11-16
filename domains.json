@@ -2145,19 +2145,19 @@
   "domain": "",
   "via": "not found",
   "org": "MLD Mortgage Inc. dba The Money Store",
-  "ts": "2026-10-16"
+  "ts": "2026-11-16"
  },
  "city of foster city": {
   "domain": "",
   "via": "not found",
   "org": "City of Foster City",
-  "ts": "2026-10-16"
+  "ts": "2026-11-16"
  },
  "bdg law group": {
   "domain": "",
   "via": "not found",
   "org": "BDG Law Group",
-  "ts": "2026-10-16"
+  "ts": "2026-11-16"
  },
  "allcare health": {
   "domain": "allcarehealth.com",
@@ -4624,5 +4624,119 @@
   "via": "not found",
   "org": "F***** G****** C********** C***",
   "ts": "2026-11-15"
+ },
+ "grand design rv": {
+  "domain": "granddesignrv.com",
+  "via": "clearbit",
+  "org": "Grand Design RV, LLC",
+  "ts": "2026-11-16"
+ },
+ "farmers supply cooperative": {
+  "domain": "farmers.com",
+  "via": "clearbit",
+  "org": "Farmers Supply Cooperative",
+  "ts": "2026-11-16"
+ },
+ "alabama board of nursing": {
+  "domain": "al911board.com",
+  "via": "clearbit",
+  "org": "Alabama Board of Nursing",
+  "ts": "2026-11-16"
+ },
+ "psychiatry associates of eugene pc": {
+  "domain": "psychiatry-uk.com",
+  "via": "clearbit",
+  "org": "Psychiatry Associates of Eugene, PC",
+  "ts": "2026-11-16"
+ },
+ "verastem oncology": {
+  "domain": "verastem.com",
+  "via": "clearbit",
+  "org": "Verastem Oncology",
+  "ts": "2026-11-16"
+ },
+ "exelixis": {
+  "domain": "exelixis.com",
+  "via": "clearbit",
+  "org": "Exelixis, Inc.",
+  "ts": "2026-11-16"
+ },
+ "beone medicines": {
+  "domain": "beonemedicines.ca",
+  "via": "clearbit",
+  "org": "BeOne Medicines Ltd.",
+  "ts": "2026-11-16"
+ },
+ "azurity pharmaceuticals": {
+  "domain": "azurity.com",
+  "via": "clearbit",
+  "org": "Azurity Pharmaceuticals, Inc.",
+  "ts": "2026-11-16"
+ },
+ "d r johnson financial": {
+  "domain": "",
+  "via": "not found",
+  "org": "D.R. Johnson Financial",
+  "ts": "2026-11-16"
+ },
+ "arca financial group": {
+  "domain": "arcafinancial.com",
+  "via": "clearbit",
+  "org": "Arca Financial Group",
+  "ts": "2026-11-16"
+ },
+ "arca financial": {
+  "domain": "arcafinancial.com",
+  "via": "clearbit",
+  "org": "ARCA Financial",
+  "ts": "2026-11-16"
+ },
+ "pearl planning": {
+  "domain": "pearlplan.com",
+  "via": "clearbit",
+  "org": "Pearl Planning",
+  "ts": "2026-11-16"
+ },
+ "wise advisory group": {
+  "domain": "wiseadvisory.com",
+  "via": "clearbit",
+  "org": "Wise Advisory Group",
+  "ts": "2026-11-16"
+ },
+ "odp": {
+  "domain": "",
+  "via": "not found",
+  "org": "The ODP Corporation",
+  "ts": "2026-11-16"
+ },
+ "networth management": {
+  "domain": "yournetworth.ca",
+  "via": "clearbit",
+  "org": "Networth Management",
+  "ts": "2026-11-16"
+ },
+ "visa": {
+  "domain": "visa.com",
+  "via": "clearbit",
+  "org": "Visa Inc.",
+  "ts": "2026-11-16"
+ },
+ "mastercard incorporated": {
+  "domain": "mastercard.us",
+  "via": "clearbit",
+  "org": "Mastercard Incorporated",
+  "ts": "2026-11-16"
+ },
+ "culinary specialties": {
+  "domain": "culinaryspecialties.net",
+  "via": "clearbit",
+  "org": "Culinary Specialties",
+  "ts": "2026-11-16"
+ },
+ "mpowerhealth": {
+  "domain": "mpowerhealth.com",
+  "via": "clearbit",
+  "org": "MPOWERHealth",
+  "ts": "2026-11-16"
  }
 }

@@ -1034,5 +1034,13 @@
  "https://oag.ca.gov/system/files/Individual%20Notification%20-%20ICW%20-%20NOV%202026_0.pdf": {
   "excerpt": "On May 1, 2026, a single ICW employee was the victim of a sophisticated social engineering event that allowed an unknown third-party to gain unauthorized access to a limited set of documents on ICW's systems. We became aware of the social engineering event on May 19, 2026, and immediately launched a comprehensive investigation. As a part of that investigation, we engaged a third-party forensic firm and other third-party experts to assist us in investigating what happened and what data may have been impacted. We also notified law enforcement and worked with them in support of their investigatio",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/DBM-6206_SOUTHWIRE_SAS_L01_V2.pdf": {
+  "excerpt": "On January 29, 2026, Southwire became aware of unusual activity on its systems. Southwire promptly secured the affected systems and launched an investigation with the assistance of third-party cybersecurity experts to determine the impact and scope of the incident. The incident involved unauthorized access to Southwire's systems through a malicious browser update. The investigation determined that an unauthorized party acquired certain files on Southwire's systems between November 2025 and January 2026. Following the forensic investigation, a third-party firm conducted a comprehensive review o",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Impacted%20Individual%20Sample%20Letter.pdf": {
+  "excerpt": "On October 19, 2026, Prism personnel identified suspicious activity within portions of its environment. In response, Prism immediately engaged third-party cybersecurity specialists to help determine the nature and scope of the incident. The investigation revealed that an unauthorized third party gained access to portions of Prism's environment and appears to have accessed and obtained certain files belonging to Prism.",
+  "domain": ""
  }
 }
