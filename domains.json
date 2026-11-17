@@ -2235,19 +2235,19 @@
   "domain": "",
   "via": "not found",
   "org": "Inner City Education Foundation",
-  "ts": "2026-10-17"
+  "ts": "2026-11-17"
  },
  "cde": {
   "domain": "",
   "via": "not found",
   "org": "CDE",
-  "ts": "2026-10-17"
+  "ts": "2026-11-17"
  },
  "john g yphantides a professional law": {
   "domain": "",
   "via": "not found",
   "org": "John G. Yphantides, a Professional Law Corporation",
-  "ts": "2026-10-17"
+  "ts": "2026-11-17"
  },
  "neuro wellness spa": {
   "domain": "neuro-wellness.org",
@@ -4738,5 +4738,59 @@
   "via": "clearbit",
   "org": "MPOWERHealth",
   "ts": "2026-11-16"
+ },
+ "colla health": {
+  "domain": "",
+  "via": "not found",
+  "org": "Colla Health, Inc.",
+  "ts": "2026-11-17"
+ },
+ "uchealth and affiliated healthcare facilities": {
+  "domain": "uchealth.org",
+  "via": "clearbit",
+  "org": "UCHealth and affiliated healthcare facilities",
+  "ts": "2026-11-17"
+ },
+ "payrhealth": {
+  "domain": "payrhealth.com",
+  "via": "clearbit",
+  "org": "PayrHealth",
+  "ts": "2026-11-17"
+ },
+ "apartment income reit": {
+  "domain": "",
+  "via": "not found",
+  "org": "Apartment Income REIT LLC",
+  "ts": "2026-11-17"
+ },
+ "battelle memorial institute": {
+  "domain": "battelle.org",
+  "via": "clearbit",
+  "org": "Battelle Memorial Institute",
+  "ts": "2026-11-17"
+ },
+ "kern county hospital authority": {
+  "domain": "",
+  "via": "not found",
+  "org": "Kern County Hospital Authority",
+  "ts": "2026-11-17"
+ },
+ "altamed health services": {
+  "domain": "altamed.org",
+  "via": "clearbit",
+  "org": "AltaMed Health Services Corporation",
+  "ts": "2026-11-17"
+ },
+ "molex koch 16 448 279 records": {
+  "domain": "",
+  "via": "not found",
+  "org": "Molex (Koch) - 16,448,279 records",
+  "ts": "2026-11-17"
+ },
+ "apellis": {
+  "domain": "",
+  "via": "not found",
+  "org": "APELLIS",
+  "ts": "2026-11-17"
  }
 }

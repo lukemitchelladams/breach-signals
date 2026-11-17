@@ -1042,5 +1042,9 @@
  "https://oag.ca.gov/system/files/Impacted%20Individual%20Sample%20Letter.pdf": {
   "excerpt": "On October 19, 2026, Prism personnel identified suspicious activity within portions of its environment. In response, Prism immediately engaged third-party cybersecurity specialists to help determine the nature and scope of the incident. The investigation revealed that an unauthorized third party gained access to portions of Prism's environment and appears to have accessed and obtained certain files belonging to Prism.",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/AltaMed.Adult_.Patient.CM_.10.27.26%20Final_Redacted.pdf": {
+  "excerpt": "On September 9, 2026, AltaMed Health Services Corporation was targeted by a social engineering campaign that resulted in unauthorized access to an employee email account. As soon as we learned of the issue, we immediately initiated our incident response protocols, took steps to secure our systems and contain the incident, and engaged cybersecurity experts to assist with the investigation.",
+  "domain": ""
  }
 }
