@@ -4792,5 +4792,101 @@
   "via": "not found",
   "org": "APELLIS",
   "ts": "2026-11-17"
+ },
+ "photoworks": {
+  "domain": "",
+  "via": "not found",
+  "org": "Photoworks Inc.",
+  "ts": "2026-11-18"
+ },
+ "velocity outdoor": {
+  "domain": "velocity-outdoor.com",
+  "via": "clearbit",
+  "org": "Velocity Outdoor Inc.",
+  "ts": "2026-11-18"
+ },
+ "katun holdings": {
+  "domain": "katun.com",
+  "via": "clearbit",
+  "org": "Katun Holdings, LP",
+  "ts": "2026-11-18"
+ },
+ "miami city ballet": {
+  "domain": "miamicityballet.org",
+  "via": "clearbit",
+  "org": "Miami City Ballet",
+  "ts": "2026-11-18"
+ },
+ "ultravation": {
+  "domain": "ultravation.com",
+  "via": "clearbit",
+  "org": "Ultravation, Inc.",
+  "ts": "2026-11-18"
+ },
+ "kern medical owned and operated by kern county hospital authority": {
+  "domain": "",
+  "via": "not found",
+  "org": "Kern Medical, owned and operated by Kern County Hospital Authority",
+  "ts": "2026-11-18"
+ },
+ "department of health care access and information": {
+  "domain": "",
+  "via": "not found",
+  "org": "Department of Health Care Access and Information",
+  "ts": "2026-11-18"
+ },
+ "wellcare of washington": {
+  "domain": "wellcareonline.com",
+  "via": "clearbit",
+  "org": "WellCare of Washington, Inc.",
+  "ts": "2026-11-18"
+ },
+ "jeld wen": {
+  "domain": "jeld-wen.com",
+  "via": "clearbit",
+  "org": "Jeld-wen",
+  "ts": "2026-11-18"
+ },
+ "veritiv": {
+  "domain": "veritivcontainers.com",
+  "via": "clearbit",
+  "org": "Veritiv",
+  "ts": "2026-11-18"
+ },
+ "flagship cruises events": {
+  "domain": "flagshipsd.com",
+  "via": "clearbit",
+  "org": "Flagship Cruises & Events",
+  "ts": "2026-11-18"
+ },
+ "drive medical 1 442 814 records": {
+  "domain": "drivemedicalgi.com",
+  "via": "clearbit",
+  "org": "Drive Medical - 1,442,814 records",
+  "ts": "2026-11-18"
+ },
+ "sonoco": {
+  "domain": "sonoco.com",
+  "via": "clearbit",
+  "org": "Sonoco",
+  "ts": "2026-11-18"
+ },
+ "west com nurse call systems": {
+  "domain": "westcomncs.com",
+  "via": "clearbit",
+  "org": "West-Com Nurse Call Systems, Inc",
+  "ts": "2026-11-18"
+ },
+ "esco optics": {
+  "domain": "escooptics.com",
+  "via": "clearbit",
+  "org": "Esco Optics",
+  "ts": "2026-11-18"
+ },
+ "christine london": {
+  "domain": "christinelondonltd.com",
+  "via": "clearbit",
+  "org": "Christine London Ltd",
+  "ts": "2026-11-18"
  }
 }

@@ -1046,5 +1046,33 @@
  "https://oag.ca.gov/system/files/AltaMed.Adult_.Patient.CM_.10.27.26%20Final_Redacted.pdf": {
   "excerpt": "On September 9, 2026, AltaMed Health Services Corporation was targeted by a social engineering campaign that resulted in unauthorized access to an employee email account. As soon as we learned of the issue, we immediately initiated our incident response protocols, took steps to secure our systems and contain the incident, and engaged cybersecurity experts to assist with the investigation.",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Breach%20Notification%20Letter-v3%2011-16-26%20%28credential%20and%20credit%20card%29.pdf": {
+  "excerpt": "We write to advise you of a sophisticated attack on Photoworks' e-commerce system that started on or about September 1, 2026. The attack was discovered on October 22, 2026, was fully contained on October 28, 2026 and has been reported to the San Francisco Police Department and the FBI. Photoworks engaged security, technology and privacy experts to conduct a thorough investigation of the attack. This investigation concluded on November 6, 2026. We determined the breach compromised customer names, addresses and emails and, for a limited set of individuals, credit card information and/or password",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/CA%20-%20California%20AG%20Notice_0.pdf": {
+  "excerpt": "Re: Notice of Data Breach , Colla Health, Inc. (\"CH I \") writes to inform you, as a current o r former p a tient at CHI's partne r — —of a recent data security incident that may have impacted the security of your Personal Information (\"PI\") and/or Protected Health Information (\"PHI \" ). We are providing you with details about the event, steps we are taking i n response, and res o urces available to h elp you prote c t against the pot e ntial misuse of your infor m ation. What Happened ? On or ar",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/California%20-%20Sample%20Notification%20Letter%20-%20AIR%20-%2011.16.26_Redacted.pdf": {
+  "excerpt": " Additional Important Information Monitoring: You should always remain vigilant for incidents of fraud and identity theft, especially during the next 12-24 months, by reviewing financial account statements and monitoring your credit reports for suspicious or unusual activity and immediately report any suspicious activity or incidents of identity theft. You have the right to obtain or file a police report. You can contact the Federal Trade Commission (FTC) for more information on preventing ident",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/PayrHealth_Sample%20individual%20notice_Redacted.pdf": {
+  "excerpt": " For More Information: Should you have questions or concerns regarding this matter, please call our dedicated assistance line at between 8 a.m. and 8 p.m. Eastern Time, Monday–Friday, excluding major U.S. holidays, or write us at 2121 Lohmans Crossing Rd., Suite 504-823, Austin, TX 78734. Sincerely, PayrHealth STEPS YOU CAN TAKE TO HELP PROTECT YOUR INFORMATION Enroll in Credit Monitoring / Identity Protection In response to the incident, we are providing you with access to Single Bureau Credit ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/DBM-6224_KERN_SAS_L01.pdf": {
+  "excerpt": "Sample: Kern County Hospital Authority, which owns and operates Kern Medical, writes to notify you about a matter that may have involved some of your information. This letter provides you with information about this matter, our response, and steps you may take if you believe those steps are appropriate. We identified unusual activity affecting our systems. Upon discovery, we promptly secured the account and began an investigation with the assistance of cybersecurity specialists. During this review, we identified certain affected files that may have included personal information belonging to in",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/HCAI%20Notice%20of%20Data%20Breach_0.pdf": {
+  "excerpt": "On May 27, 2026, HCAI discovered that some grant, scholarship, and loan applications submitted through our Funding Portal 1.0 could be accessed by certain search engine links. This is because of a multi-factor authentication (MFA) misconfiguration. This was not a cyber attack. Some application links, each with their own unique ID, showed up in the results for major search engines. If someone clicked one of those links, they may have been able to see the full details of an application. How you may be impacted: Since you submitted an application in Funding Portal 1.0 between 2017 and May 27, 202",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA43093.pdf": {
+  "excerpt": "On May 20, 2026, DentaQuest discovered that unauthorized individuals accessed certain data on our computer network. This included personal identification and dental or vision health information. We took immediate action to secure the network . We also reported the incident to law enforcement. We later learned that the incident began on May 17, 2026, and ended by May 20, 2026. We immediately began an investigation with leading, independent cybersecurity expert s to learn what information was accessed . After finishing our review, we determined that your personal information was accessed and pos",
+  "domain": ""
  }
 }
