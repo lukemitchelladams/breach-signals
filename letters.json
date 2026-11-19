@@ -1074,5 +1074,17 @@
  "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA43093.pdf": {
   "excerpt": "On May 20, 2026, DentaQuest discovered that unauthorized individuals accessed certain data on our computer network. This included personal identification and dental or vision health information. We took immediate action to secure the network . We also reported the incident to law enforcement. We later learned that the incident began on May 17, 2026, and ended by May 20, 2026. We immediately began an investigation with leading, independent cybersecurity expert s to learn what information was accessed . After finishing our review, we determined that your personal information was accessed and pos",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/USBFS4324B_Mercadien_Esquire.pdf": {
+  "excerpt": "We detected a data security incident involving our systems on November 7, 2025. We completed a third-party investigation to confirm the extent of the compromise and then completed comprehensive data analysis to identify impacted individuals. Following that review, we identified you as a potentially impacted individual.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Valley%20Family%20Health%20Care%2C%20Inc.%20-%20Consumer%20Notification%20Letter.pdf": {
+  "excerpt": "On March 13, 2026, VFHC experienced a network disruption and immediately initiated an investigation of the matter. In doing so, we engaged cybersecurity experts to assist with the process. As a result of the investigation, we determined that certain files may have been accessed and acquired without authorization. Upon making this determination, we undertook a comprehensive review of the files and learned that personal information was involved. We then worked with a third-party vendor to obtain the necessary information to effectuate formal notification. This process was complete on October 9, ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/notification.pdf": {
+  "excerpt": "On October 20, 2026, we discovered unauthorized access to certain SeniorMatch user information between October 18 and October 20, 2026.",
+  "domain": ""
  }
 }

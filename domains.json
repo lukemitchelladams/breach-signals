@@ -2427,25 +2427,25 @@
   "domain": "",
   "via": "not found",
   "org": "Computer Task Group, Incorporated",
-  "ts": "2026-10-19"
+  "ts": "2026-11-19"
  },
  "way to my heart": {
   "domain": "",
   "via": "not found",
   "org": "The Way to My Heart Inc.",
-  "ts": "2026-10-19"
+  "ts": "2026-11-19"
  },
  "catawba county": {
   "domain": "",
   "via": "not found",
   "org": "Catawba County",
-  "ts": "2026-10-19"
+  "ts": "2026-11-19"
  },
  "kymberlie mcnicholas": {
   "domain": "",
   "via": "not found",
   "org": "Kymberlie McNicholas",
-  "ts": "2026-10-19"
+  "ts": "2026-11-19"
  },
  "ganxxet": {
   "domain": "ganxxet.com",
@@ -2457,7 +2457,7 @@
   "domain": "",
   "via": "not found",
   "org": "BBC International LLC",
-  "ts": "2026-10-19"
+  "ts": "2026-11-19"
  },
  "fairlife": {
   "domain": "fairlife.com",
@@ -2469,13 +2469,13 @@
   "domain": "",
   "via": "not found",
   "org": "American Board of Preventative Medicine",
-  "ts": "2026-10-19"
+  "ts": "2026-11-19"
  },
  "rossby financial d b a toler financial group": {
   "domain": "",
   "via": "not found",
   "org": "Rossby Financial LLC d/b/a Toler Financial group",
-  "ts": "2026-10-19"
+  "ts": "2026-11-19"
  },
  "akeeli group": {
   "domain": "akeeli.com",
@@ -4888,5 +4888,227 @@
   "via": "clearbit",
   "org": "Christine London Ltd",
   "ts": "2026-11-18"
+ },
+ "valley family health care": {
+  "domain": "vfhc.org",
+  "via": "clearbit",
+  "org": "Valley Family Health Care, Inc.",
+  "ts": "2026-11-19"
+ },
+ "successfulmatch com": {
+  "domain": "successfulmatch.com",
+  "via": "clearbit",
+  "org": "SuccessfulMatch.com, Inc.",
+  "ts": "2026-11-19"
+ },
+ "coleto brands": {
+  "domain": "coleto.cc",
+  "via": "clearbit",
+  "org": "Coleto Brands",
+  "ts": "2026-11-19"
+ },
+ "medmira": {
+  "domain": "medmira.com",
+  "via": "clearbit",
+  "org": "MedMira Inc",
+  "ts": "2026-11-19"
+ },
+ "maglin miskiv associates": {
+  "domain": "maglin.com",
+  "via": "clearbit",
+  "org": "Maglin, Miskiv & Associates",
+  "ts": "2026-11-19"
+ },
+ "ginkgo bioworks": {
+  "domain": "ginkgobioworks.com",
+  "via": "clearbit",
+  "org": "Ginkgo Bioworks",
+  "ts": "2026-11-19"
+ },
+ "smith green attorneys at law": {
+  "domain": "",
+  "via": "not found",
+  "org": "Smith & Green, Attorneys at Law PLLC",
+  "ts": "2026-11-19"
+ },
+ "trueblue 1 094 12 gb": {
+  "domain": "trueblue.com",
+  "via": "clearbit",
+  "org": "TrueBlue - 1,094.12 GB",
+  "ts": "2026-11-19"
+ },
+ "trueblue": {
+  "domain": "trueblue.com",
+  "via": "clearbit",
+  "org": "TrueBlue",
+  "ts": "2026-11-19"
+ },
+ "gensler": {
+  "domain": "gensler.com",
+  "via": "clearbit",
+  "org": "Gensler",
+  "ts": "2026-11-19"
+ },
+ "ochsner health": {
+  "domain": "ochsner.org",
+  "via": "clearbit",
+  "org": "Ochsner Health",
+  "ts": "2026-11-19"
+ },
+ "cdm smith": {
+  "domain": "cdmsmith.com",
+  "via": "clearbit",
+  "org": "CDM Smith",
+  "ts": "2026-11-19"
+ },
+ "orlando health": {
+  "domain": "orlandohealth.com",
+  "via": "clearbit",
+  "org": "Orlando Health",
+  "ts": "2026-11-19"
+ },
+ "241": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #241",
+  "ts": "2026-11-19"
+ },
+ "238": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #238",
+  "ts": "2026-11-19"
+ },
+ "236": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #236",
+  "ts": "2026-11-19"
+ },
+ "235": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #235",
+  "ts": "2026-11-19"
+ },
+ "232": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #232",
+  "ts": "2026-11-19"
+ },
+ "231": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #231",
+  "ts": "2026-11-19"
+ },
+ "230": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #230",
+  "ts": "2026-11-19"
+ },
+ "229": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #229",
+  "ts": "2026-11-19"
+ },
+ "228": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #228",
+  "ts": "2026-11-19"
+ },
+ "226": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #226",
+  "ts": "2026-11-19"
+ },
+ "224": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #224",
+  "ts": "2026-11-19"
+ },
+ "223": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #223",
+  "ts": "2026-11-19"
+ },
+ "222": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #222",
+  "ts": "2026-11-19"
+ },
+ "221": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #221",
+  "ts": "2026-11-19"
+ },
+ "220": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #220",
+  "ts": "2026-11-19"
+ },
+ "219": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #219",
+  "ts": "2026-11-19"
+ },
+ "218": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #218",
+  "ts": "2026-11-19"
+ },
+ "217": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #217",
+  "ts": "2026-11-19"
+ },
+ "jackson walker": {
+  "domain": "jw.com",
+  "via": "clearbit",
+  "org": "Jackson Walker",
+  "ts": "2026-11-19"
+ },
+ "bidra innovation ventures": {
+  "domain": "",
+  "via": "not found",
+  "org": "Bidra Innovation Ventures",
+  "ts": "2026-11-19"
+ },
+ "monadnock community hospital": {
+  "domain": "monadnockcommunityhospital.com",
+  "via": "clearbit",
+  "org": "Monadnock Community Hospital",
+  "ts": "2026-11-19"
+ },
+ "air communities": {
+  "domain": "aircommunities.com",
+  "via": "clearbit",
+  "org": "AIR Communities",
+  "ts": "2026-11-19"
+ },
+ "streetlight financial": {
+  "domain": "streetlightfinancial.com",
+  "via": "clearbit",
+  "org": "Streetlight Financial",
+  "ts": "2026-11-19"
+ },
+ "first trinity financial": {
+  "domain": "firsttrinityfinancial.com",
+  "via": "clearbit",
+  "org": "First Trinity Financial",
+  "ts": "2026-11-19"
  }
 }
