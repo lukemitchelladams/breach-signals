@@ -5110,5 +5110,53 @@
   "via": "clearbit",
   "org": "First Trinity Financial",
   "ts": "2026-11-19"
+ },
+ "standard baking": {
+  "domain": "standardbakingco.com",
+  "via": "clearbit",
+  "org": "Standard Baking Co",
+  "ts": "2026-11-20"
+ },
+ "mixlab": {
+  "domain": "",
+  "via": "not found",
+  "org": "Mixlab, Inc.",
+  "ts": "2026-11-20"
+ },
+ "k l gates llp": {
+  "domain": "klgates.com",
+  "via": "clearbit",
+  "org": "K&L Gates LLP",
+  "ts": "2026-11-20"
+ },
+ "all nippon airways": {
+  "domain": "all-nippon.org",
+  "via": "clearbit",
+  "org": "All Nippon Airways, Co., Ltd.",
+  "ts": "2026-11-20"
+ },
+ "asos us sales": {
+  "domain": "",
+  "via": "not found",
+  "org": "ASOS US Sales LLC",
+  "ts": "2026-11-20"
+ },
+ "rudolph f jass jr": {
+  "domain": "rudolphtrading.com",
+  "via": "clearbit",
+  "org": "Rudolph F. Jass, Jr., PLLC",
+  "ts": "2026-11-20"
+ },
+ "kutak rock llp": {
+  "domain": "kutakrock.com",
+  "via": "clearbit",
+  "org": "Kutak Rock LLP",
+  "ts": "2026-11-20"
+ },
+ "uchealth": {
+  "domain": "uchealth.org",
+  "via": "clearbit",
+  "org": "UCHealth",
+  "ts": "2026-11-20"
  }
 }
