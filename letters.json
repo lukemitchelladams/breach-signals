@@ -1086,5 +1086,21 @@
  "https://oag.ca.gov/system/files/notification.pdf": {
   "excerpt": "On October 20, 2026, we discovered unauthorized access to certain SeniorMatch user information between October 18 and October 20, 2026.",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/USBFS3512_Hitachi_EmployeeNoMonV3_Redacted_0.pdf": {
+  "excerpt": " What Can You Do? It is always a good practice to remain vigilant for incidents of fraud and identify theft. Generally, we suggest that employees review financial account statements and monitor credit reports for any suspicious or unusual activity. Immediately report suspicious activity or incidents of identity theft to the three nationwide credit bureaus: Equifax, Experian, or Transunion, the police, and the Federal Trade Commission (FTC), as appropriate. U.S. employees may access free credit m",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/ELN-29028%20OPN%20Healthcare.pdf": {
+  "excerpt": "On or about June 3, 2026, OPN discovered unauthorized access to one (1) of our business email user accounts.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/INDIVIDUAL%20LTR%20SAMPLES%20ATTACHMENT.pdf": {
+  "excerpt": "On July 1, 2026, we identified evidence of unauthorized access to a limited number of company records. We immediately commenced an inves tigation, which included engaging third-party incident response experts to assist in determining the extent of any unauthorized activity. We have no reason to believe the unautho rized individual continues to have access. Our investigation identified June 24, 2026-July 1, 2026, as the period of unauthorized access.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/PMB%20Real%20Estate%20Services%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
+  "excerpt": "On February 3, 2026, PMB detected irregular activity within our computer network. In response, we immediately took steps to contain the incident and launched an investigation to determine the nature and scope of the activity. The investigation determined that between December 27, 2025 and January 13, 2026, an unknown, unauthorized actor gained access to certain computer systems and potentially accessed and/or acquired files stored on those computer systems. Following the investigation, PMB undertook a detailed review of potentially affected files to determine what information was present in th",
+  "domain": ""
  }
 }

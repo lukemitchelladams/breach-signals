@@ -2625,13 +2625,13 @@
   "domain": "",
   "via": "not found",
   "org": "Networking Technology, Inc.",
-  "ts": "2026-10-21"
+  "ts": "2026-11-21"
  },
  "csx": {
   "domain": "",
   "via": "not found",
   "org": "CSX",
-  "ts": "2026-10-21"
+  "ts": "2026-11-21"
  },
  "thehomemag norcal": {
   "domain": "thehomemag.com",
@@ -5158,5 +5158,77 @@
   "via": "clearbit",
   "org": "UCHealth",
   "ts": "2026-11-20"
+ },
+ "hitachi vantara": {
+  "domain": "hitachivantara.com",
+  "via": "clearbit",
+  "org": "Hitachi Vantara LLC",
+  "ts": "2026-11-21"
+ },
+ "opn healthcare": {
+  "domain": "",
+  "via": "not found",
+  "org": "OPN Healthcare, Inc.",
+  "ts": "2026-11-21"
+ },
+ "bausch health companies": {
+  "domain": "bauschhealth.com",
+  "via": "clearbit",
+  "org": "Bausch Health Companies Inc.",
+  "ts": "2026-11-21"
+ },
+ "pmb real estate services and pmb": {
+  "domain": "pmbres.com",
+  "via": "clearbit",
+  "org": "PMB Real Estate Services and PMB LLC",
+  "ts": "2026-11-21"
+ },
+ "lee memorial health system": {
+  "domain": "",
+  "via": "not found",
+  "org": "Lee Memorial Health System",
+  "ts": "2026-11-21"
+ },
+ "jones walker": {
+  "domain": "joneswalker.com",
+  "via": "clearbit",
+  "org": "Jones Walker",
+  "ts": "2026-11-21"
+ },
+ "hasc center": {
+  "domain": "hasccenter.org",
+  "via": "clearbit",
+  "org": "HASC Center",
+  "ts": "2026-11-21"
+ },
+ "mcadam financial group": {
+  "domain": "mcadamfa.com",
+  "via": "clearbit",
+  "org": "McAdam Financial Group",
+  "ts": "2026-11-21"
+ },
+ "coborn s": {
+  "domain": "coborns.com",
+  "via": "clearbit",
+  "org": "Coborn’s",
+  "ts": "2026-11-21"
+ },
+ "garney": {
+  "domain": "garneylaw.com",
+  "via": "clearbit",
+  "org": "Garney",
+  "ts": "2026-11-21"
+ },
+ "zhong s accounting tax services": {
+  "domain": "",
+  "via": "not found",
+  "org": "Zhong’s Accounting & Tax Services",
+  "ts": "2026-11-21"
+ },
+ "enerflo": {
+  "domain": "enerflo.com",
+  "via": "clearbit",
+  "org": "Enerflo",
+  "ts": "2026-11-21"
  }
 }
