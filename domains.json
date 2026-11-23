@@ -2763,13 +2763,13 @@
   "domain": "",
   "via": "not found",
   "org": "Deposition Solutions, LLC",
-  "ts": "2026-10-23"
+  "ts": "2026-11-23"
  },
  "summit school district": {
   "domain": "",
   "via": "not found",
   "org": "Summit School District",
-  "ts": "2026-10-23"
+  "ts": "2026-11-23"
  },
  "ancestral medicine": {
   "domain": "ancestralmedicine.org",
@@ -2781,7 +2781,7 @@
   "domain": "",
   "via": "not found",
   "org": "Deposition Solutions, LLC d/b/a Lexitas",
-  "ts": "2026-10-23"
+  "ts": "2026-11-23"
  },
  "dorsata": {
   "domain": "dorsata.com",
@@ -2793,7 +2793,7 @@
   "domain": "",
   "via": "not found",
   "org": "Toyo Tire Holdings of Americas Inc.",
-  "ts": "2026-10-23"
+  "ts": "2026-11-23"
  },
  "alma family services": {
   "domain": "almafamilyservices.org",
@@ -5254,5 +5254,185 @@
   "via": "not found",
   "org": "County government within a U.S. state",
   "ts": "2026-11-22"
+ },
+ "comprehensive care services": {
+  "domain": "ccsperfusion.com",
+  "via": "clearbit",
+  "org": "Comprehensive Care Services",
+  "ts": "2026-11-23"
+ },
+ "vhv": {
+  "domain": "",
+  "via": "not found",
+  "org": "VHV Company",
+  "ts": "2026-11-23"
+ },
+ "self insured services d b a benefit coordinators": {
+  "domain": "selfinsured.org",
+  "via": "clearbit",
+  "org": "Self Insured Services Company LLC d/b/a/ Benefit Coordinators Corporation",
+  "ts": "2026-11-23"
+ },
+ "chenango county behavioral health services": {
+  "domain": "",
+  "via": "not found",
+  "org": "Chenango County Behavioral Health Services",
+  "ts": "2026-11-23"
+ },
+ "lowell foods": {
+  "domain": "lowellinternational.com",
+  "via": "clearbit",
+  "org": "Lowell Foods",
+  "ts": "2026-11-23"
+ },
+ "university medical imaging": {
+  "domain": "umimri.com",
+  "via": "clearbit",
+  "org": "University Medical Imaging",
+  "ts": "2026-11-23"
+ },
+ "corrigan moving systems": {
+  "domain": "corriganmoving.com",
+  "via": "clearbit",
+  "org": "Corrigan Moving Systems",
+  "ts": "2026-11-23"
+ },
+ "268": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #268",
+  "ts": "2026-11-23"
+ },
+ "266": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #266",
+  "ts": "2026-11-23"
+ },
+ "264": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #264",
+  "ts": "2026-11-23"
+ },
+ "263": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #263",
+  "ts": "2026-11-23"
+ },
+ "261": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #261",
+  "ts": "2026-11-23"
+ },
+ "258": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #258",
+  "ts": "2026-11-23"
+ },
+ "256": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #256",
+  "ts": "2026-11-23"
+ },
+ "255": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #255",
+  "ts": "2026-11-23"
+ },
+ "253": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #253",
+  "ts": "2026-11-23"
+ },
+ "252": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #252",
+  "ts": "2026-11-23"
+ },
+ "251": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #251",
+  "ts": "2026-11-23"
+ },
+ "249": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #249",
+  "ts": "2026-11-23"
+ },
+ "248": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #248",
+  "ts": "2026-11-23"
+ },
+ "247": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #247",
+  "ts": "2026-11-23"
+ },
+ "246": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #246",
+  "ts": "2026-11-23"
+ },
+ "245": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #245",
+  "ts": "2026-11-23"
+ },
+ "244": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #244",
+  "ts": "2026-11-23"
+ },
+ "aurora cannabis": {
+  "domain": "auroramj.com",
+  "via": "clearbit",
+  "org": "Aurora Cannabis",
+  "ts": "2026-11-23"
+ },
+ "lee health lee memorial health system partner clinic": {
+  "domain": "leememorial.org",
+  "via": "clearbit",
+  "org": "Lee Health (Lee Memorial Health System) - partner clinic",
+  "ts": "2026-11-23"
+ },
+ "243": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #243",
+  "ts": "2026-11-23"
+ },
+ "242": {
+  "domain": "",
+  "via": "not found",
+  "org": "Company #242",
+  "ts": "2026-11-23"
+ },
+ "rotstein shiffman": {
+  "domain": "",
+  "via": "not found",
+  "org": "Rotstein & Shiffman",
+  "ts": "2026-11-23"
+ },
+ "bausch health": {
+  "domain": "",
+  "via": "not found",
+  "org": "Bausch Health",
+  "ts": "2026-11-23"
  }
 }
