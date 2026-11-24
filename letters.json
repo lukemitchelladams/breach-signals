@@ -1102,5 +1102,13 @@
  "https://oag.ca.gov/system/files/PMB%20Real%20Estate%20Services%20-%20Notice%20of%20Data%20Event%20-%20CA_0.pdf": {
   "excerpt": "On February 3, 2026, PMB detected irregular activity within our computer network. In response, we immediately took steps to contain the incident and launched an investigation to determine the nature and scope of the activity. The investigation determined that between December 27, 2025 and January 13, 2026, an unknown, unauthorized actor gained access to certain computer systems and potentially accessed and/or acquired files stored on those computer systems. Following the investigation, PMB undertook a detailed review of potentially affected files to determine what information was present in th",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Teachers%20On%20Reserve%20-%20AG%20Notice%20of%20Data%20Event%20%28CA%29%2011.24.26_0.pdf": {
+  "excerpt": "                         ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Notice%20of%20Data%20Security%20Incident.10.2026_Redacted.pdf": {
+  "excerpt": "On or around January 25, 2026, Telecare discovered unusual activity involving its digital environment. Telecare promptly responded and launched an investigation to confirm the nature and scope of the incident with the assistance of third-party cybersecurity experts. The investigation revealed that the incident impacted certain data. Following this determination, we engaged a data mining vendor to conduct extensive electronic discovery to determine the specific information impacted, and to whom that information pertained. That process was completed on September 4, 2026, and you are being notifi",
+  "domain": ""
  }
 }

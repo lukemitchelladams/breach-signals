@@ -5434,5 +5434,41 @@
   "via": "not found",
   "org": "Bausch Health",
   "ts": "2026-11-23"
+ },
+ "teachers on reserve": {
+  "domain": "teachersonreserve.com",
+  "via": "clearbit",
+  "org": "Teachers On Reserve",
+  "ts": "2026-11-24"
+ },
+ "kern county behavioral health recovery services": {
+  "domain": "",
+  "via": "not found",
+  "org": "Kern County Behavioral Health & Recovery Services",
+  "ts": "2026-11-24"
+ },
+ "coneco engineers scientists": {
+  "domain": "coneco.com",
+  "via": "clearbit",
+  "org": "Coneco Engineers & Scientists",
+  "ts": "2026-11-24"
+ },
+ "a government website for a county in a u s state": {
+  "domain": "",
+  "via": "not found",
+  "org": "A government website for a county in a U.S. state",
+  "ts": "2026-11-24"
+ },
+ "home instead": {
+  "domain": "homeinsteadwhittiercaliforniaservices.com",
+  "via": "clearbit",
+  "org": "Home Instead",
+  "ts": "2026-11-24"
+ },
+ "nationwide it services": {
+  "domain": "nationwideitsys.com",
+  "via": "clearbit",
+  "org": "Nationwide IT Services, Inc.",
+  "ts": "2026-11-24"
  }
 }
