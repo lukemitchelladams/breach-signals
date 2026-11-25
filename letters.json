@@ -1110,5 +1110,29 @@
  "https://oag.ca.gov/system/files/Notice%20of%20Data%20Security%20Incident.10.2026_Redacted.pdf": {
   "excerpt": "On or around January 25, 2026, Telecare discovered unusual activity involving its digital environment. Telecare promptly responded and launched an investigation to confirm the nature and scope of the incident with the assistance of third-party cybersecurity experts. The investigation revealed that the incident impacted certain data. Following this determination, we engaged a data mining vendor to conduct extensive electronic discovery to determine the specific information impacted, and to whom that information pertained. That process was completed on September 4, 2026, and you are being notifi",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Template%20Notification%20Letter%20%2812%20Month%29.pdf": {
+  "excerpt": "On April 12, 2026, we were notified that an unauthorized user accessed certain portions of our network and encrypted files on a subset of our servers. We immediately launched an investigation and remediation effort with the assistance of outside cybersecurity experts and notified law enforcement. Our investigation determined that there was unauthorized access to portions of our network from April 11, 2026, to April 13, 2026. We initially were unable to determine whether any files had been taken, but we later learned that the unauthorized user acquired certain files before encrypting them and t",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/SHB%20Sample%20Notification%20letter.pdf": {
+  "excerpt": "On October 27, 2026, an SHB employee was targeted by a social engineering attack. As soon as we learned about this incident, we immediately launched an investigation with assistance from nationally recognized third-party cybersecurity and data forensics consultants. We have notified law enforcement and are cooperating with its ongoing investigation. We have determined that on October 27, 2026, an unauthorized actor gained access to the employee's computer and copied a small number of files. We conducted a thorough review of those files to understand: (1) what information was involved; (2) who ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/Waldberg%20-%20Redacted%20Notice%20Letter.pdf": {
+  "excerpt": "We recently identified a network security incident impacting one of our systems. Upon learning of this issue, we immediately took steps to ensure the security of our systems and commenced a prompt and thorough investigation, working closely with external cybersecurity professionals experienced in handling these types of incidents. Through that investigation, we determined that an unauthorized individual accessed one of our systems. Following a comprehensive document review of the impacted data, on November 10, 2026, we discovered your personal data may have been subject to unauthorized access ",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/L01%20BBDE.pdf": {
+  "excerpt": "On November 4, 2026, we detected suspicious activity on a specific Barclays online service. This service allows Barclays credit card applicants to check the status of their application. This activity impacted credit card applications only; it did not impact any existing Barclays accounts you may have. Upon identifying the activity, we promptly launched an investigation and discovered that an unauthorized third party gained access to this system and acquired certain information, including some records that contain your personal information associated with your Barclays credit card application.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/L01%20BEST%20EGG.pdf": {
+  "excerpt": "On October 26, 2026, we detected suspicious activity on the Best Egg Financial Health platform. Upon identifying the activity, we promptly launched an investigation and discovered that an unauthorized third party gained access to the Best Egg Financial Health platform and acquired certain information, including some records that contain your personal information.",
+  "domain": ""
+ },
+ "https://oag.ca.gov/system/files/CA%20Notif_Redacted.pdf": {
+  "excerpt": "On September 4, 2025, we discovered that an unauthorized user gained access to our computer network earlier that same day and encrypted certain client ﬁles. We immediately terminated the unauthorized user's access to our network, and on or around September 16, 2025, we recovered most ﬁles which had been encrypted. Following our discovery of the breach, we immediately began to work with IT specialists to determine the full nature and scope of this incident. After the investigation concluded, we learned that your sensitive personal information was accessible to the threat actor during the incide",
+  "domain": ""
  }
 }
