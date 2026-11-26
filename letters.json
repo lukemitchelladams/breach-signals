@@ -1134,5 +1134,9 @@
  "https://oag.ca.gov/system/files/CA%20Notif_Redacted.pdf": {
   "excerpt": "On September 4, 2025, we discovered that an unauthorized user gained access to our computer network earlier that same day and encrypted certain client ﬁles. We immediately terminated the unauthorized user's access to our network, and on or around September 16, 2025, we recovered most ﬁles which had been encrypted. Following our discovery of the breach, we immediately began to work with IT specialists to determine the full nature and scope of this incident. After the investigation concluded, we learned that your sensitive personal information was accessible to the threat actor during the incide",
   "domain": ""
+ },
+ "https://oag.ca.gov/system/files/BSCI%20-%20California%20Notification.pdf": {
+  "excerpt": "Boston Scientific Corporation (\"Boston Scientific\") is committed to protecting the privacy and security of the personal data entrusted to us. We want to provide you with information about a recent cybersecurity incident that affected certain personal information. Following a detailed investigation and comprehensive data review, on November 05, 2026, we determined that some of your personal information was included. We are sharing the following information about what happened, what information was involved, the actions we have taken and resources available to assist you. What Happened? Boston S",
+  "domain": ""
  }
 }

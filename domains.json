@@ -2913,7 +2913,7 @@
   "domain": "",
   "via": "not found",
   "org": "Northeastern Mental Health Center",
-  "ts": "2026-10-26"
+  "ts": "2026-11-26"
  },
  "brooklyn counseling services": {
   "domain": "nccny.com",
@@ -2925,7 +2925,7 @@
   "domain": "",
   "via": "not found",
   "org": "Ritchie County Primary Care Association d/b/a Integrated Health Centers of West Viginia",
-  "ts": "2026-10-26"
+  "ts": "2026-11-26"
  },
  "rl schreiber": {
   "domain": "rlschreiber.com",
@@ -5590,5 +5590,59 @@
   "via": "clearbit",
   "org": "Herring Bank",
   "ts": "2026-11-25"
+ },
+ "boston scientific": {
+  "domain": "bostonscientific.com",
+  "via": "clearbit",
+  "org": "Boston Scientific Corporation",
+  "ts": "2026-11-26"
+ },
+ "paramount": {
+  "domain": "paramountplus.com",
+  "via": "clearbit",
+  "org": "Paramount",
+  "ts": "2026-11-26"
+ },
+ "verisk": {
+  "domain": "verisk.com",
+  "via": "clearbit",
+  "org": "Verisk",
+  "ts": "2026-11-26"
+ },
+ "mcdonald s": {
+  "domain": "mcdonalds.com",
+  "via": "clearbit",
+  "org": "McDonald's",
+  "ts": "2026-11-26"
+ },
+ "mattel": {
+  "domain": "mattel.com",
+  "via": "clearbit",
+  "org": "Mattel",
+  "ts": "2026-11-26"
+ },
+ "jackson district library": {
+  "domain": "myjdl.com",
+  "via": "clearbit",
+  "org": "Jackson District Library",
+  "ts": "2026-11-26"
+ },
+ "restaurant brands international": {
+  "domain": "rbi.com",
+  "via": "clearbit",
+  "org": "Restaurant Brands International, Inc.",
+  "ts": "2026-11-26"
+ },
+ "signet pacific insurance services": {
+  "domain": "signetgroup.net",
+  "via": "clearbit",
+  "org": "Signet Pacific Insurance Services",
+  "ts": "2026-11-26"
+ },
+ "honigman llp": {
+  "domain": "honigman.com",
+  "via": "clearbit",
+  "org": "Honigman LLP",
+  "ts": "2026-11-26"
  }
 }
