@@ -1138,5 +1138,13 @@
  "https://oag.ca.gov/system/files/BSCI%20-%20California%20Notification.pdf": {
   "excerpt": "Boston Scientific Corporation (\"Boston Scientific\") is committed to protecting the privacy and security of the personal data entrusted to us. We want to provide you with information about a recent cybersecurity incident that affected certain personal information. Following a detailed investigation and comprehensive data review, on November 05, 2026, we determined that some of your personal information was included. We are sharing the following information about what happened, what information was involved, the actions we have taken and resources available to assist you. What Happened? Boston S",
   "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA43681.pdf": {
+  "excerpt": "On September 18, 2026, Premise Health Holding Corp. (\"Premise Health\") discovered that an employee had violated company information security policies and misappropriated certain company data beginning on or about March 26, 2026. Upon discovery, we took immediate action to revoke the employee's credentials and system access, validate our security controls, and investigate the incident. On October 14, 2026, we received a preliminary analysis of the relevant data. Following further analysis and validation of the results, we are now reaching out to you to let you know that the incident involved so",
+  "domain": ""
+ },
+ "https://agportal-s3bucket.s3.amazonaws.com/databreach/BreachA43699.pdf": {
+  "excerpt": "On or around January 25, 2026, Telecare discovered unusual activity involving its digital environment. We promptly responded and launched an investigation to confirm the nature and scope of the incident with the assistance of third-party cybersecurity experts. After extensive electronic discovery, which was completed on September 4, 2026, it was determined that your personal information was present in the impacted data set. We immediately took steps to notify you as soon as the investigation was completed.",
+  "domain": ""
  }
 }

@@ -2973,7 +2973,7 @@
   "domain": "",
   "via": "not found",
   "org": "USForex Inc.",
-  "ts": "2026-10-27"
+  "ts": "2026-11-27"
  },
  "alpha omega alpha honor medical society": {
   "domain": "alphaomegaalpha.org",
@@ -2997,7 +2997,7 @@
   "domain": "",
   "via": "not found",
   "org": "The City of Mt. Angel",
-  "ts": "2026-10-27"
+  "ts": "2026-11-27"
  },
  "university of new mexico": {
   "domain": "",
@@ -5644,5 +5644,65 @@
   "via": "clearbit",
   "org": "Honigman LLP",
   "ts": "2026-11-26"
+ },
+ "rogers group": {
+  "domain": "rogersbank.com",
+  "via": "clearbit",
+  "org": "rogers-group",
+  "ts": "2026-11-27"
+ },
+ "blackstone consulting": {
+  "domain": "blackstone-consulting.com",
+  "via": "clearbit",
+  "org": "blackstone-consulting",
+  "ts": "2026-11-27"
+ },
+ "us cnc machine": {
+  "domain": "",
+  "via": "not found",
+  "org": "US CNC Machine Company",
+  "ts": "2026-11-27"
+ },
+ "avispl": {
+  "domain": "",
+  "via": "not found",
+  "org": "avispl",
+  "ts": "2026-11-27"
+ },
+ "pregis": {
+  "domain": "pregis.com",
+  "via": "clearbit",
+  "org": "pregis",
+  "ts": "2026-11-27"
+ },
+ "law firm of kavesh minor otis": {
+  "domain": "kaveshlaw.com",
+  "via": "clearbit",
+  "org": "The Law Firm of Kavesh, Minor & Otis, Inc.",
+  "ts": "2026-11-27"
+ },
+ "mhc financial": {
+  "domain": "",
+  "via": "not found",
+  "org": "MHC Financial Inc",
+  "ts": "2026-11-27"
+ },
+ "eversource": {
+  "domain": "eversourcefm.com",
+  "via": "clearbit",
+  "org": "Eversource",
+  "ts": "2026-11-27"
+ },
+ "fye": {
+  "domain": "",
+  "via": "not found",
+  "org": "FYE",
+  "ts": "2026-11-27"
+ },
+ "godaddy": {
+  "domain": "godaddy.com",
+  "via": "clearbit",
+  "org": "GoDaddy",
+  "ts": "2026-11-27"
  }
 }
