@@ -3027,7 +3027,7 @@
   "domain": "",
   "via": "not found",
   "org": "Directed Trust Company",
-  "ts": "2026-10-28"
+  "ts": "2026-11-28"
  },
  "photon health": {
   "domain": "photon.health",
@@ -5704,5 +5704,11 @@
   "via": "clearbit",
   "org": "GoDaddy",
   "ts": "2026-11-27"
+ },
+ "samlut and p a": {
+  "domain": "",
+  "via": "not found",
+  "org": "Samlut and Company, P.A.",
+  "ts": "2026-11-28"
  }
 }
